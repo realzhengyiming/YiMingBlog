@@ -4,6 +4,11 @@ import subprocess
 app = Flask(__name__)
 
 
+@app.route('/', methods=['GET'])
+def health_check():
+    return "i'm healthy!"
+
+
 @app.route('/webhook', methods=['POST'])
 def handle_webhook():
     data = request.json

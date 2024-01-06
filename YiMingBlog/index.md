@@ -21,9 +21,5 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-这一段依然是测试用的内容，开始测试中！
-测试一下2
-
 ---
 

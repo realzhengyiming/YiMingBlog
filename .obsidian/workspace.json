@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/index.md",
+                "file": "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/index.md",
+                "file": "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/index.md",
+                "file": "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/index.md"
+                "file": "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
-    "node_modules/vue/dist/vue.runtime.global.js",
-    "node_modules/vue/dist/vue.global.js",
+    "YiMingBlog/api-examples.md",
+    "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
+    "YiMingBlog/index.md",
+    "YiMingBlog/markdown-examples.md",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
@@ -158,11 +160,9 @@
     "node_modules/vue/jsx-runtime/package.json",
     "node_modules/vue/jsx-runtime/index.mjs",
     "node_modules/vue/jsx-runtime/index.js",
-    "node_modules/vue/dist/vue.runtime.esm-bundler.js",
+    "node_modules/vue/jsx-runtime/index.d.ts",
+    "node_modules/vue/compiler-sfc/register-ts.js",
     "node_modules/vue/README.md",
-    "README.md",
-    "YiMingBlog/markdown-examples.md",
-    "YiMingBlog/api-examples.md",
-    "YiMingBlog/index.md"
+    "README.md"
   ]
 }

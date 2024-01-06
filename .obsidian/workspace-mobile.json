@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md",
+                "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md",
+            "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md",
+            "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md"
+            "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md"
           }
         }
       }
@@ -133,6 +133,14 @@
   },
   "active": "64e8c959e63c34eb",
   "lastOpenFiles": [
+    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+    "YiMingBlog/personal/自动化进行解说类视频的解析.md",
+    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的解析.md",
+    "YiMingBlog/personal/副业研究/web3研究",
+    "YiMingBlog/personal/副业研究/未命名",
+    "YiMingBlog/personal/副业研究/电商研究",
+    "YiMingBlog/personal/副业研究/自媒体研究",
+    "YiMingBlog/personal/副业研究",
     "YiMingBlog/personal/未命名",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/static/300*300.png",
@@ -140,10 +148,6 @@
     "YiMingBlog/public/Ai",
     "YiMingBlog/public/数据",
     "YiMingBlog/public/后端",
-    "YiMingBlog/public/其他",
-    "YiMingBlog/public",
-    "YiMingBlog/personal/自动化进行解说类视频的解析.md",
-    "YiMingBlog/personal",
     "YiMingBlog/static/Pasted image 20240106233234.png"
   ]
 }

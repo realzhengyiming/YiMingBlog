@@ -16,7 +16,8 @@ export default defineConfig({
                 text: 'Examples',
                 items: [
                     {text: 'Markdown Examples', link: '/markdown-examples'},
-                    {text: 'Runtime API Examples', link: '/api-examples'}
+                    {text: 'Runtime API Examples', link: '/api-examples'},
+                    {text: '测试文章', link: '/如何搭建obsidian-vitepress-github的协同的笔记博客系统'}
                 ]
             }
         ],

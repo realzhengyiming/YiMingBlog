@@ -148,6 +148,7 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
+    "kill_80.sh",
     "start_preview.sh",
     "README.md",
     "node_modules/vue/server-renderer/package.json",
@@ -159,7 +160,6 @@
     "node_modules/vue/jsx-runtime/index.mjs",
     "node_modules/vue/jsx-runtime/index.js",
     "node_modules/vue/jsx-runtime/index.d.ts",
-    "node_modules/vue/dist/vue.runtime.esm-browser.prod.js",
     "node_modules/vue/README.md",
     "YiMingBlog/markdown-examples.md",
     "YiMingBlog/api-examples.md",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/Ai/未命名.md",
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/Ai/未命名.md",
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/Ai/未命名.md",
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/Ai/未命名.md"
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md"
               }
             }
           }
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +158,7 @@
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
     "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
-    "YiMingBlog/public/Ai/未命名.md",
+    "YiMingBlog/public/Ai/大语言模型的微调.md",
     "YiMingBlog/personal/副业研究/web3研究",
     "YiMingBlog/personal/副业研究/电商研究",
     "YiMingBlog/personal/副业研究/自媒体研究",

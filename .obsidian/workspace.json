@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
+                "file": "YiMingBlog/public/其他/vitepress.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
+                "file": "YiMingBlog/public/其他/vitepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
+                "file": "YiMingBlog/public/其他/vitepress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/Ai/大语言模型的微调.md"
+                "file": "YiMingBlog/public/其他/vitepress.md"
               }
             }
           }
@@ -157,13 +157,17 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
-    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "YiMingBlog/public/其他/vitepress.md",
+    "YiMingBlog/api-examples.md",
+    "YiMingBlog/index.md",
+    "YiMingBlog/markdown-examples.md",
     "YiMingBlog/public/Ai/大语言模型的微调.md",
+    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
     "YiMingBlog/personal/副业研究/web3研究",
     "YiMingBlog/personal/副业研究/电商研究",
     "YiMingBlog/personal/副业研究/自媒体研究",
     "YiMingBlog/personal/副业研究",
-    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/personal",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
@@ -174,10 +178,7 @@
     "YiMingBlog/static/300*300.png",
     "YiMingBlog/static/Pasted image 20240106233234.png",
     "YiMingBlog/未命名.md",
-    "YiMingBlog/api-examples.md",
     "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
-    "YiMingBlog/index.md",
-    "YiMingBlog/markdown-examples.md",
     "README.md"
   ]
 }

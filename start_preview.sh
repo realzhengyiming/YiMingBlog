@@ -1,3 +1,4 @@
 cd YiMingBlog
 npm run docs:build
-npm run docs:preview
+nohup npm run docs:preview > bloglog.txt 2>&1 &
+

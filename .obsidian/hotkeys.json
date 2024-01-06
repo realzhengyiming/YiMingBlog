@@ -1,4 +1,12 @@
 {
+  "obsidian-git:commit": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
   "obsidian-git:pull": [
     {
       "modifiers": [
@@ -13,14 +21,6 @@
         "Mod"
       ],
       "key": "P"
-    }
-  ],
-  "obsidian-git:commit": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "S"
     }
   ]
 }

@@ -1,2 +1,3 @@
-npm run --prefix /YiMingBlog docs:build
-npm run --prefix /YiMingBlog docs:preview
+cd YiMingBlog
+npm run docs:build
+npm run docs:preview

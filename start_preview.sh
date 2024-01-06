@@ -1,5 +1,4 @@
 cd YiMingBlog
-npm run docs:build
 
 # 查找占用 80 端口的进程
 PID=$(lsof -t -i :80)
@@ -13,5 +12,5 @@ else
   echo "进程已终止。"
 fi
 
-nohup npm run docs:preview > bloglog.txt 2>&1 &
+npm run docs:build && nohup npm run docs:preview > bloglog.txt 2>&1 &
 

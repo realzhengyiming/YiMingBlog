@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 dist/
 cache/
+
+# 配置的个人未发布的文章，可以在自己的icloud内流通，但是不用上传的github中去
+personal/

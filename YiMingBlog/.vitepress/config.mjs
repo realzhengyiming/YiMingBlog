@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: '/static/',  // 用来配置静态图片的prefix 前缀的相对路径，保持和ob笔记中设置的一样
+    publicPath: "/static/",  // 用来配置静态图片的prefix 前缀的相对路径，保持和ob笔记中设置的一样
     title: "My Awesome Project",
     description: "A VitePress Site",
     themeConfig: {

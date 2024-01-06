@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+                "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+                "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+                "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md"
+                "file": "YiMingBlog/personal/自动化进行解说类视频的解析.md"
               }
             }
           }
@@ -158,21 +158,21 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
+    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "YiMingBlog/personal/自动化进行解说类视频的解析.md",
+    "YiMingBlog/personal",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
     "node_modules/vue/server-renderer/index.d.ts",
     "node_modules/vue/server-renderer/index.d.mts",
-    "node_modules/vue/jsx-runtime/index.mjs",
     "node_modules/vue/jsx-runtime/package.json",
+    "node_modules/vue/jsx-runtime/index.mjs",
     "node_modules/vue/jsx-runtime/index.js",
     "node_modules/vue/jsx-runtime/index.d.ts",
-    "node_modules/vue/dist/vue.runtime.global.prod.js",
-    "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
     "YiMingBlog/static/300*300.png",
     "YiMingBlog/static/Pasted image 20240106233234.png",
-    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/未命名.md",
     "YiMingBlog/api-examples.md",
     "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",

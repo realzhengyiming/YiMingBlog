@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "YiMing"
-  text: "欢迎一起玩！"
-  tagline: code for fun 的程序员
+  text: "技术与生活"
+  tagline: 欢迎大家一起玩 :)
   actions:
     - theme: brand
       text: Markdown Examples

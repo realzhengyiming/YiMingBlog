@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "docs:dev": "vitepress dev YiMingBlog --port 80",
-    "docs:build": "vitepress build YiMingBlog --port 80",
-    "docs:preview": "vitepress preview YiMingBlog --port 80"
+    "docs:dev": "vitepress dev YiMingBlog --port 80 --host 0.0.0.0",
+    "docs:build": "vitepress build YiMingBlog --port 80 --host 0.0.0.0",
+    "docs:preview": "vitepress preview YiMingBlog --port 80 --host 0.0.0.0"
   }
 }

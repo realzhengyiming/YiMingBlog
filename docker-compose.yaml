@@ -1,7 +1,7 @@
 version: '3'
 services:
   vitepress-service:
-    build: .
+    build: ""
     volumes:
       - ./YiMingBlog:/app
     ports:

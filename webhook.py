@@ -42,7 +42,7 @@ def health_check():
 def handle_webhook():
     print("head", request.headers)
     # 指定仓库路径
-    repo_path = './YiMingBlog'
+    repo_path = 'YiMingBlog'
 
     # 执行 Git 命令拉取最新代码
     subprocess.run(['git', '-C', repo_path, 'pull'])

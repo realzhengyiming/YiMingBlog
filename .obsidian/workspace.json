@@ -15,7 +15,7 @@
               "state": {
                 "file": "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -146,23 +146,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c4cad11156a93ff4",
+  "active": "5bdd56436b6acfce",
   "lastOpenFiles": [
+    "YiMingBlog/pages/其他",
+    "YiMingBlog/pages/前端",
+    "YiMingBlog/pages/后端",
+    "YiMingBlog/pages/数据",
+    "YiMingBlog/pages/Ai",
+    "YiMingBlog/static/Pasted image 20240106233234.png",
+    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "YiMingBlog/static",
+    "YiMingBlog/未命名.md",
+    "YiMingBlog/pages",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
     "node_modules/vue/server-renderer/index.d.ts",
-    "node_modules/vue/server-renderer/index.d.mts",
-    "node_modules/vue/jsx-runtime/package.json",
-    "node_modules/vue/jsx-runtime/index.mjs",
-    "node_modules/vue/jsx-runtime/index.js",
-    "node_modules/vue/jsx-runtime/index.d.ts",
-    "node_modules/vue/dist/vue.runtime.global.prod.js",
-    "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
     "YiMingBlog/api-examples.md",
     "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
-    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/index.md",
     "YiMingBlog/markdown-examples.md",
     "README.md"

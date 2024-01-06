@@ -148,6 +148,7 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
+    "start_preview.sh",
     "README.md",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",

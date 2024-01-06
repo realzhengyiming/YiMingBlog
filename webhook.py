@@ -7,6 +7,7 @@ import subprocess
 
 app = Flask(__name__)
 
+
 @app.before_request
 def verify_signature():
     signature = request.headers.get('X-Hub-Signature-256')
@@ -43,6 +44,8 @@ def handle_webhook():
 
     # 执行 Git 命令拉取最新代码
     subprocess.run(['git', '-C', repo_path, 'pull'])
+    subprocess.run(['bash', 'path/to/launch.sh'])
+    # 执行重新拉取和发布的命令
 
     return 'Webhook received'
 

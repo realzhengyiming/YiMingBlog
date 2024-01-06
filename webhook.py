@@ -4,6 +4,7 @@ import os
 
 from flask import Flask, request, abort
 import subprocess
+current_path = os.path.abspath(__file__)
 
 app = Flask(__name__)
 
@@ -44,7 +45,7 @@ def handle_webhook():
 
     # 执行 Git 命令拉取最新代码
     subprocess.run(['git', '-C', repo_path, 'pull'])
-    subprocess.run(['bash', 'path/to/launch.sh'])
+    subprocess.run(['bash', os.path.join(current_path, "start_preview.sh")])
     # 执行重新拉取和发布的命令
 
     return 'Webhook received'

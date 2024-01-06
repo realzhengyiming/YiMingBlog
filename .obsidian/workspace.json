@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+                "file": "YiMingBlog/public/Ai/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+                "file": "YiMingBlog/public/Ai/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+                "file": "YiMingBlog/public/Ai/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md"
+                "file": "YiMingBlog/public/Ai/未命名.md"
               }
             }
           }
@@ -158,19 +158,19 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
+    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+    "YiMingBlog/public/Ai/未命名.md",
     "YiMingBlog/personal/副业研究/web3研究",
     "YiMingBlog/personal/副业研究/电商研究",
     "YiMingBlog/personal/副业研究/自媒体研究",
     "YiMingBlog/personal/副业研究",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
-    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
     "YiMingBlog/personal",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
     "node_modules/vue/server-renderer/index.d.ts",
     "node_modules/vue/server-renderer/index.d.mts",
-    "node_modules/vue/jsx-runtime/package.json",
     "node_modules/vue/README.md",
     "YiMingBlog/static/300*300.png",
     "YiMingBlog/static/Pasted image 20240106233234.png",

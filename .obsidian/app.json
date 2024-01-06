@@ -1,3 +1,6 @@
 {
-  "attachmentFolderPath": "./static"
+  "attachmentFolderPath": "./static",
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
 }

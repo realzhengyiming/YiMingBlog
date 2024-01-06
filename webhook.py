@@ -12,7 +12,8 @@ def health_check():
 @app.route('/webhook', methods=['POST'])
 def handle_webhook():
     data = request.json
-    print("data", data)
+    print("head", request.headers)
+    # print("data", data)
     if data == "TPaMhbDiM5fG4BaaFmXG":
         print("yes you are right!")
 
@@ -27,5 +28,5 @@ def handle_webhook():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000)
-    # new new
+
 

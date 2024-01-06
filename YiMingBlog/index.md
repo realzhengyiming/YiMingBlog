@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+你好呀, 我是郑义铭, 现在正在进行对应的测试工作!
+
 hero:
   name: "YiMing"
   text: "A VitePress Site"

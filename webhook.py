@@ -36,11 +36,12 @@ def health_check():
 
 @app.route('/webhook', methods=['POST'])
 def handle_webhook():
-    data = request.json
+    # data = request.json
     print("head", request.headers)
     # print("data", data)
-    if data == "TPaMhbDiM5fG4BaaFmXG":
-        print("yes you are right!")
+    # if data == "TPaMhbDiM5fG4BaaFmXG":
+    #     print("yes you are right!")
+    #
 
     # 指定仓库路径
     repo_path = './YiMingBlog'
@@ -54,6 +55,6 @@ def handle_webhook():
 if __name__ == '__main__':
     preview_secret = os.getenv("HOOKSERCERT", "")  # 在这里替换为你在 GitHub 上设置的密钥
     if not preview_secret:
-        print("please export HOOKSECRET=  first！")
+        print("please export HOOKSERCERT=  first！")
     else:
         app.run(host='0.0.0.0', port=3000)

@@ -8,18 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8a1a08920821e2b4",
+            "id": "f69cf48fb8b83e0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "YiMingBlog/personal/2024就业/再就业任务.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "fd5e94911c1a5f67",
+        "type": "split",
+        "children": [
+          {
+            "id": "557b4c990158fcb5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b551ee9ec66a176f",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "ca13c06bbbda5af6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c59bb27a40d6c5ee",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b50a678b57ac357a",
@@ -85,7 +120,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +136,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,16 +157,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,11 +175,18 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "8a1a08920821e2b4",
+  "active": "c59bb27a40d6c5ee",
   "lastOpenFiles": [
+    "YiMingBlog/public/index.md",
+    "YiMingBlog/personal/2024就业/再就业任务.md",
+    "YiMingBlog/00inbox",
+    "YiMingBlog/personal/2024就业",
+    "README.md",
     "YiMingBlog/public/其他/api-examples.md",
     "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/其他/vitepress.md",
@@ -159,18 +198,14 @@
     "YiMingBlog/public/后端",
     "YiMingBlog/public/前端",
     "YiMingBlog/public/其他",
-    "YiMingBlog/public/index.md",
     "YiMingBlog/public/Ai",
     "YiMingBlog/public",
-    "00 indebox",
+    "00inbox",
     "dist/static/README-2024-01-07.png",
     "dist/static/这个是深度学习相关的-2024-01-07.png",
     "dist/static/5-kirby-su-topo.jpeg",
-    "dist/hashmap.json",
-    "dist/index.html",
     "node_modules/vue/README.md",
     "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
-    "README.md",
     "YiMingBlog/static/README-2024-01-07.png",
     "YiMingBlog/personal/个人子空间.md",
     "YiMingBlog/static/5-kirby-su-topo.jpeg",
@@ -191,8 +226,6 @@
     "dist/static/这个是深度学习相关的-2024-01-07.MQeu-PS0.png",
     "YiMingBlog/docs/其他/api-examples.md",
     "personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
-    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
-    "300*.png.md",
-    "YiMingBlog/api-examples.md"
+    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md"
   ]
 }

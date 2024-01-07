@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
+                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
+                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
+                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md"
+                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md"
               }
             }
           }
@@ -157,7 +157,6 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
-    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
@@ -168,9 +167,12 @@
     "node_modules/vue/jsx-runtime/index.js",
     "node_modules/vue/jsx-runtime/index.d.ts",
     "node_modules/vue/dist/vue.runtime.global.prod.js",
+    "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
-    "300*.png.md",
+    "YiMingBlog/public/public/Pasted image 20240106233234.png",
     "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
+    "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "300*.png.md",
     "YiMingBlog/public/其他/vitepress.md",
     "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/api-examples.md",

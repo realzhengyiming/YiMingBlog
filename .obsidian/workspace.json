@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md"
+                "file": "YiMingBlog/public/Ai/大语言模型的微调.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,11 +143,14 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "a7072048bacc29b6",
   "lastOpenFiles": [
+    "YiMingBlog/public/Ai/这个是深度学习相关的.md",
+    "YiMingBlog/public/Ai/大语言模型的微调.md",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
@@ -157,17 +161,14 @@
     "node_modules/vue/jsx-runtime/index.js",
     "node_modules/vue/jsx-runtime/index.d.ts",
     "node_modules/vue/dist/vue.runtime.global.prod.js",
-    "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
-    "YiMingBlog/public/Ai/深度学习/static/Pasted image 20240107153139.png",
-    "YiMingBlog/public/Ai/大语言模型的微调.md",
-    "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
     "YiMingBlog/public/Ai/static/Pasted image 20240107152945.png",
+    "YiMingBlog/public/Ai/深度学习/static/Pasted image 20240107153139.png",
+    "YiMingBlog/public/index.md",
     "YiMingBlog/public/其他/api-examples.md",
     "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/其他/static/300*300 1.png",
     "YiMingBlog/public/其他/static/300*300.png",
-    "YiMingBlog/public/index.md",
     "YiMingBlog/public/其他/300*300.png",
     "YiMingBlog/public/其他/5-kirby-su-topo.jpeg",
     "YiMingBlog/public/public/300*300.png",

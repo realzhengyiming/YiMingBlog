@@ -1,10 +1,14 @@
 {
-  "attachmentFolderPath": "./static",
+  "attachmentFolderPath": "YiMingBlog/public/public",
   "userIgnoreFilters": [
     "node_modules/",
     "/node_modules"
   ],
   "showInlineTitle": false,
   "trashOption": "system",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true
 }

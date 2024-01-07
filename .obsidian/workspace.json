@@ -11,11 +11,9 @@
             "id": "c4cad11156a93ff4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
-                "mode": "source",
-                "source": true
+                "file": "YiMingBlog/public/public/Pasted image 20240106233234.png"
               }
             }
           },
@@ -23,13 +21,16 @@
             "id": "a7072048bacc29b6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "YiMingBlog/static/Pasted image 20240106233234.png"
+                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,8 +156,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c4cad11156a93ff4",
+  "active": "a7072048bacc29b6",
   "lastOpenFiles": [
+    "YiMingBlog/public/public/Pasted image 20240106233234.png",
+    "YiMingBlog/public/public/Pasted image 20240107144652 1.png",
+    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "YiMingBlog/public/public/300*300 1.png",
+    "YiMingBlog/public/public/红火热热图.png",
+    "YiMingBlog/static/Pasted image 20240106233234.png",
+    "YiMingBlog/public/public/Pasted image 20240107144646.png",
+    "YiMingBlog/public/public/Pasted image 20240107144652 2.png",
+    "YiMingBlog/public/public/Pasted image 20240107144652.png",
+    "YiMingBlog/public/public/Pasted image 20240107144651.png",
+    "YiMingBlog/public/public/Pasted image 20240107144650.png",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
@@ -167,21 +179,16 @@
     "node_modules/vue/jsx-runtime/index.js",
     "node_modules/vue/jsx-runtime/index.d.ts",
     "node_modules/vue/dist/vue.runtime.global.prod.js",
-    "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
-    "YiMingBlog/public/public/Pasted image 20240106233234.png",
     "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "300*.png.md",
     "YiMingBlog/public/其他/vitepress.md",
-    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/api-examples.md",
     "YiMingBlog/index.md",
     "YiMingBlog/markdown-examples.md",
     "YiMingBlog/public/Ai/大语言模型的微调.md",
     "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
-    "YiMingBlog/static/300*300.png",
-    "YiMingBlog/static/Pasted image 20240106233234.png",
     "YiMingBlog/未命名.md",
     "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
     "README.md"

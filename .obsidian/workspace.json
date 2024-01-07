@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md"
+                "file": "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md"
               }
             }
           }
@@ -159,18 +159,21 @@
     "node_modules/vue/dist/vue.runtime.global.prod.js",
     "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
+    "YiMingBlog/public/Ai/深度学习/static/Pasted image 20240107153139.png",
+    "YiMingBlog/public/Ai/大语言模型的微调.md",
+    "YiMingBlog/public/Ai/深度学习/这个是深度学习相关的.md",
+    "YiMingBlog/public/Ai/static/Pasted image 20240107152945.png",
+    "YiMingBlog/public/其他/api-examples.md",
+    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/其他/static/300*300 1.png",
     "YiMingBlog/public/其他/static/300*300.png",
     "YiMingBlog/public/index.md",
-    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/其他/300*300.png",
     "YiMingBlog/public/其他/5-kirby-su-topo.jpeg",
     "YiMingBlog/public/public/300*300.png",
     "YiMingBlog/public/public/Pasted image 20240106233234.png",
     "YiMingBlog/public/public/Pasted image 20240107144652 1.png",
     "YiMingBlog/public/public/300*300 1.png",
-    "YiMingBlog/public/public/红火热热图.png",
-    "YiMingBlog/static/Pasted image 20240106233234.png",
     "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "300*.png.md",
@@ -178,7 +181,6 @@
     "YiMingBlog/api-examples.md",
     "YiMingBlog/index.md",
     "YiMingBlog/markdown-examples.md",
-    "YiMingBlog/public/Ai/大语言模型的微调.md",
     "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
     "YiMingBlog/未命名.md",
     "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",

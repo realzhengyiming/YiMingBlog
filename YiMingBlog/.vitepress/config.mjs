@@ -2,10 +2,18 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    publicPath: "/static/",  // 用来配置静态图片的prefix 前缀的相对路径，保持和ob笔记中设置的一样
+    head: [
+        ['link', {rel: 'icon', href: '/static/5-kirby-su-topo.jpeg'}],
+    ],
     title: "My Awesome Project",
     description: "A VitePress Site",
+    srcDir: 'public',
+    assetsDir: 'static',
+
     themeConfig: {
+        search: {
+            provider: 'local'
+        },
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
@@ -24,7 +32,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
+            {icon: 'github', link: 'https://github.com/realzhengyiming'}
         ]
     }
 })

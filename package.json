@@ -3,5 +3,9 @@
     "docs:dev": "vitepress dev YiMingBlog --port 80 --host 0.0.0.0",
     "docs:build": "vitepress build YiMingBlog --port 80 --host 0.0.0.0",
     "docs:preview": "vitepress preview YiMingBlog --port 80 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "remark": "^15.0.1",
+    "remark-unwrap-images": "^4.0.0"
   }
 }

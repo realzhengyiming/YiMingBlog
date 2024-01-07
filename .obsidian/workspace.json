@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/其他/vitepress.md",
+                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/其他/vitepress.md",
+                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/其他/vitepress.md",
+                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/其他/vitepress.md"
+                "file": "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md"
               }
             }
           }
@@ -157,8 +157,11 @@
   },
   "active": "c4cad11156a93ff4",
   "lastOpenFiles": [
-    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/其他/vitepress.md",
+    "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
+    "YiMingBlog/personal/副业研究/复刻工厂产品业务线",
+    "300*.png.md",
+    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/api-examples.md",
     "YiMingBlog/index.md",
     "YiMingBlog/markdown-examples.md",
@@ -173,7 +176,6 @@
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
     "node_modules/vue/server-renderer/index.d.ts",
-    "node_modules/vue/server-renderer/index.d.mts",
     "node_modules/vue/README.md",
     "YiMingBlog/static/300*300.png",
     "YiMingBlog/static/Pasted image 20240106233234.png",

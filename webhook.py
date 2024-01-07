@@ -50,7 +50,7 @@ def handle_webhook():
     # subprocess.run(['bash', os.path.join(folder_path, "kill_80.sh")])
     # subprocess.run(['bash', os.path.join(folder_path, "start_build.sh")])
     # 执行重新拉取和发布的命令
-    subprocess.run(['bash', os.path.join(folder_path, "launch_service.sh")])
+    subprocess.run(['bash', os.path.join(folder_path, "launch_blog.sh")])
 
     return 'Webhook received'
 
@@ -58,6 +58,6 @@ def handle_webhook():
 if __name__ == '__main__':
     preview_secret = os.getenv("HOOKSERCERT", "")  # 在这里替换为你在 GitHub 上设置的密钥
     if not preview_secret:
-        print("please export HOOKSERCERT=  first！")
+        print("please export HOOKSERCERT= first！")
     else:
         app.run(host='0.0.0.0', port=3000)

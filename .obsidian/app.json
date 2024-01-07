@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "./public/public",
+  "attachmentFolderPath": "./static",
   "userIgnoreFilters": [
     "node_modules/",
     "/node_modules"
@@ -7,7 +7,7 @@
   "showInlineTitle": false,
   "trashOption": "system",
   "newFileLocation": "current",
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "showLineNumber": true

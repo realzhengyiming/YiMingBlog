@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4cad11156a93ff4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "YiMingBlog/public/public/Pasted image 20240106233234.png"
-              }
-            }
-          },
-          {
             "id": "a7072048bacc29b6",
             "type": "leaf",
             "state": {
@@ -25,12 +15,11 @@
               "state": {
                 "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,17 +159,18 @@
     "node_modules/vue/dist/vue.runtime.global.prod.js",
     "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
+    "YiMingBlog/public/其他/static/300*300 1.png",
+    "YiMingBlog/public/其他/static/300*300.png",
+    "YiMingBlog/public/index.md",
+    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "YiMingBlog/public/其他/300*300.png",
+    "YiMingBlog/public/其他/5-kirby-su-topo.jpeg",
     "YiMingBlog/public/public/300*300.png",
     "YiMingBlog/public/public/Pasted image 20240106233234.png",
     "YiMingBlog/public/public/Pasted image 20240107144652 1.png",
-    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/public/300*300 1.png",
     "YiMingBlog/public/public/红火热热图.png",
     "YiMingBlog/static/Pasted image 20240106233234.png",
-    "YiMingBlog/public/public/Pasted image 20240107144646.png",
-    "YiMingBlog/public/public/Pasted image 20240107144652 2.png",
-    "YiMingBlog/public/public/Pasted image 20240107144652.png",
-    "YiMingBlog/public/public/Pasted image 20240107144651.png",
     "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "300*.png.md",

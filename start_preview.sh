@@ -1,2 +1,2 @@
 cd YiMingBlog
-nohup npm run docs:preview > bloglog.txt 2>&1 &
+nohup npm run docs:preview > bloglog.log 2>&1 &

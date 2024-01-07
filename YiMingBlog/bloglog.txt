@@ -1,8 +1,0 @@
-
-> docs:preview
-> vitepress preview YiMingBlog --port 80 --host 0.0.0.0
-
-
-  vitepress v1.0.0-rc.35
-
-Built site served at http://localhost:80/

@@ -7,7 +7,7 @@
   "showInlineTitle": false,
   "trashOption": "system",
   "newFileLocation": "current",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "showLineNumber": true

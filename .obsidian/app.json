@@ -8,7 +8,7 @@
   "trashOption": "system",
   "newFileLocation": "current",
   "newLinkFormat": "shortest",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "promptDelete": false

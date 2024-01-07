@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "170a69bab46d6cba",
+        "id": "d51dda8afc30d88b",
         "type": "tabs",
         "children": [
           {
-            "id": "a7072048bacc29b6",
+            "id": "a6930e82c2160bae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a1a08920821e2b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/docs/其他/vitepress.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b80ea2355f831df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/docs/Ai/大语言模型的微调.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
+                "file": "YiMingBlog/docs/其他/vitepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
+                "file": "YiMingBlog/docs/其他/vitepress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +150,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/docs/Ai/这个是深度学习相关的.md"
+                "file": "YiMingBlog/docs/其他/vitepress.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,45 +171,50 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a7072048bacc29b6",
+  "active": "8a1a08920821e2b4",
   "lastOpenFiles": [
-    "node_modules/vue/server-renderer/package.json",
-    "node_modules/vue/server-renderer/index.mjs",
-    "node_modules/vue/server-renderer/index.js",
-    "node_modules/vue/server-renderer/index.d.ts",
-    "node_modules/vue/jsx-runtime/package.json",
-    "node_modules/vue/jsx-runtime/index.js",
-    "node_modules/vue/server-renderer/index.d.mts",
-    "node_modules/vue/jsx-runtime/index.mjs",
-    "node_modules/vue/jsx-runtime/index.d.ts",
-    "node_modules/vue/dist/vue.runtime.global.prod.js",
-    "node_modules/vue/dist/vue.runtime.global.js",
+    "dist/static/这个是深度学习相关的-2024-01-07.png",
+    "dist/hashmap.json",
+    "dist/index.html",
+    "dist/404.html",
+    "dist/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.html",
+    "dist/其他/vitepress.html",
+    "dist/其他/markdown-examples.html",
+    "dist/其他/api-examples.html",
+    "dist/其他",
+    "dist/Ai/这个是深度学习相关的.html",
+    "dist/Ai/大语言模型的微调.html",
     "node_modules/vue/README.md",
-    "YiMingBlog/docs/public/300*300.png",
-    "YiMingBlog/docs/Ai/大语言模型的微调.md",
-    "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
-    "YiMingBlog/public/300*300 1.png",
-    "YiMingBlog/public/300*300.png",
-    "YiMingBlog/docs/Ai/static/300*300.png",
-    "300*300.png",
-    "YiMingBlog/docs/Ai/static/300*300 1.png",
-    "YiMingBlog/docs/Ai/static/Pasted image 20240107152945.png",
-    "YiMingBlog/docs/Ai/深度学习/static/Pasted image 20240107153139.png",
-    "YiMingBlog/docs/index.md",
-    "YiMingBlog/docs/其他/api-examples.md",
-    "YiMingBlog/docs/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
-    "YiMingBlog/docs/其他/static/300*300 1.png",
-    "YiMingBlog/docs/其他/static/300*300.png",
+    "dist/这个是深度学习相关的-2024-01-07.png",
+    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
     "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
+    "600*600.png",
+    "YiMingBlog/docs/index.md",
+    "README.md",
+    "YiMingBlog/index.md",
+    "YiMingBlog/static/这个是深度学习相关的-2024-01-07.png",
+    "YiMingBlog/docs/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
+    "YiMingBlog/static/300*300.png",
+    "YiMingBlog/docs/Ai/index.md",
+    "YiMingBlog/docs/Ai/大语言模型的微调.md",
+    "YiMingBlog/docs/其他/vitepress.md",
+    "personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
+    "personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+    "dist/static/这个是深度学习相关的-2024-01-07.MQeu-PS0.png",
+    "dist/static/300_300 1.-rBhqCuV.png",
+    "YiMingBlog/static/300*300 5.png",
+    "YiMingBlog/static/300*300 4.png",
+    "YiMingBlog/static/300*300 3.png",
+    "YiMingBlog/static/300*300 2.png",
+    "YiMingBlog/docs/其他/api-examples.md",
+    "personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "300*.png.md",
-    "YiMingBlog/docs/其他/vitepress.md",
     "YiMingBlog/api-examples.md",
-    "YiMingBlog/index.md",
     "YiMingBlog/markdown-examples.md",
-    "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
+    "personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",
     "YiMingBlog/未命名.md",
-    "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md",
-    "README.md"
+    "YiMingBlog/如何搭建obsidian + vitepress + github 协同的系统.md"
   ]
 }

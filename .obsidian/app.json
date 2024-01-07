@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "YiMingBlog/public/public",
+  "attachmentFolderPath": "./public/public",
   "userIgnoreFilters": [
     "node_modules/",
     "/node_modules"

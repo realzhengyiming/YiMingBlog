@@ -3,12 +3,13 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     head: [
-        ['link', {rel: 'icon', href: '/static/5-kirby-su-topo.jpeg'}],
+        ['link', {rel: 'icon', href: '5-kirby-su-topo.jpeg'}],
     ],
     title: "My Awesome Project",
     description: "A VitePress Site",
     srcDir: 'public',
-    assetsDir: 'static',
+    // base:"./",
+    assetsDir: 'public',
 
     themeConfig: {
         search: {

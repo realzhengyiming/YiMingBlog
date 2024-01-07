@@ -25,7 +25,7 @@
               "state": {
                 "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -158,6 +158,18 @@
   },
   "active": "a7072048bacc29b6",
   "lastOpenFiles": [
+    "node_modules/vue/server-renderer/package.json",
+    "node_modules/vue/server-renderer/index.mjs",
+    "node_modules/vue/server-renderer/index.js",
+    "node_modules/vue/server-renderer/index.d.ts",
+    "node_modules/vue/server-renderer/index.d.mts",
+    "node_modules/vue/jsx-runtime/package.json",
+    "node_modules/vue/jsx-runtime/index.mjs",
+    "node_modules/vue/jsx-runtime/index.js",
+    "node_modules/vue/jsx-runtime/index.d.ts",
+    "node_modules/vue/dist/vue.runtime.global.prod.js",
+    "node_modules/vue/dist/vue.runtime.global.js",
+    "node_modules/vue/README.md",
     "YiMingBlog/public/public/300*300.png",
     "YiMingBlog/public/public/Pasted image 20240106233234.png",
     "YiMingBlog/public/public/Pasted image 20240107144652 1.png",
@@ -169,18 +181,6 @@
     "YiMingBlog/public/public/Pasted image 20240107144652 2.png",
     "YiMingBlog/public/public/Pasted image 20240107144652.png",
     "YiMingBlog/public/public/Pasted image 20240107144651.png",
-    "YiMingBlog/public/public/Pasted image 20240107144650.png",
-    "node_modules/vue/server-renderer/package.json",
-    "node_modules/vue/server-renderer/index.mjs",
-    "node_modules/vue/server-renderer/index.js",
-    "node_modules/vue/server-renderer/index.d.ts",
-    "node_modules/vue/server-renderer/index.d.mts",
-    "node_modules/vue/jsx-runtime/package.json",
-    "node_modules/vue/jsx-runtime/index.mjs",
-    "node_modules/vue/jsx-runtime/index.js",
-    "node_modules/vue/jsx-runtime/index.d.ts",
-    "node_modules/vue/dist/vue.runtime.global.prod.js",
-    "node_modules/vue/README.md",
     "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "300*.png.md",

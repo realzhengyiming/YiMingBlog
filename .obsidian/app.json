@@ -2,14 +2,16 @@
   "attachmentFolderPath": "YiMingBlog/static",
   "userIgnoreFilters": [
     "node_modules/",
-    "/node_modules"
+    "/node_modules",
+    "dist/*"
   ],
   "showInlineTitle": false,
   "trashOption": "system",
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileFolderPath": "00 indebox"
 }

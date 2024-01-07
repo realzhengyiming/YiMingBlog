@@ -159,11 +159,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
-#dist/
-#cache/
-#node_modules/
+dist/
+cache/
+node_modules/
 
 # 配置的个人未发布的文章，可以在自己的icloud内流通，但是不用上传的github中去
 YiMingBlog/personal/
 personal/
 *-lock.json
+.obsidian/

@@ -7,7 +7,7 @@ export default defineConfig({
     ],
     title: "My Awesome Project",
     description: "A VitePress Site",
-    srcDir: 'docs', // building的时候src? 直接设置跟目录就可以全部都读取到了
+    srcDir: 'public', // building的时候src? 直接设置跟目录就可以全部都读取到了
     ignoreDeadLinks: true,// 最好加上，构建时会忽略md中的外链
 
     // 输出相关的，这两个配置

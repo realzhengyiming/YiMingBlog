@@ -50,7 +50,7 @@ def handle_webhook():
     # subprocess.run(['bash', os.path.join(folder_path, "kill_80.sh")])
     # subprocess.run(['bash', os.path.join(folder_path, "start_build.sh")])
     # 执行重新拉取和发布的命令
-    subprocess.run(['bash', os.path.join(folder_path, "hook_task.sh")])
+    subprocess.run(['bash', os.path.join(folder_path, "launch_service.sh")])
 
     return 'Webhook received'
 

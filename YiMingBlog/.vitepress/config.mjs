@@ -7,9 +7,9 @@ export default defineConfig({
     ],
     title: "My Awesome Project",
     description: "A VitePress Site",
-    srcDir: 'public',
+    srcDir: 'docs',
     // base:"./",
-    assetsDir: 'public',
+    assetsDir: 'static',
 
     themeConfig: {
         search: {

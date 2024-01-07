@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/docs/Ai/大语言模型的微调.md",
+                "file": "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/docs/Ai/大语言模型的微调.md",
+                "file": "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/docs/Ai/大语言模型的微调.md",
+                "file": "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/docs/Ai/大语言模型的微调.md"
+                "file": "YiMingBlog/docs/Ai/这个是深度学习相关的.md"
               }
             }
           }
@@ -149,9 +149,6 @@
   },
   "active": "a7072048bacc29b6",
   "lastOpenFiles": [
-    "300*300.png",
-    "YiMingBlog/docs/Ai/大语言模型的微调.md",
-    "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
     "node_modules/vue/server-renderer/package.json",
     "node_modules/vue/server-renderer/index.mjs",
     "node_modules/vue/server-renderer/index.js",
@@ -162,7 +159,15 @@
     "node_modules/vue/jsx-runtime/index.js",
     "node_modules/vue/jsx-runtime/index.d.ts",
     "node_modules/vue/dist/vue.runtime.global.prod.js",
+    "node_modules/vue/dist/vue.runtime.global.js",
     "node_modules/vue/README.md",
+    "YiMingBlog/public/300*300 1.png",
+    "YiMingBlog/public/300*300.png",
+    "YiMingBlog/docs/Ai/static/300*300.png",
+    "300*300.png",
+    "YiMingBlog/docs/Ai/大语言模型的微调.md",
+    "YiMingBlog/docs/Ai/static/300*300 1.png",
+    "YiMingBlog/docs/Ai/这个是深度学习相关的.md",
     "YiMingBlog/docs/Ai/static/Pasted image 20240107152945.png",
     "YiMingBlog/docs/Ai/深度学习/static/Pasted image 20240107153139.png",
     "YiMingBlog/docs/index.md",
@@ -171,10 +176,6 @@
     "YiMingBlog/docs/其他/static/300*300 1.png",
     "YiMingBlog/docs/其他/static/300*300.png",
     "YiMingBlog/public/其他/300*300.png",
-    "YiMingBlog/public/其他/5-kirby-su-topo.jpeg",
-    "YiMingBlog/public/public/300*300.png",
-    "YiMingBlog/public/public/Pasted image 20240106233234.png",
-    "YiMingBlog/public/public/Pasted image 20240107144652 1.png",
     "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "YiMingBlog/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "300*.png.md",

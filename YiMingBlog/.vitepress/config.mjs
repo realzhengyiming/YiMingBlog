@@ -9,7 +9,10 @@ export default defineConfig({
     description: "A VitePress Site",
     srcDir: 'docs',
     // base:"./",
-    assetsDir: 'static',
+    assetsDir: 'public',
+    vite: {
+    // Vite 配置选项
+    },
 
     themeConfig: {
         search: {

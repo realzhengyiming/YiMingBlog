@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: YiMing
-  text: 技术与生活
+  text: 技术与生活🤗
   tagline: 欢迎大家一起玩 :)
   actions:
     - theme: brand
@@ -18,6 +18,6 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-outline: deep
+
 ---
 

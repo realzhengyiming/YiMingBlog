@@ -7,4 +7,4 @@ npm run docs:build
 cd ../
 # back to root
 python render_ob_img.py
-echo "render finished!"
+echo "python render finished!"

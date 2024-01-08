@@ -20,13 +20,13 @@ def copy_files(source_dir, target_dir):
 
 
 def process_html_file_url(file_path):
-    print(f"正在处理 {file_path}...")
+    print(f"url正在处理 {file_path}...")
     page_mapping_url = "/" + "/".join(file_path.split("/")[1:-1])
     new_lines = []
     with open(file_path, 'r') as f:
         lines = f.readlines()
         for line in lines:
-            new_line = re.sub(r'\[\[(.*?)\]\]', r'<a href=' + page_mapping_url + r'/\1 />', line)
+            new_line = re.sub(r'\[\[(.*?)\]\]', fr'<br><a href="{page_mapping_url}/\1" >\1</a>', line)
             new_lines.append(new_line)
 
     with open(file_path, 'w') as f:
@@ -62,7 +62,7 @@ def multi_process(task_list, function):
     with tqdm(total=len(task_list)) as pbar:
         for html_file in task_list:
             pool.apply_async(function, (html_file,))
-            pbar.update(0.5)
+            pbar.update(1)
     pool.close()
     pool.join()
 
@@ -70,7 +70,7 @@ def multi_process(task_list, function):
 def rebuild(directory):
     traverse_directory(directory)
     multi_process(html_list, process_html_file_img)
-    # multi_process(html_list, process_html_file_url)
+    multi_process(html_list, process_html_file_url)
     print("rebuild done!")
 
 

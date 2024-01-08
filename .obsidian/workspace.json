@@ -218,6 +218,7 @@
   },
   "active": "7e64d6bc245b086e",
   "lastOpenFiles": [
+    "nohup.out",
     "dist/static/README-2024-01-07.png",
     "dist/static/yiminglogo2.png",
     "dist/static/yiminglogo.png",
@@ -226,7 +227,6 @@
     "dist/static/测试用的饺子截图.jpeg",
     "dist/hashmap.json",
     "dist/index.html",
-    "dist/404.html",
     "dist/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.html",
     "dist/其他/其他.html",
     "dist/其他/vitepress.html",
@@ -234,6 +234,7 @@
     "dist/其他/api-examples.html",
     "dist/其他",
     "dist/Ai/这个是深度学习相关的.html",
+    "dist/Ai/大语言模型的微调.html",
     "node_modules/vue/README.md",
     "YiMingBlog/public/Ai/Ai.md",
     "YiMingBlog/public/其他/其他.md",

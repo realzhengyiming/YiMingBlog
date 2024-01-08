@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/personal/2024就业/再就业任务.md",
+                "file": "YiMingBlog/personal/2024就业/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/副业.md",
+                "file": "YiMingBlog/personal/2024就业/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e64d6bc245b086e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/personal/2024就业/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be190c03c7d9f11d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/personal/2024就业/图像算法开发.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "fd5e94911c1a5f67",
@@ -60,8 +84,12 @@
                 "id": "c59bb27a40d6c5ee",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "YiMingBlog/personal/2024就业/index.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -133,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/personal/2024就业/再就业任务.md",
+                "file": "YiMingBlog/personal/2024就业/图像算法开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/personal/2024就业/再就业任务.md",
+                "file": "YiMingBlog/personal/2024就业/图像算法开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/personal/2024就业/再就业任务.md"
+                "file": "YiMingBlog/personal/2024就业/图像算法开发.md"
               }
             }
           }
@@ -199,12 +227,14 @@
   },
   "active": "5bdd56436b6acfce",
   "lastOpenFiles": [
+    "YiMingBlog/personal/2024就业/index.md",
+    "YiMingBlog/personal/2024就业/图像算法开发.md",
+    "YiMingBlog/personal/2024就业/数据挖掘岗位.md",
+    "YiMingBlog/00inbox/未命名.md",
+    "YiMingBlog/personal/2024就业/python后端开发.md",
     "YiMingBlog/personal/副业研究/副业.md",
     "YiMingBlog/personal/副业研究/电商研究/电商.md",
-    "YiMingBlog/personal/2024就业/数据挖掘岗位.md",
     "再就业任务主业.md",
-    "YiMingBlog/personal/2024就业/再就业任务.md",
-    "YiMingBlog/00inbox/未命名.md",
     "YiMingBlog/public/index.md",
     "YiMingBlog/00inbox",
     "YiMingBlog/personal/2024就业",
@@ -242,8 +272,6 @@
     "YiMingBlog/static/这个是深度学习相关的-2024-01-07.png",
     "YiMingBlog/docs/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/static/300*300.png",
-    "YiMingBlog/docs/Ai/index.md",
-    "personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "dist/static/这个是深度学习相关的-2024-01-07.MQeu-PS0.png"
   ]
 }

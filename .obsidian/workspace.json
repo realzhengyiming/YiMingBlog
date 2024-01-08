@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/index.md",
+                "file": "YiMingBlog/public/其他/其他.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/index.md",
+                "file": "YiMingBlog/public/其他/其他.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/index.md",
+                "file": "YiMingBlog/public/其他/其他.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/index.md"
+                "file": "YiMingBlog/public/其他/其他.md"
               }
             }
           },
@@ -216,17 +216,19 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "5bdd56436b6acfce",
+  "active": "7e64d6bc245b086e",
   "lastOpenFiles": [
-    "YiMingBlog/static/yiminglogo2.png",
-    "YiMingBlog/public/Ai/index.md",
-    "YiMingBlog/00template/博文模板.md",
-    "YiMingBlog/001日记/日记/2024-01-08 周一.md",
-    "YiMingBlog/001日记/日记/2024-01-07 周日.md",
+    "YiMingBlog/public/Ai/Ai.md",
+    "YiMingBlog/public/其他/其他.md",
+    "YiMingBlog/personal/2024就业/00就业主页.md",
     "YiMingBlog/00template/日记模板.md",
+    "YiMingBlog/001日记/日记/2024-01-08 周一.md",
+    "YiMingBlog/public/index.md",
+    "YiMingBlog/static/yiminglogo2.png",
+    "YiMingBlog/00template/博文模板.md",
+    "YiMingBlog/001日记/日记/2024-01-07 周日.md",
     "YiMingBlog/00inbox/新的.md",
     "YiMingBlog/001日记/周记/2024-W02.md",
-    "YiMingBlog/personal/2024就业/00就业主页.md",
     "YiMingBlog/personal/2024就业/运筹学多目标相关.md",
     "YiMingBlog/personal/2024就业/投递记录/投递记录汇总页.md",
     "YiMingBlog/00template/文件夹汇总页模板.md",
@@ -241,7 +243,6 @@
     "YiMingBlog/personal/2024就业/面试技能增强/面试技能增强索引页.md",
     "YiMingBlog/personal/2024就业/面试技能增强/非技术类面试题.md",
     "YiMingBlog/personal/2024就业/面试技能增强/STAR技术项目描述.md",
-    "YiMingBlog/public/index.md",
     "YiMingBlog/personal/2024就业/面试技能增强",
     "YiMingBlog/personal/2024就业/投递记录",
     "YiMingBlog/001日记/日记/2024-01-02 周二.md",
@@ -262,7 +263,6 @@
     "YiMingBlog/static/README-2024-01-07.png",
     "YiMingBlog/static/5-kirby-su-topo.jpeg",
     "dist/这个是深度学习相关的-2024-01-07.png",
-    "600*600.png",
-    "YiMingBlog/static/这个是深度学习相关的-2024-01-07.png"
+    "600*600.png"
   ]
 }

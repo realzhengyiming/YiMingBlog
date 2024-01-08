@@ -1,4 +1,5 @@
 {
-  "accentColor": "",
-  "showViewHeader": true
+  "accentColor": "#96d35f",
+  "showViewHeader": true,
+  "theme": "moonstone"
 }

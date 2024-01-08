@@ -14,10 +14,10 @@ hero:
 features:
   - title: 爬虫
     details: 数据获取抓取技术交流
+  - title: 机器学习
+    details: 机器学习相关
   - title: 深度学习
-    details: 深度学习
-  - title: 模型部署
-    details: 模型应用部署
+    details: 深度学习相关
 
 ---
 

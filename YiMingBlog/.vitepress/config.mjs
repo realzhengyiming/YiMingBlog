@@ -3,7 +3,7 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     head: [
-        ['link', {rel: 'icon', href: '/static/这个是深度学习相关的-2024-01-07.MQeu-PS0.png'}],
+        ['link', {rel: 'icon', href: '/static/yiminglogo.png'}],
     ],
     title: "My Awesome Project",
     description: "A VitePress Site",
@@ -22,7 +22,9 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Examples', link: '/markdown-examples'}
+            {text: 'AI', link: '/Ai'},
+            {text: '其他', link: '/其他'},
+            {text: 'example', link: '/markdown-examples'},
         ],
 
         sidebar: [
@@ -33,7 +35,16 @@ export default defineConfig({
                     {text: 'Runtime API Examples', link: '/api-examples'},
                     {text: '测试文章', link: '/如何搭建obsidian-vitepress-github的协同的笔记博客系统'}
                 ]
-            }
+            },
+            {
+                text: 'AI',
+                items: [
+                    {text: '大语言模型的微调', link: '/大语言模型的微调'},
+                    {text: '这个是深度学习相关的.md', link: '/这个是深度学习相关的'},
+                ]
+            },
+
+
         ],
 
         socialLinks: [

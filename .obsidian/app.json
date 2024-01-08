@@ -5,13 +5,13 @@
     "/node_modules",
     "dist/*"
   ],
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "trashOption": "system",
   "newFileLocation": "folder",
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "promptDelete": false,
   "newFileFolderPath": "YiMingBlog/00inbox"
 }

@@ -18,6 +18,6 @@ features:
     details: 机器学习相关
   - title: 深度学习
     details: 深度学习相关
-
+footer: true
 ---
 

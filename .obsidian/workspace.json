@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-08 周一.md",
+                "file": "YiMingBlog/public/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/00template/日记模版.md",
+                "file": "YiMingBlog/00template/日记模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-08 周一.md",
+                "file": "YiMingBlog/public/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-08 周一.md",
+                "file": "YiMingBlog/public/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-08 周一.md"
+                "file": "YiMingBlog/public/index.md"
               }
             }
           },
@@ -216,17 +216,20 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "7e64d6bc245b086e",
+  "active": "5bdd56436b6acfce",
   "lastOpenFiles": [
-    "YiMingBlog/001日记/日记/2024-01-07 周日.md",
+    "YiMingBlog/static/yiminglogo2.png",
+    "YiMingBlog/public/Ai/index.md",
+    "YiMingBlog/00template/博文模板.md",
     "YiMingBlog/001日记/日记/2024-01-08 周一.md",
-    "YiMingBlog/00template/日记模版.md",
+    "YiMingBlog/001日记/日记/2024-01-07 周日.md",
+    "YiMingBlog/00template/日记模板.md",
     "YiMingBlog/00inbox/新的.md",
     "YiMingBlog/001日记/周记/2024-W02.md",
     "YiMingBlog/personal/2024就业/00就业主页.md",
     "YiMingBlog/personal/2024就业/运筹学多目标相关.md",
     "YiMingBlog/personal/2024就业/投递记录/投递记录汇总页.md",
-    "YiMingBlog/00template/文件夹汇总页模版.md",
+    "YiMingBlog/00template/文件夹汇总页模板.md",
     "YiMingBlog/00template/面试记录模板.md",
     "YiMingBlog/00template/元数据模版.md",
     "YiMingBlog/personal/2024就业/投递记录/深圳小鹅通一面.md",
@@ -243,11 +246,8 @@
     "YiMingBlog/personal/2024就业/投递记录",
     "YiMingBlog/001日记/日记/2024-01-02 周二.md",
     "YiMingBlog/personal/2024就业/数据挖掘岗位.md",
-    "YiMingBlog/00inbox/手机上测试的一个文件.md",
     "YiMingBlog/001日记/日记",
-    "YiMingBlog/00inbox/今天的测试文档.md",
     "YiMingBlog/static/yiminglogo.png",
-    "YiMingBlog/personal/2024就业/深度学习工程师.md",
     "YiMingBlog/static/测试用的饺子截图.jpeg",
     "YiMingBlog/001日记/周记",
     "YiMingBlog/001日记",

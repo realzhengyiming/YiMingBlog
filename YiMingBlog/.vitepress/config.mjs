@@ -3,7 +3,7 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     head: [
-        ['link', {rel: 'icon', href: '/static/yiminglogo.png'}],
+        ['link', {rel: 'icon', href: '/static/yiminglogo2.png'}],
     ],
     title: "My Awesome Project",
     description: "A VitePress Site",

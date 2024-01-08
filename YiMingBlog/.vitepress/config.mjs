@@ -14,7 +14,9 @@ export default defineConfig({
     assetsDir: 'static', //输出的文件夹,build后的
     outDir: '../dist',
     cacheDir: "../cache",
-
+    plugins: [
+        '@vuepress/plugin-active-header-links'
+    ],
     themeConfig: {
         search: {
             provider: 'local'
@@ -22,8 +24,8 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'AI', link: '/Ai'},
-            {text: '其他', link: '/其他'},
+            {text: 'AI', link: '/Ai/Ai'},
+            {text: '其他', link: '/其他/其他'},
             {text: 'example', link: '/markdown-examples'},
         ],
 
@@ -39,8 +41,8 @@ export default defineConfig({
             {
                 text: 'AI',
                 items: [
-                    {text: '大语言模型的微调', link: '/大语言模型的微调'},
-                    {text: '这个是深度学习相关的.md', link: '/这个是深度学习相关的'},
+                    {text: '大语言模型的微调', link: '/Ai/大语言模型的微调'},
+                    {text: '这个是深度学习相关的.md', link: '/Ai/这个是深度学习相关的'},
                 ]
             },
 

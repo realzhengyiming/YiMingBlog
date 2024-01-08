@@ -6,7 +6,7 @@ hero:
   tagline: 欢迎大家一起学习交流 :)
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始阅读
       link: /markdown-examples
     - theme: alt
       text: API Examples

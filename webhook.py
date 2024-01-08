@@ -47,7 +47,9 @@ def handle_webhook():
     repo_path = 'YiMingBlog'
 
     # 执行 Git 命令拉取最新代码
-    shutil.rmtree("./dist")  # 删除后再执行
+    dist_path = "./dist"
+    if os.path.exists(dist_path):
+        shutil.rmtree("./dist")  # 删除后再执行
     subprocess.run(['git', '-C', repo_path, 'pull', "--force"])
     # subprocess.run(['bash', os.path.join(folder_path, "kill_80.sh")])
     # subprocess.run(['bash', os.path.join(folder_path, "start_build.sh")])

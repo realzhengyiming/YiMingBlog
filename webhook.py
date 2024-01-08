@@ -1,9 +1,10 @@
-import hmac
 import hashlib
+import hmac
 import os
+import shutil
+import subprocess
 
 from flask import Flask, request, abort
-import subprocess
 
 current_path = os.path.abspath(__file__)
 folder_path = os.path.dirname(current_path)
@@ -46,6 +47,7 @@ def handle_webhook():
     repo_path = 'YiMingBlog'
 
     # 执行 Git 命令拉取最新代码
+    shutil.rmtree("./dist")  # 删除后再执行
     subprocess.run(['git', '-C', repo_path, 'pull'])
     # subprocess.run(['bash', os.path.join(folder_path, "kill_80.sh")])
     # subprocess.run(['bash', os.path.join(folder_path, "start_build.sh")])

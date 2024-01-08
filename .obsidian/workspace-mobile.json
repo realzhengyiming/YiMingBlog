@@ -4,72 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "ebf487a2179c6549",
-        "type": "split",
+        "id": "317b3d3cb9609cb3",
+        "type": "tabs",
         "children": [
           {
-            "id": "aecde33a652a4141",
-            "type": "split",
-            "children": [
-              {
-                "id": "317b3d3cb9609cb3",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "1189b7eefdc89c07",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
-                        "mode": "source",
-                        "source": true
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "431cd8d74f3de991",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "8f5ed9015e84160d",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "300*.png.md",
-                        "mode": "source",
-                        "source": true
-                      }
-                    }
-                  }
-                ]
+            "id": "1189b7eefdc89c07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/personal/2024就业/再就业任务.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "direction": "vertical"
-          },
+            },
+            "group": "595311443d8db11b"
+          }
+        ]
+      },
+      {
+        "id": "a313aa22654e87f9",
+        "type": "tabs",
+        "children": [
           {
-            "id": "37384dfc4e5c887a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cdb7f9543fe80622",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "300*.png.md",
-                    "mode": "source",
-                    "source": true
-                  }
+            "id": "a892b48e409f49fd",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "YiMingBlog/personal/2024就业/再就业任务.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
                 }
               }
-            ]
+            },
+            "group": "595311443d8db11b"
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+            "file": "YiMingBlog/personal/2024就业/再就业任务.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -152,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+            "file": "YiMingBlog/personal/2024就业/再就业任务.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -164,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md"
+            "file": "YiMingBlog/personal/2024就业/再就业任务.md"
           }
         }
       }
@@ -173,6 +166,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "omnisearch:Omnisearch": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -183,8 +179,16 @@
   },
   "active": "1189b7eefdc89c07",
   "lastOpenFiles": [
-    "300*.png.md",
+    "YiMingBlog/personal/2024就业/再就业任务.md",
+    "YiMingBlog/personal/个人子空间.md",
+    "再就业任务主业.md",
+    "副业.md",
+    "YiMingBlog/00inbox/未命名.md",
+    "再就业任务｜主页.md",
+    "电商.md",
+    "YiMingBlog/personal/副业研究/复刻工厂产品业务线/复刻工厂产品业务线.md",
     "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
+    "300*.png.md",
     "YiMingBlog/static/300*300.png",
     "YiMingBlog/public/其他/vitepress.md",
     "YiMingBlog/personal/副业研究/自媒体研究/自动化进行解说类视频的剪辑.md",

@@ -26,6 +26,7 @@ export default defineConfig({
             {text: 'Home', link: '/'},
             {text: 'AI', link: '/Ai/Ai'},
             {text: '其他', link: '/其他/其他'},
+            {text: '后端', link: '/后端/后端'},
             {text: 'example', link: '/markdown-examples'},
         ],
 

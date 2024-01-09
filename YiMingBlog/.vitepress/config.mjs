@@ -14,7 +14,8 @@ export default defineConfig({
     assetsDir: 'static', //输出的文件夹,build后的
     outDir: '../dist',
     // cacheDir: "../cache",
-  cache: false, // 禁用缓存机制
+    cacheDir: false,
+  // cache: false, // 禁用缓存机制
 
     plugins: [
         '@vuepress/plugin-active-header-links'

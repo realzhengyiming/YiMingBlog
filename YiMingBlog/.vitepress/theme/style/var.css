@@ -1,0 +1,36 @@
+:root {
+    --vp-home-hero-name-color: rgb(65, 103, 42);
+    --vp-c-brand-1: rgb(65, 103, 42);
+    /*.VPNavBarMenuLink[data-v-8c5bf281]:hover {*/
+    /* color: var(--vp-c-brand-1); */
+    /* brand按钮 */
+    --vp-button-brand-border: rgb(65, 103, 42);
+    /*--vp-button-brand-text: rgb(0, 0, 0);*/
+    --vp-button-brand-bg: rgb(65, 103, 42);
+
+    --vp-button-brand-hover-border: rgb(80, 130, 60);
+    /*--vp-button-brand-hover-text: #fff;*/
+    --vp-button-brand-hover-bg: rgb(80, 130, 60);
+
+    /*--vp-button-brand-active-border: #F6CEEC;*/
+
+
+}
+
+.image-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: var(--vp-home-hero-image-background-image);
+    filter: var(--vp-home-hero-image-filter);
+    transform: translate(-50%, -50%);
+    background-size: cover; /* 或者使用 background-size: contain;，根据需要选择 */
+
+}
+
+/*.img {*/
+/*    */
+/*}*/

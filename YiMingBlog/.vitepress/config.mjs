@@ -5,8 +5,8 @@ export default defineConfig({
     head: [
         ['link', {rel: 'icon', href: '/static/yiminglogo2.png'}],
     ],
-    title: "My Awesome Project",
-    description: "A VitePress Site",
+    title: "YiMing's blog",
+    description: ":)",
     srcDir: 'public', // building的时候src? 直接设置跟目录就可以全部都读取到了
     ignoreDeadLinks: true,// 最好加上，构建时会忽略md中的外链
 
@@ -21,6 +21,8 @@ export default defineConfig({
         '@vuepress/plugin-active-header-links'
     ],
     themeConfig: {
+        logo: '/static/yiminglogo2.png',
+        siteTitle: "YiMing's Blog",
         search: {
             provider: 'local'
         },

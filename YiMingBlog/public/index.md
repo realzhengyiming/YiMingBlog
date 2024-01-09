@@ -5,7 +5,7 @@ hero:
   text: 技术与生活🤗
   tagline: 欢迎大家一起学习交流 :)
   image:
-    src: /static/yiminglogo2.png
+    src: /static/icons8-猫.gif
     alt: Yiming
   actions:
     - theme: brand

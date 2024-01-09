@@ -15,7 +15,7 @@ export default defineConfig({
     outDir: '../dist',
     // cacheDir: "../cache",
     cacheDir: false,
-  // cache: false, // 禁用缓存机制
+    // cache: false, // 禁用缓存机制
 
     plugins: [
         '@vuepress/plugin-active-header-links'
@@ -25,6 +25,10 @@ export default defineConfig({
         siteTitle: "YiMing's Blog",
         search: {
             provider: 'local'
+        },
+        footer: {
+            message: '2024 - future',
+            copyright: 'say my name!',
         },
         // https://vitepress.dev/reference/default-theme-config
         nav: [

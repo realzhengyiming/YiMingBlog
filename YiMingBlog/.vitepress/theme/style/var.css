@@ -13,23 +13,26 @@
     --vp-button-brand-hover-bg: rgb(80, 130, 60);
 
     /*--vp-button-brand-active-border: #F6CEEC;*/
+    /*--vp-home-hero-image-background-image: linear-gradient(135deg, rgb(65, 103, 42) 10%, rgb(78, 238, 148) 100%);*/
+    /*--vp-home-hero-image-filter: blur(50px);*/
 
 
 }
 
-.image-bg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-image: var(--vp-home-hero-image-background-image);
-    filter: var(--vp-home-hero-image-filter);
-    transform: translate(-50%, -50%);
-    background-size: cover; /* 或者使用 background-size: contain;，根据需要选择 */
+/*.image-bg {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    border-radius: 50%;*/
+/*    !*width: 50px;*!*/
+/*    max-width: 50px;*/
+/*    max-height: 50px;*/
+/*    background-image: var(--vp-home-hero-image-background-image);*/
+/*    filter: var(--vp-home-hero-image-filter);*/
+/*    transform: translate(-50%, -50%);*/
+/*    background-size: cover; !* 或者使用 background-size: contain;，根据需要选择 *!*/
 
-}
+/*}*/
 
 /*.img {*/
 /*    */

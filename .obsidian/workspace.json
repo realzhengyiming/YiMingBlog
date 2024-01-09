@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/index.md",
+                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/index.md",
+                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/index.md",
+                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/index.md"
+                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md"
               }
             }
           },
@@ -232,6 +232,8 @@
   "lastOpenFiles": [
     "dist/static/icons8-蜘蛛.gif",
     "dist/static/README-2024-01-07.png",
+    "dist/static/yiminglogo_small.png",
+    "dist/static/icons8-猫.gif",
     "dist/static/yiminglogo2.png",
     "dist/static/yiminglogo.png",
     "dist/static/这个是深度学习相关的-2024-01-07.png",
@@ -242,28 +244,28 @@
     "dist/后端/爬虫.html",
     "dist/后端/后端.html",
     "dist/后端",
-    "dist/前端/vitepress.html",
-    "dist/前端/前端.html",
-    "dist/前端",
-    "dist/其他/api-examples.html",
     "dist/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.html",
+    "dist/其他/其他.html",
+    "dist/其他/markdown-examples.html",
+    "dist/其他/api-examples.html",
+    "dist/其他",
     "node_modules/vue/README.md",
+    "YiMingBlog/public/index.md",
+    "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
+    "YiMingBlog/static/icons8-猫.gif",
     "YiMingBlog/001日记/日记/2024-01-09 周二.md",
     "YiMingBlog/001日记/日记/2024-01-08 周一.md",
     "YiMingBlog/001日记/日记/2024-01-07 周日.md",
     "YiMingBlog/00template/日记模板.md",
     "YiMingBlog/public/后端/爬虫.md",
-    "YiMingBlog/static/icons8-蜘蛛.gif",
     "YiMingBlog/public/后端/后端.md",
     "YiMingBlog/public/前端/vitepress.md",
     "YiMingBlog/public/其他/markdown-examples.md",
     "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/前端/前端.md",
     "YiMingBlog/public/其他/其他.md",
-    "YiMingBlog/public/index.md",
     "YiMingBlog/public/Ai/Ai.md",
     "YiMingBlog/personal/2024就业/00就业主页.md",
-    "YiMingBlog/static/yiminglogo2.png",
     "YiMingBlog/00template/博文模板.md",
     "YiMingBlog/00inbox/新的.md",
     "YiMingBlog/001日记/周记/2024-W02.md",
@@ -272,8 +274,6 @@
     "YiMingBlog/00template/文件夹汇总页模板.md",
     "YiMingBlog/00template/面试记录模板.md",
     "YiMingBlog/00template/元数据模版.md",
-    "YiMingBlog/personal/2024就业/投递记录/深圳小鹅通一面.md",
-    "YiMingBlog/personal/2024就业/投递记录/卓蚁科技二面.md",
-    "YiMingBlog/static/yiminglogo.png"
+    "YiMingBlog/personal/2024就业/投递记录/深圳小鹅通一面.md"
   ]
 }

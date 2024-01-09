@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/public/后端/爬虫.md",
+                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/00template/日记模板.md",
+                "file": "YiMingBlog/001日记/日记/2024-01-07 周日.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/public/后端/爬虫.md",
+                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/public/后端/爬虫.md",
+                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/public/后端/爬虫.md"
+                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md"
               }
             }
           },
@@ -213,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,8 +228,13 @@
       "audio-recorder:开始/结束录音": false
     }
   },
-  "active": "756bfe60f27a69b5",
+  "active": "49f449c992f0ed2a",
   "lastOpenFiles": [
+    "YiMingBlog/001日记/日记/2024-01-08 周一.md",
+    "YiMingBlog/001日记/日记/2024-01-07 周日.md",
+    "YiMingBlog/00template/日记模板.md",
+    "YiMingBlog/001日记/日记/2024-01-09 周二.md",
+    "YiMingBlog/public/后端/爬虫.md",
     "dist/static/icons8-蜘蛛.gif",
     "dist/static/README-2024-01-07.png",
     "dist/static/yiminglogo2.png",
@@ -250,20 +255,16 @@
     "node_modules/vue/README.md",
     "YiMingBlog/static/icons8-蜘蛛.gif",
     "YiMingBlog/public/后端/后端.md",
-    "YiMingBlog/public/后端/爬虫.md",
     "YiMingBlog/public/前端/vitepress.md",
     "YiMingBlog/public/其他/markdown-examples.md",
-    "YiMingBlog/00template/日记模板.md",
     "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/前端/前端.md",
     "YiMingBlog/public/其他/其他.md",
     "YiMingBlog/public/index.md",
     "YiMingBlog/public/Ai/Ai.md",
     "YiMingBlog/personal/2024就业/00就业主页.md",
-    "YiMingBlog/001日记/日记/2024-01-08 周一.md",
     "YiMingBlog/static/yiminglogo2.png",
     "YiMingBlog/00template/博文模板.md",
-    "YiMingBlog/001日记/日记/2024-01-07 周日.md",
     "YiMingBlog/00inbox/新的.md",
     "YiMingBlog/001日记/周记/2024-W02.md",
     "YiMingBlog/personal/2024就业/运筹学多目标相关.md",

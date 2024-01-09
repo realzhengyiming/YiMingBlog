@@ -4,6 +4,9 @@ hero:
   name: YiMing
   text: 技术与生活🤗
   tagline: 欢迎大家一起学习交流 :)
+image:
+    src: /static/yimingblog2.png
+    alt: Yiming
   actions:
     - theme: brand
       text: 开始阅读

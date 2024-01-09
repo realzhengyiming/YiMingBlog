@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md",
+                "file": "YiMingBlog/public/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md",
+                "file": "YiMingBlog/public/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md",
+                "file": "YiMingBlog/public/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-09 周二.md"
+                "file": "YiMingBlog/public/index.md"
               }
             }
           },
@@ -230,6 +230,7 @@
   },
   "active": "756bfe60f27a69b5",
   "lastOpenFiles": [
+    "YiMingBlog/001日记/日记/2024-01-09 周二.md",
     "dist/static/icons8-蜘蛛.gif",
     "dist/static/README-2024-01-07.png",
     "dist/static/yiminglogo2.png",
@@ -251,7 +252,6 @@
     "YiMingBlog/001日记/日记/2024-01-08 周一.md",
     "YiMingBlog/001日记/日记/2024-01-07 周日.md",
     "YiMingBlog/00template/日记模板.md",
-    "YiMingBlog/001日记/日记/2024-01-09 周二.md",
     "YiMingBlog/public/后端/爬虫.md",
     "YiMingBlog/static/icons8-蜘蛛.gif",
     "YiMingBlog/public/后端/后端.md",

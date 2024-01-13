@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /markdown-examples
+      link: /Ai/Ai
     - theme: alt
       text: API Examples
       link: /api-examples

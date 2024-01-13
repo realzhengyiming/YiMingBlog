@@ -4,59 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "d51dda8afc30d88b",
+        "id": "3e58e142114ac55a",
         "type": "tabs",
+        "dimension": 26.49945474372955,
         "children": [
           {
-            "id": "f69cf48fb8b83e0c",
+            "id": "2c4b99bd0d9f1c07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YiMingBlog/00inbox/手机上测试的一个文件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e64d6bc245b086e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YiMingBlog/public/后端/后端.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "756bfe60f27a69b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be190c03c7d9f11d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YiMingBlog/001日记/日记/2024-01-07 周日.md",
+                "file": "YiMingBlog/001日记/日记/2024-01-13 周六.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "e6f92404ab75db4e",
+        "type": "tabs",
+        "dimension": 73.50054525627044,
+        "children": [
+          {
+            "id": "5a51fb8351fb6648",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/public/Ai/Ai.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53d9cb38df46caa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/personal/2024就业/知识技术/stable diffusion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cba34232d279642",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YiMingBlog/00inbox/个人博客的Ai搜索聊天框应用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stable diffusion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.50390243530273
+    "width": 226.50390243530273
   },
   "right": {
     "id": "b50a678b57ac357a",
@@ -123,6 +130,7 @@
       {
         "id": "313e3b5436ffec8e",
         "type": "tabs",
+        "dimension": 40.98173515981735,
         "children": [
           {
             "id": "52805086ed0c6a1b",
@@ -130,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
+                "file": "YiMingBlog/public/Ai/Ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
+                "file": "YiMingBlog/public/Ai/Ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YiMingBlog/personal/副业研究/web3研究/GameFi.md"
+                "file": "YiMingBlog/public/Ai/Ai.md"
               }
             }
           },
@@ -195,11 +203,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "c5d7d1e00aa9418a",
         "type": "tabs",
+        "dimension": 59.018264840182646,
         "children": [
           {
             "id": "49f449c992f0ed2a",
@@ -213,7 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 214.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,55 +234,57 @@
       "command-palette:打开命令面板": false,
       "omnisearch:Omnisearch": false,
       "workspaces:管理工作区布局": false,
-      "audio-recorder:开始/结束录音": false
+      "audio-recorder:开始/结束录音": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "756bfe60f27a69b5",
+  "active": "5a51fb8351fb6648",
   "lastOpenFiles": [
-    "dist/static/icons8-蜘蛛.gif",
-    "dist/static/README-2024-01-07.png",
-    "dist/static/yiminglogo_small.png",
-    "dist/static/icons8-猫.gif",
-    "dist/static/yiminglogo2.png",
-    "dist/static/yiminglogo.png",
-    "dist/static/这个是深度学习相关的-2024-01-07.png",
-    "dist/static/5-kirby-su-topo.jpeg",
-    "dist/static/测试用的饺子截图.jpeg",
-    "dist/hashmap.json",
-    "dist/index.html",
-    "dist/后端/爬虫.html",
-    "dist/后端/后端.html",
-    "dist/后端",
-    "dist/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.html",
-    "dist/其他/其他.html",
-    "dist/其他/markdown-examples.html",
-    "dist/其他/api-examples.html",
-    "dist/其他",
-    "node_modules/vue/README.md",
-    "YiMingBlog/public/index.md",
-    "YiMingBlog/personal/副业研究/web3研究/GameFi.md",
-    "YiMingBlog/static/icons8-猫.gif",
-    "YiMingBlog/001日记/日记/2024-01-09 周二.md",
-    "YiMingBlog/001日记/日记/2024-01-08 周一.md",
-    "YiMingBlog/001日记/日记/2024-01-07 周日.md",
-    "YiMingBlog/00template/日记模板.md",
-    "YiMingBlog/public/后端/爬虫.md",
-    "YiMingBlog/public/后端/后端.md",
-    "YiMingBlog/public/前端/vitepress.md",
-    "YiMingBlog/public/其他/markdown-examples.md",
-    "YiMingBlog/public/其他/如何搭建obsidian-vitepress-github的协同的笔记博客系统.md",
     "YiMingBlog/public/前端/前端.md",
     "YiMingBlog/public/其他/其他.md",
-    "YiMingBlog/public/Ai/Ai.md",
-    "YiMingBlog/personal/2024就业/00就业主页.md",
+    "YiMingBlog/personal/2024就业/知识技术/RAG.md",
+    "YiMingBlog/001日记/日记/2024-01-13 周六.md",
+    "YiMingBlog/00inbox/个人博客的Ai搜索聊天框应用.md",
+    "YiMingBlog/00template/调查模版.md",
     "YiMingBlog/00template/博文模板.md",
-    "YiMingBlog/00inbox/新的.md",
-    "YiMingBlog/001日记/周记/2024-W02.md",
-    "YiMingBlog/personal/2024就业/运筹学多目标相关.md",
-    "YiMingBlog/personal/2024就业/投递记录/投递记录汇总页.md",
-    "YiMingBlog/00template/文件夹汇总页模板.md",
-    "YiMingBlog/00template/面试记录模板.md",
-    "YiMingBlog/00template/元数据模版.md",
-    "YiMingBlog/personal/2024就业/投递记录/深圳小鹅通一面.md"
+    "YiMingBlog/static/RAG-工作流程-引用自Langchain-Chatchat readme2024-01-13.png",
+    "YiMingBlog/personal/00无所事事你就来把这些坑填上/需要拓展补充调研的笔记.md",
+    "YiMingBlog/personal/2024就业/知识技术/Zero-shot One-shot 和 few-shot.md",
+    "YiMingBlog/personal/2024就业/知识技术/大数据.md",
+    "YiMingBlog/personal/2024就业/知识技术/Spark生态技术.md",
+    "YiMingBlog/personal/2024就业/知识技术/生成式模型.md",
+    "YiMingBlog/personal/2024就业/知识技术/运筹学多目标相关.md",
+    "YiMingBlog/personal/2024就业/知识技术/kohya_ss.md",
+    "YiMingBlog/personal/2024就业/00就业主页.md",
+    "YiMingBlog/personal/2024就业/知识技术/OCR技术.md",
+    "YiMingBlog/personal/2024就业/知识技术/NeRF技术(三维重建).md",
+    "YiMingBlog/personal/2024就业/知识技术/ONNX格式.md",
+    "YiMingBlog/personal/2024就业/知识技术/激活函数.md",
+    "YiMingBlog/personal/2024就业/知识技术/stable diffusion.md",
+    "YiMingBlog/personal/2024就业/知识技术/stable diffusion lora模型训练.md",
+    "YiMingBlog/personal/2024就业/知识技术/stable diffusion 模型训练.md",
+    "YiMingBlog/personal/2024就业/知识技术/深度学习.md",
+    "YiMingBlog/personal/2024就业/知识技术/模型部署.md",
+    "YiMingBlog/personal/2024就业/知识技术/stable diffusion.md",
+    "YiMingBlog/personal/2024就业/知识技术/Faster-RCNN.md",
+    "YiMingBlog/static/Pasted image 20240113094430.png",
+    "YiMingBlog/static/Spark生态技术-spark运行时候关键节点-2024-01-12.png",
+    "YiMingBlog/static/Spark生态技术 spark运行流程 2024-01-12-1.png",
+    "YiMingBlog/static/Spark生态技术-2024-01-12.png",
+    "YiMingBlog/personal/00无所事事你就来把这些坑填上",
+    "YiMingBlog/personal/副业研究/web3研究/未命名",
+    "YiMingBlog/personal/2024就业/知识技术",
+    "YiMingBlog/personal/个人成长",
+    "YiMingBlog/static/stable diffusion lora模型训练-2024-01-11.png",
+    "YiMingBlog/personal/2024就业/面试简历",
+    "YiMingBlog/static/深度学习-2024-01-10.png",
+    "YiMingBlog/static/模型部署-2024-01-10-1.png",
+    "YiMingBlog/static/web3资讯汇总页面-2024-01-10.png",
+    "YiMingBlog/static/模型部署-2024-01-10.png",
+    "YiMingBlog/personal/历史技术项目",
+    "YiMingBlog/personal/副业研究/未命名",
+    "dist/hashmap.json",
+    "dist/index.html",
+    "dist/后端/爬虫.html"
   ]
 }

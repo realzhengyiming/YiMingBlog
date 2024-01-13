@@ -1,5 +1,6 @@
 {
   "accentColor": "#96d35f",
   "showViewHeader": true,
-  "theme": "moonstone"
+  "theme": "system",
+  "baseFontSize": 18
 }

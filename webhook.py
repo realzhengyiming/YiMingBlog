@@ -54,7 +54,7 @@ def handle_webhook():
     # subprocess.run(['bash', os.path.join(folder_path, "kill_80.sh")])
     # subprocess.run(['bash', os.path.join(folder_path, "start_build.sh")])
     # 执行重新拉取和发布的命令
-    subprocess.run(['bash', os.path.join(folder_path, "start_preview.sh")])  # 构建放到了远程构建
+    subprocess.run(['bash', os.path.join(folder_path, "restart_nginx.sh")])  # 构建放到了远程构建
 
     return 'Webhook received'
 

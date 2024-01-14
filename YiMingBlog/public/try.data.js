@@ -34,7 +34,12 @@ function getFilesInDir(dir, ext, fileList = []) {
 
 // 使用方法：提供要搜索的目录和扩展名（在本例中为.md）
 const mdFiles = getFilesInDir('./public', '.md');
-const sort_md_files = sortByCreationTime(mdFiles);
+let sort_md_files = sortByCreationTime(mdFiles);
+sort_md_files = sort_md_files.filter(filePath => filePath !== 'public/post.md');
+sort_md_files = sort_md_files.filter(filePath => !filePath.includes('汇总页'));
+sort_md_files = sort_md_files.map(filePath => filePath.replace('public', ''));
+sort_md_files = sort_md_files.map(filePath => filePath.replace('.md', ''));
+
 
 // console.log(mdFiles);
 

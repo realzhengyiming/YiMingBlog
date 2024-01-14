@@ -10,10 +10,8 @@ hero:
   actions:
     - theme: brand
       text: 最新文章
-      link: /Ai/Ai
-    - theme: alt
-      text: github
-      link: /api-examples
+      link: /post
+
 features:
   - title: 爬虫
     details: 数据获取抓取技术交流

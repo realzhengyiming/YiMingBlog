@@ -73,6 +73,4 @@ vitepress 按照官方教程配置好了就可以, 我这边的配置文件是�
 最后一步就是启动接收webhook请求的服务, 在github 接收到push的时候发送webhook请求, 触发服务器重新build和重启nginx服务即可.
 
 
-
-
 >[realzhengyiming/YiMingBlog: a... new blog again ,:) (github.com)](https://github.com/realzhengyiming/YiMingBlog)

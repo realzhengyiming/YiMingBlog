@@ -8,9 +8,6 @@ datetime: 2024-01-13 21:32
 ---
 
 
-# 给我看看给我看看
-
-
 <script setup>
 import { data as posts } from './try.data.js'
 </script>

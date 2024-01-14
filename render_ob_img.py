@@ -45,6 +45,34 @@ def process_html_file_img(file_path):
     with open(file_path, 'w') as f:
         f.writelines(new_lines)
 
+    # with open(file_path, 'r') as f:
+    #     lines = f.readlines()
+    #
+    # new_lines = []
+    # for line in lines:
+    #     matches = re.findall(r'!\[\[(.*?)\]\]', line)
+    #     if matches:
+    #         for match in matches:
+    #             # 匹配到了![[a.xxx]]这段内容，提取出a.xxx
+    #             filename = match
+    #             # 判断文件类型是否为SVG格式
+    #             _, ext = os.path.splitext(filename)
+    #             if ext.lower() == ".svg":
+    #                 # 如果是SVG格式，则使用<object>标签嵌入SVG图像
+    #                 new_line = re.sub(r'(!\[\[.*?\]\])',
+    #                                   f'<object data="/static/{filename}" type="image/svg+xml"><img src="/static/{filename}"/></object>',
+    #                                   line, count=1)
+    #             else:
+    #                 # 如果不是SVG格式，则使用<img>标签显示图像
+    #                 new_line = re.sub(r'(!\[\[.*?\]\])', f'<img src="/static/{filename}"/>', line, count=1)
+    #             line = new_line
+    #         new_lines.append(line)
+    #     else:
+    #         new_lines.append(line)
+    #
+    # with open(file_path, 'w') as f:
+    #     f.writelines(new_lines)
+
 
 def traverse_directory(directory):
     for root, dirs, files in os.walk(directory):

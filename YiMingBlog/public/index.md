@@ -2,17 +2,17 @@
 layout: home
 hero:
   name: YiMing
-  text: 技术与生活🤗
-  tagline: 欢迎大家一起学习交流 :)
+  text: 记录技术与生活
+  tagline: code for fun
   image:
     src: /static/icons8-猫.gif
     alt: Yiming
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 最新文章
       link: /Ai/Ai
     - theme: alt
-      text: API Examples
+      text: github
       link: /api-examples
 features:
   - title: 爬虫

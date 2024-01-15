@@ -5,6 +5,7 @@
     "docs:preview": "cp -r ./YiMingBlog/static ./dist && cd YiMingBlog && vitepress preview --host 0.0.0.0 --port 80"
   },
   "dependencies": {
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "moment": "^2.30.1"
   }
 }

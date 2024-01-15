@@ -16,7 +16,8 @@ import { data as posts } from './try.data.js'
   <h1>All Blog Posts</h1>
   <ul>
     <li v-for="post of posts.latest_blogs">
-      <a :href="post">{{ post }}</a>
+      <a :href="post[0]">{{ post[2] }}</a>
+        <span>{{post[1]}}</span>
     </li>
   </ul>
 </template>

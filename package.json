@@ -1,7 +1,7 @@
 {
   "scripts": {
     "docs:dev": "cd YiMingBlog && vitepress dev",
-    "docs:build": "cd YiMingBlog && vitepress build && cd ../ && python render_ob_img.py",
+    "docs:build": "cd YiMingBlog && vitepress build --force && cd ../ && python render_ob_img.py",
     "docs:preview": "cp -r ./YiMingBlog/static ./dist && cd YiMingBlog && vitepress preview --host 0.0.0.0 --port 80"
   },
   "dependencies": {

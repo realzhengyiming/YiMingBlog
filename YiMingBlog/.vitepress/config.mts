@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 //侧边栏的路由表
 import { ai } from './router/ai_sidebar.js'
 import { data } from './router/data_sidebar.js'
+const vitepressCustomSyntaxPlugin = require('./vitepress-custom-syntax-plugin.js');
 
 
 // https://vitepress.dev/reference/site-config
@@ -19,6 +20,12 @@ export default defineConfig({
   assetsDir: 'static', //输出的文件夹,build后的
   outDir: '../dist',
   cacheDir: "./cache",
+
+    markdown: {
+    config(md) {
+      md.use(vitepressCustomSyntaxPlugin)
+    }
+  }, // render的markdown
 
   themeConfig: {
     logo: '/static/yiminglogo2.png',

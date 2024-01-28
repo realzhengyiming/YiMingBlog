@@ -42,8 +42,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       {
         text: 'AI', items: [
-          { text: '机器学习', link: '/ML/dl/深度学习.md' },
-          { text: '深度学习', link: '/ML/dl/机器学习.md' },
+          { text: '机器学习', link: '/ML/ml/机器学习.md' },
+          { text: '深度学习', link: '/ML/dl/深度学习.md' },
         ]
       },
       {

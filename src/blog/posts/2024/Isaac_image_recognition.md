@@ -1,7 +1,7 @@
 ---
 title: 以撒道具/饰品图像识别
 time: 14:37
-description: 自定义训练数据的以撒道具图像识别
+description: 自定义训练数据的以撒道具图像识别, 《以撒的结合》训练数据道具装备识别
 navbar: true
 sidebar: true
 footer: true

@@ -1,8 +1,12 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@jcamp/vitepress-blog-theme':
-    specifier: 0.3.0
+    specifier: ^0.3.0
     version: 0.3.0(vitepress@1.0.0-alpha.74)
   vitepress:
     specifier: 1.0.0-alpha.74

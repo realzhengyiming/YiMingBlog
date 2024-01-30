@@ -18,7 +18,7 @@ export default defineConfig({
     },
     blog: {
       title: '博文',
-      description: '👁',
+      description: '✍️',
       defaultAuthor: 'YiMing',
       categoryIcons: {
         article: 'i-[heroicons-outline/book-open]',

@@ -4,10 +4,27 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Tue, 30 Jan 2024 04:05:26 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jan 2024 07:02:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[以撒目标检测]]></title>
+            <link>localhost/blog/blog/posts/2024/isaac_object_detection.html</link>
+            <guid>localhost/blog/blog/posts/2024/isaac_object_detection.html</guid>
+            <pubDate>Tue, 30 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[<h1 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h1>
+<p>上篇文章把《以撒的结合》道具/饰品图片识别的做出来了, 能用是能用, 但是使用场景比较狭隘, 还需要拍照和截图, 得部署到移动设备+编写应用的形式才可以比较好体验, 短期内不太想搞移动app. 于是就想着要不练一个目标检测的模型, 然后通过直接截取应用视频流的形式, 实时/小延时的对画面进行推理和检测, 以<strong>外挂</strong>的形式注入游戏中, 增强体验.<br>
+于是就诞生了本文《以撒的结合》目标检测 😃</p>
+]]></description>
+            <content:encoded><![CDATA[<h1 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h1>
+<p>上篇文章把《以撒的结合》道具/饰品图片识别的做出来了, 能用是能用, 但是使用场景比较狭隘, 还需要拍照和截图, 得部署到移动设备+编写应用的形式才可以比较好体验, 短期内不太想搞移动app. 于是就想着要不练一个目标检测的模型, 然后通过直接截取应用视频流的形式, 实时/小延时的对画面进行推理和检测, 以<strong>外挂</strong>的形式注入游戏中, 增强体验.<br>
+于是就诞生了本文《以撒的结合》目标检测 😃</p>
+<hr>
+<h2 id="需求目标" tabindex="-1">需求目标 <a class="header-anchor" href="#需求目标" aria-label="Permalink to &quot;需求目标&quot;">&ZeroWidthSpace;</a></h2>
+<p>就是实时/小延迟的目标检测需求, 然后需要截取视频流的</p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[以撒道具/饰品图像识别]]></title>
             <link>localhost/blog/blog/posts/2024/Isaac_image_recognition.html</link>

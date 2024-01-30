@@ -7,7 +7,7 @@ navbar: true
 sidebar: true
 footer: true
 date: 2024-01-30
-author: YiMing
+author: Yi Ming
 category: Tutorial
 next: true
 tags:

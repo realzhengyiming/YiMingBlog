@@ -7,7 +7,7 @@ sidebar: true
 footer: true
 date: 2024-01-15
 category: Article
-author: YiMing
+author: Yi Ming
 next: true
 tags:
   - 深度学习

@@ -1,5 +1,5 @@
 ---
-name: Blog owner
+name: Blog Owner
 avatar: https://avatars.githubusercontent.com/u/26131338?v=4
 ---
 

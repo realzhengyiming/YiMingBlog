@@ -37,7 +37,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
-      // { text: 'Theme Test', link: '/theme-test' },
       {
         text: 'Blog',
         items: [
@@ -62,6 +61,8 @@ export default defineConfig({
           // },
         ],
       },
+      { text: 'About', link: '/blog/authors/YiMing' },
+
     ],
 
     sidebar: [

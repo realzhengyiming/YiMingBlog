@@ -1,7 +1,7 @@
 ---
-title: deploy_model
+title: dl_model_deploy
 datetime: 2024-01-30
-time: 15:06
+time: 16:06
 description: 
 navbar: true
 sidebar: true
@@ -12,6 +12,7 @@ category: Tutorial
 next: true
 tags:
   - 深度学习
+  - 模型部署
 ---
 
 此处直接写前言, 所谓的前言就是写这篇文章的目的?

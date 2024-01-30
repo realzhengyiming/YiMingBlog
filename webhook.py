@@ -49,13 +49,11 @@ def handle_webhook():
     # 执行 Git 命令拉取最新代码
     dist_path = "./dist"
     if os.path.exists(dist_path):
-        shutil.rmtree("./dist")  # 删除后再执行
+        shutil.rmtree("./dist")
     subprocess.run(['sh', "git_pull.sh"])
-    # subprocess.run(['bash', os.path.join(folder_path, "kill_80.sh")])
-    # subprocess.run(['bash', os.path.join(folder_path, "start_build.sh")])
-    # 执行重新拉取和发布的命令
-    subprocess.run(['bash', os.path.join(folder_path, "restart_nginx.sh")])  # 构建放到了远程构建
+    subprocess.run(['bash', os.path.join(folder_path, "restart_nginx.sh")])
 
+    # 只有这两句就可以， 轻量级，不需要远程build， 远程nginx直接启动就可以
     return 'Webhook received'
 
 

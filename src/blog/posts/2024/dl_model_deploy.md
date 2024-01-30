@@ -7,7 +7,7 @@ navbar: true
 sidebar: true
 footer: true
 date: 2024-01-30
-author: YiMing
+author: Yi Ming
 category: Tutorial
 next: true
 tags:
@@ -22,3 +22,4 @@ tags:
 ![](pic/iShot_2024-01-26_13.41.29.png)
 这就是我想要的效果, 图片可以自动的上传到对应的位置, 并且不会受影响, 很方便的进行更新内容.
 模型部署的情况
+

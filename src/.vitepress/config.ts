@@ -61,7 +61,7 @@ export default defineConfig({
           // },
         ],
       },
-      { text: 'About', link: '/blog/authors/YiMing' },
+      { text: 'About', link: '/blog/authors/yi-ming' },
 
     ],
 

@@ -8,7 +8,7 @@ sidebar: true
 footer: true
 date: 2024-01-14
 author: Yi Ming
-category: Document
+category: Article
 next: true
 tags:
   - vitepress

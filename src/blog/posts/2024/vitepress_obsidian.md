@@ -1,5 +1,5 @@
 ---
-title: vitepress_obsidian
+title: vitepress和obsidian一键舒适写文/发文
 datetime: 2024-02-01
 time: 16:08
 description: vitepress 和obsidian结合,  vitepress combine obsidian note, is good
@@ -69,4 +69,8 @@ server {
 
 obsidian 写笔记/博文 --> vitepress build --> github --> nginx.  
 详细请查看仓库代码. 体验非常简单和舒服! 这下没有理由不输出文章了🤡hhh...
+
+拓展:  
+obsidian的`shell commands`插件可以自定义执行cmd命令. 所以,一切皆有可能, 比如后续如果有多平台的发文需求, 那直接编写好对应平台的发文的自动化代码, 然后,只需要在 `shell command`中增加一条触发命令就可以了. 真正做到, 一键写文/ 发文! 
+
 >[realzhengyiming/YiMingBlog: a... new blog again](https://github.com/realzhengyiming/YiMingBlog)

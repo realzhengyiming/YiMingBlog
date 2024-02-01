@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Thu, 01 Feb 2024 08:37:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 08:42:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -512,7 +512,7 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[vitepress_obsidian]]></title>
+            <title><![CDATA[vitepress和obsidian一键舒适写文/发文]]></title>
             <link>localhost/blog/blog/posts/2024/vitepress_obsidian.html</link>
             <guid>localhost/blog/blog/posts/2024/vitepress_obsidian.html</guid>
             <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
@@ -569,6 +569,8 @@ nginx配置也很简单, 安装好后, nginx 即可启动.</p>
 <h2 id="总结" tabindex="-1">总结 <a class="header-anchor" href="#总结" aria-label="Permalink to &quot;总结&quot;">&ZeroWidthSpace;</a></h2>
 <p>obsidian 写笔记/博文 --&gt; vitepress build --&gt; github --&gt; nginx.<br>
 详细请查看仓库代码. 体验非常简单和舒服! 这下没有理由不输出文章了🤡hhh...</p>
+<p>拓展:<br>
+obsidian的<code>shell commands</code>插件可以自定义执行cmd命令. 所以,一切皆有可能, 比如后续如果有多平台的发文需求, 那直接编写好对应平台的发文的自动化代码, 然后,只需要在 <code>shell command</code>中增加一条触发命令就可以了. 真正做到, 一键写文/ 发文!</p>
 <blockquote>
 <p><a href="https://github.com/realzhengyiming/YiMingBlog" target="_blank" rel="noreferrer">realzhengyiming/YiMingBlog: a... new blog again</a></p>
 </blockquote>

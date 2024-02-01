@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Thu, 01 Feb 2024 08:34:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 08:37:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -523,8 +523,7 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
 <li>写作不方便: 可视化富文本编辑器实在用得难受</li>
 <li>发布不方便: 只能用网页进行编辑的话, 流程繁琐</li>
 <li>站点访问卡顿:(本人服务器配置是最低档)</li>
-<li>习惯难以养成: 自己虽然说有写笔记的习惯, 但是并没有打开网页写文章的习惯, 加上(1,2,3的难受用户体验, 进一步在开头的热情结束后, 打消了自己写东西的热情)<br>
-刚好, 今年2024年开头, 我发现了一个不错的笔记应用obsidian, 初步体验下来, 我直接放弃了notion (使用notion的时候遇到了上面列出来的问题).  并且机缘巧合查阅资料之时, 也让我看到了vitepress 博客, 于是两者一拍即合, 有了新文章和这个新博客.</li>
+<li>习惯难以养成: 自己虽然说有写笔记的习惯, 但是并没有打开网页写文章的习惯, 加上(1,2,3的难受用户体验, 进一步在开头的热情结束后, 打消了自己写东西的热情)</li>
 </ol>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h1>
@@ -534,10 +533,10 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
 <li>写作不方便: 可视化富文本编辑器实在用得难受</li>
 <li>发布不方便: 只能用网页进行编辑的话, 流程繁琐</li>
 <li>站点访问卡顿:(本人服务器配置是最低档)</li>
-<li>习惯难以养成: 自己虽然说有写笔记的习惯, 但是并没有打开网页写文章的习惯, 加上(1,2,3的难受用户体验, 进一步在开头的热情结束后, 打消了自己写东西的热情)<br>
-刚好, 今年2024年开头, 我发现了一个不错的笔记应用obsidian, 初步体验下来, 我直接放弃了notion (使用notion的时候遇到了上面列出来的问题).  并且机缘巧合查阅资料之时, 也让我看到了vitepress 博客, 于是两者一拍即合, 有了新文章和这个新博客.</li>
+<li>习惯难以养成: 自己虽然说有写笔记的习惯, 但是并没有打开网页写文章的习惯, 加上(1,2,3的难受用户体验, 进一步在开头的热情结束后, 打消了自己写东西的热情)</li>
 </ol>
 <hr>
+<p>刚好, 今年2024年开头, 我发现了一个不错的笔记应用obsidian, 初步体验下来, 我直接放弃了notion (使用notion的时候遇到了上面列出来的问题).  并且机缘巧合查阅资料之时, 也让我看到了vitepress 博客, 于是两者一拍即合, 有了新文章和这个新博客.</p>
 <h1 id="思路" tabindex="-1">思路 <a class="header-anchor" href="#思路" aria-label="Permalink to &quot;思路&quot;">&ZeroWidthSpace;</a></h1>
 <p>组合的流程结构图如下:<br>
 <img src="./pic/vitepress_obsidian_combine_struct.png" alt=""></p>

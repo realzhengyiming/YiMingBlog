@@ -1,6 +1,6 @@
 ---
 title: vitepress和obsidian一键舒适写文/发文
-datetime: 2024-02-01
+datetime: 2024-01-14
 time: 16:08
 description: vitepress 和obsidian结合,  vitepress combine obsidian note, is good
 navbar: true

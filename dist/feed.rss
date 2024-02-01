@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Thu, 01 Feb 2024 16:50:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 16:54:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -516,7 +516,8 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
             <link>localhost/blog/blog/posts/2024/try_my_div2.html</link>
             <guid>localhost/blog/blog/posts/2024/try_my_div2.html</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<MyDiv /><MyDiv2 />]]></content:encoded>
+            <content:encoded><![CDATA[<h2 id="此处是实验-实验自定义的vue组件的效果-下面那个就是" tabindex="-1">此处是实验, 实验自定义的vue组件的效果, 下面那个就是 <a class="header-anchor" href="#此处是实验-实验自定义的vue组件的效果-下面那个就是" aria-label="Permalink to &quot;此处是实验, 实验自定义的vue组件的效果, 下面那个就是&quot;">&ZeroWidthSpace;</a></h2>
+<MyDiv2 />]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[vitepress和obsidian一键舒适写文/发文]]></title>

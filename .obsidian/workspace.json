@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_obsidian.md",
+                "file": "src/blog/posts/2024/llm_agent.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_obsidian.md",
+                "file": "src/blog/posts/2024/llm_agent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_obsidian.md",
+                "file": "src/blog/posts/2024/llm_agent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_obsidian.md"
+                "file": "src/blog/posts/2024/llm_agent.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "96cbfc122c34877a",
   "lastOpenFiles": [
+    "src/blog/posts/2024/vitepress_obsidian.md",
+    "src/blog/posts/2024/llm_agent.md",
+    "src/blog/posts/2024/try_my_div.md",
     "dist/feed.rss",
     "dist/hashmap.json",
     "dist/index.html",
@@ -158,12 +161,9 @@
     "dist/blog/posts/2024/Isaac_image_recognition.html",
     "dist/blog/posts/2024",
     "dist/blog/authors/yi-ming.html",
-    "dist/blog/2023/post_00004.html",
     "00template/博文教程模板.md",
     "00template/博文文章模板.md",
     "00template/博文文档模板.md",
-    "src/blog/posts/2024/llm_agent.md",
-    "src/blog/posts/2024/vitepress_obsidian.md",
     "src/blog/posts/2024/Isaac_image_recognition.md",
     "dist/assets/vitepress_obsidian-plus-command.5c03c3a4.png",
     "dist/assets/vitepress_obsidian_combine_struct.bdc9316e.png",

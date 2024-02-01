@@ -73,4 +73,5 @@ obsidian 写笔记/博文 --> vitepress build --> github --> nginx.
 拓展:  
 obsidian的`shell commands`插件可以自定义执行cmd命令. 所以,一切皆有可能, 比如后续如果有多平台的发文需求, 那直接编写好对应平台的发文的自动化代码, 然后,只需要在 `shell command`中增加一条触发命令就可以了. 真正做到, 一键写文/ 发文! 
 
+
 >[realzhengyiming/YiMingBlog: a... new blog again](https://github.com/realzhengyiming/YiMingBlog)

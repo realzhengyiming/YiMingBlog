@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Thu, 01 Feb 2024 13:43:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 14:31:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -507,7 +507,7 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
 <h1 id="llm-agent应用" tabindex="-1">llm Agent应用 <a class="header-anchor" href="#llm-agent应用" aria-label="Permalink to &quot;llm Agent应用&quot;">&ZeroWidthSpace;</a></h1>
 <p>和RAG的关系:
 这种形式的一个特点就是, 目前增强的还是侧重于自然语言的任务和工作. 和<code>llm agent</code>相比,  <code>agent</code>的功能可以囊括这个, agent还可以处理非自然语言的, 类似api之类的工作. 所以看起来, agent其实可以覆盖部分RAG的概念范围.</p>
-<p>所以以后非文本的任务时候就是agent思维.
+<p>所以以后非文本的任务时候就可以考虑agent, agent囊括其他工具的调用.
 <img src="./pic/rag和agent的关系.excalidraw.png" alt=""></p>
 ]]></content:encoded>
         </item>

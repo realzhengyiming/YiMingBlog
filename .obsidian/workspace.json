@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/blog/posts/2024/Isaac_image_recognition.md",
+                "file": "src/blog/posts/2024/vitepress_obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/blog/posts/2024/Isaac_image_recognition.md",
+                "file": "src/blog/posts/2024/vitepress_obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/blog/posts/2024/Isaac_image_recognition.md",
+                "file": "src/blog/posts/2024/vitepress_obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/blog/posts/2024/Isaac_image_recognition.md"
+                "file": "src/blog/posts/2024/vitepress_obsidian.md"
               }
             }
           }
@@ -146,28 +146,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "80d5f5278c6661fb",
+  "active": "96cbfc122c34877a",
   "lastOpenFiles": [
+    "src/blog/posts/2024/Isaac_image_recognition.md",
+    "src/blog/posts/2024/vitepress_obsidian.md",
+    "src/blog/posts/2024/pic/vitepress_obsidian-plus-command.png",
+    "src/blog/posts/2024/pic/vitepress_obsidian_combine_struct.png",
+    "src/blog/posts/2024/pic/iShot_2024-01-26_13.41.29.png",
+    "src/blog/posts/2024/pic/rag和agent的关系.excalidraw.png",
+    "src/blog/posts/2024/pic/Pasted image 20240201160923.png",
+    "00template/博文教程模板.md",
+    "00template/博文文档模板.md",
+    "00template/博文文章模板.md",
+    "dist/feed.rss",
+    "dist/404.html",
+    "dist/assets/blog_posts_2024_Isaac_image_recognition.md.4029e524.lean.js",
+    "dist/assets/blog_posts_2024_isaac_object_detection.md.ce4ef2e2.lean.js",
+    "dist/assets/blog_2023_post_00003.md.ab5caa12.lean.js",
+    "dist/assets/blog_2023_post_00005.md.62704735.lean.js",
+    "dist/assets/blog_2023_post_00004.md.ea295274.lean.js",
+    "dist/assets/blog_archives.md.623bcfb1.lean.js",
+    "dist/assets/blog_2023_post_00001.md.2c7efbcf.lean.js",
+    "dist/assets/blog_2023_post_00002.md.fedc3c16.lean.js",
     "src/blog/posts/2024/isaac_object_detection.md",
     "src/blog/posts/2024/llm_agent.md",
     "src/blog/authors/yi-ming.md",
-    "未发布",
-    "src/blog/posts/2024/Isaac_image_recognition.md",
-    "dist/feed.rss",
-    "dist/blog/2023/post_00002.html",
-    "dist/blog/2023/post_00001.html",
-    "dist/blog/2022/post2.html",
-    "dist/blog/2022/post1.html",
-    "dist/404.html",
-    "dist/assets/blog_posts_2024_isaac_object_detection.md.2c6c2f57.lean.js",
-    "dist/assets/blog_2022_post2.md.30b10c68.lean.js",
-    "dist/assets/blog_2023_post_00002.md.fedc3c16.lean.js",
     "未发布/dl_model_deploy.md",
-    "00template/博文文章模板.md",
-    "00template/博文文档模板.md",
-    "00template/博文教程模板.md",
     "dist/assets/iShot_2024-01-26_13.41.29.edc146fc.png",
-    "src/blog/posts/2024/pic/iShot_2024-01-26_13.41.29.png",
     "dist/128x128_indexhead.png",
     "node_modules/@rollup/rollup-darwin-x64/README.md",
     "node_modules/@types/estree/README.md",
@@ -185,13 +190,8 @@
     "node_modules/@jcamp/vitepress-blog-theme/node_modules/vitepress/template/markdown-examples.md",
     "node_modules/@jcamp/vitepress-blog-theme/node_modules/vitepress/template/index.md",
     "node_modules/@jcamp/vitepress-blog-theme/node_modules/vitepress/template/api-examples.md",
-    "node_modules/@jcamp/vitepress-blog-theme/node_modules/@vitejs/plugin-vue/README.md",
     "src/blog/posts/2022/e.png",
     "src/blog/posts/2023/folder_pic/pro.jpg",
-    "dist/assets/rag和agent的关系.excalidraw.172970c8.png",
-    "src/blog/posts/2024/pic/rag和agent的关系.excalidraw.png",
-    "src/blog/posts/2024/pic/自定义训练数据图像识别-2024-01-29.png",
-    "dist/assets/自定义训练数据图像识别-结果总结-2024-01-29.6146e566.png",
-    "dist/assets/自定义训练数据图像识别-验证真实结果-2024-01-29.6019a0bc.png"
+    "dist/assets/rag和agent的关系.excalidraw.172970c8.png"
   ]
 }

@@ -332,7 +332,7 @@ def eval_predict(model, image_path):
 
 ## 验证结果可视化   
 
-推理, 并且得到前10个最像的类型, 优化用户体验. 因为训练数据有限, 所以才用了增加找回的形式给用户选择.毕竟,本质是方便用户识别道具类型.  
+推理, 并且得到前10个最像的类型, 优化用户体验. 因为训练数据有限, 所以才用增加召回数量和显示各个种类识别率的形式给用户选择.毕竟,本质是方便用户识别道具类型.  
 ```python
 import torch.nn.functional as F
 from PIL import Image, ImageDraw, ImageFont
@@ -478,7 +478,7 @@ model save:  20240201_full_32x32_clear_906class_l2_2-_resnet101_4_96.507.pth
 
 一开始用vgg, 用的是224x224的图片输入, 后面为了提速.因为是像素画,只要不要平滑, 32x32也足够清晰, 所以就调整vgg结构, 方便进行增加更多的batch_size进行更快的训练.及时调整了输入图片的尺寸以后, 我的电脑训练起来也快了很多, 40多分钟就可以完成25轮 128batch_size的模型训练, 体验还不错!    
 
-然后就是, 可以的话, 主动挑选更新的代码, 老的模型, 经典, 但是效果远不如新一些的模型.
+然后就是, 可以的话, 主动挑选更新的代码, 老的模型, 经典, 但是效果远不如新一些的模型.ResNet更快收敛, 更快训练(笑...)
 
 [模型训练完整代码](https://github.com/realzhengyiming/isaac_tools/blob/main/simple_issac_item_recognition-%E5%85%A8%E9%87%8F%E8%AE%AD%E7%BB%83%E7%9A%84%E7%89%88%E6%9C%AC.ipynb)  
 [数据获取和处理的完整代码](https://github.com/realzhengyiming/isaac_tools/blob/main/isaac_data_spider.py)

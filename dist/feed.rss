@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Thu, 01 Feb 2024 14:31:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Feb 2024 16:50:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -510,6 +510,13 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
 <p>所以以后非文本的任务时候就可以考虑agent, agent囊括其他工具的调用.
 <img src="./pic/rag和agent的关系.excalidraw.png" alt=""></p>
 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[try my div2]]></title>
+            <link>localhost/blog/blog/posts/2024/try_my_div2.html</link>
+            <guid>localhost/blog/blog/posts/2024/try_my_div2.html</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<MyDiv /><MyDiv2 />]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[vitepress和obsidian一键舒适写文/发文]]></title>

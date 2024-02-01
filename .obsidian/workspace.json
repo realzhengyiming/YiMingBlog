@@ -146,12 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "96cbfc122c34877a",
+  "active": "80d5f5278c6661fb",
   "lastOpenFiles": [
     "src/blog/posts/2024/isaac_object_detection.md",
     "src/blog/posts/2024/llm_agent.md",
     "src/blog/authors/yi-ming.md",
-    "src/未发布",
+    "未发布",
     "src/blog/posts/2024/Isaac_image_recognition.md",
     "dist/feed.rss",
     "dist/blog/2023/post_00002.html",
@@ -162,7 +162,7 @@
     "dist/assets/blog_posts_2024_isaac_object_detection.md.2c6c2f57.lean.js",
     "dist/assets/blog_2022_post2.md.30b10c68.lean.js",
     "dist/assets/blog_2023_post_00002.md.fedc3c16.lean.js",
-    "src/未发布/dl_model_deploy.md",
+    "未发布/dl_model_deploy.md",
     "00template/博文文章模板.md",
     "00template/博文文档模板.md",
     "00template/博文教程模板.md",

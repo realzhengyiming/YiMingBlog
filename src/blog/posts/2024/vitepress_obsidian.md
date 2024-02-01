@@ -6,11 +6,13 @@ description: vitepress 和obsidian结合,  vitepress combine obsidian note, is g
 navbar: true
 sidebar: true
 footer: true
-date: 2024-02-01
+date: 2024-01-14
 author: Yi Ming
 category: Document
 next: true
-tags: []
+tags:
+  - vitepress
+  - obsidian
 ---
 
 # 引言

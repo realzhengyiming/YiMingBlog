@@ -13,9 +13,11 @@ export default {
     const cryFace = '/128x128_laughface.png';
 
     const face = ref(laughFace);
-    const x = ref(0);
-    const y = ref(0);
-  
+    // const x = ref(0);
+    // const y = ref(0);
+    const x = 200;
+    const y = 100;
+    
     const changeFace = () => {
       face.value = cryFace;
   
@@ -26,14 +28,6 @@ export default {
         face.value = laughFace;
       }, 500);
     };
-
-    onMounted(() => {
-    //   x.value = Math.random() * window.innerWidth;
-    //   y.value = Math.random() * window.innerHeight;
-      x.value = 200;
-      y.value = 100;
-    })
-  
     return { face, changeFace, x, y };
   }
 }

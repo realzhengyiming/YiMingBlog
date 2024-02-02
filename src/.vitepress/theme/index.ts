@@ -4,7 +4,9 @@ import { VPBTheme } from '@jcamp/vitepress-blog-theme'
 import './style.css'
 import CustomBlogHeader from './CustomBlogHeader.vue'
 // import MyDiv from './my_div.vue'
-import MyDiv2 from './change_face.vue'
+// import MyDiv2 from './change_face.vue'
+import Move from './move.vue'
+
 
 export default {
   ...VPBTheme,
@@ -17,7 +19,8 @@ export default {
     VPBTheme.enhanceApp({ app, router, siteData })
     app.component('CustomBlogHeader', CustomBlogHeader)
     // app.component("MyDiv", MyDiv)
-    app.component("MyDiv2", MyDiv2)
+    // app.component("MyDiv2", MyDiv2)
+    app.component("Move", Move)
   },
 }
 

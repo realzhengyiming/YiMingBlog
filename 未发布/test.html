@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./animate.css">
+</head>
+  <div
+    style="z-index:1000;position: absolute; left: 0px; top: 0px; transform: translate(400.484px, 400.938px);"
+    class="" onclick="change_status()">
+    <div id="baby_plum" class="baby_plum_anim baby_plum_anm_Idle" 
+    style="position: absolute; left: 0px; top: 0px;">
+    </div>
+  </div>
+<script>
+  let isIdle = true; // 判断是否是静候
+  let isClick = false;
+  const babyPlumAnimElement = document.getElementById('baby_plum');
+  babyPlumAnimElement.addEventListener("mouseover", function () {
+    //鼠标悬停就打招呼, 不然就idel
+    babyPlumAnimElement.classList.remove('baby_plum_anm_Idle');
+    babyPlumAnimElement.classList.add('baby_plum_anm_HelloLoop');
+  });
+  babyPlumAnimElement.addEventListener("mouseout", function () {
+    babyPlumAnimElement.classList.remove('baby_plum_anm_HelloLoop');
+    babyPlumAnimElement.classList.add('baby_plum_anm_Idle');
+  });
+  function change_status() {
+    babyPlumAnimElement.className = "baby_plum_anim";
+    isIdle = false; //还是需要设置的, 在之前, 都不在播放idle动画
+    isClick = true;
+    var status = babyPlumAnimElement.className;
+    console.log(status);
+    console.log(babyPlumAnimElement.classList);
+
+    // 如果不是就执行移动的操作, 随机移动到某个位置上, 执行 attack
+    babyPlumAnimElement.classList.remove('baby_plum_anm_Idle');
+    babyPlumAnimElement.classList.add('baby_plum_anm_Attack1');
+
+    setTimeout(() => {
+      babyPlumAnimElement.classList.remove('baby_plum_anm_Attack1');
+      babyPlumAnimElement.classList.add('baby_plum_anm_Idle');
+    }, 1000)
+
+    // 移动到新的坐标以后, 才停止这个动画, 转换回 idle
+    isIdle = true;
+    isClick = false;
+    console.log(babyPlumAnimElement.classList);
+  }
+</script>
+
+
+</html>

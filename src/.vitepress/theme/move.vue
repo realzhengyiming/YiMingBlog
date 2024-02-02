@@ -1,0 +1,64 @@
+<template>
+  <div :style="mainDivStyles" @click="changeStatus"> div在此处
+    <div id="baby_plum" :class="['baby_plum_anim', babyPlumClass]" :style="babyPlumStyles" @mouseover="mouseoverHandler"
+      @mouseout="mouseoutHandler" @animationend="animationEndHandler">图片在此处
+    </div>
+  </div>
+</template>
+  
+<script>
+// 点击后生成新的坐标位置, 随机
+
+export default {
+  data() {
+    return {
+      isIdle: true,
+      isClick: false,
+      babyPlumClass: 'baby_plum_anm_Idle',
+      mainDivStyles: {
+        zIndex: 1000,
+        position: 'absolute',
+        left: '0px',
+        top: '0px',
+        transform: 'translate(200.484px, 200.938px)', // 后面会替换的, 那直接一开始给100, 200好了
+        // transform: `translate(400.484px, 400.938px)`,
+        transition: 'transform 2s', // 定义动画效果
+      },
+      babyPlumStyles: {
+        position: 'absolute',
+        left: '0px',
+        top: '0px',
+      },
+      targetPosition: { x: 400.484, y: 400.938 }, // 结束动画后的目标位置
+    };
+  },
+  methods: {
+    mouseoverHandler() {
+      this.babyPlumClass = 'baby_plum_anm_HelloLoop';
+    },
+    mouseoutHandler() {
+      this.babyPlumClass = 'baby_plum_anm_Idle';
+    },
+    changeStatus() {
+      this.isIdle = false;
+      this.isClick = true;
+      this.babyPlumClass = 'baby_plum_anm_Attack1';
+
+      // 1 更新目标位置，然后修改transform效果
+      this.targetPosition.x = Math.random() * window.innerWidth - 128 / 2;  // 将目标坐标设为新的位置
+      this.targetPosition.y = Math.random() * window.innerWidth - 128 / 2;  // 将目标坐标设为新的位置
+      this.mainDivStyles.transform = `translate(${this.targetPosition.x}px, ${this.targetPosition.y}px)`;
+
+      setTimeout(() => {
+        this.babyPlumClass = 'baby_plum_anm_Idle';
+        this.isIdle = true;
+        this.isClick = false;
+      }, 1000);
+    },
+  },
+};
+</script>
+  
+<style scoped>
+@import './animate.css';
+</style>

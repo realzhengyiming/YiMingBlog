@@ -5,8 +5,7 @@ import './style.css'
 import CustomBlogHeader from './CustomBlogHeader.vue'
 // import MyDiv from './my_div.vue'
 // import MyDiv2 from './change_face.vue'
-import Move from './move.vue'
-
+import BabyPulm from './baby_pulm.vue'
 
 export default {
   ...VPBTheme,
@@ -20,7 +19,7 @@ export default {
     app.component('CustomBlogHeader', CustomBlogHeader)
     // app.component("MyDiv", MyDiv)
     // app.component("MyDiv2", MyDiv2)
-    app.component("Move", Move)
+    app.component("BabyPulm", BabyPulm)
   },
 }
 

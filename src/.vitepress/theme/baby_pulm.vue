@@ -1,7 +1,7 @@
 <template>
-  <div :style="mainDivStyles" @click="changeStatus"> div在此处
+  <div :style="mainDivStyles" @click="changeStatus">
     <div id="baby_plum" :class="['baby_plum_anim', babyPlumClass]" :style="babyPlumStyles" @mouseover="mouseoverHandler"
-      @mouseout="mouseoutHandler" @animationend="animationEndHandler">图片在此处
+      @mouseout="mouseoutHandler" @animationend="animationEndHandler">
     </div>
   </div>
 </template>
@@ -20,8 +20,7 @@ export default {
         position: 'absolute',
         left: '0px',
         top: '0px',
-        transform: 'translate(200.484px, 200.938px)', // 后面会替换的, 那直接一开始给100, 200好了
-        // transform: `translate(400.484px, 400.938px)`,
+        transform: 'translate(100.484px, 200.938px)',
         transition: 'transform 2s', // 定义动画效果
       },
       babyPlumStyles: {
@@ -29,7 +28,7 @@ export default {
         left: '0px',
         top: '0px',
       },
-      targetPosition: { x: 400.484, y: 400.938 }, // 结束动画后的目标位置
+      targetPosition: { x: 100.484, y: 200.938 }, // 结束动画后的目标位置
     };
   },
   methods: {
@@ -46,7 +45,7 @@ export default {
 
       // 1 更新目标位置，然后修改transform效果
       this.targetPosition.x = Math.random() * window.innerWidth - 128 / 2;  // 将目标坐标设为新的位置
-      this.targetPosition.y = Math.random() * window.innerWidth - 128 / 2;  // 将目标坐标设为新的位置
+      this.targetPosition.y = Math.random() * window.innerHeight - 128 / 2;  // 将目标坐标设为新的位置
       this.mainDivStyles.transform = `translate(${this.targetPosition.x}px, ${this.targetPosition.y}px)`;
 
       setTimeout(() => {

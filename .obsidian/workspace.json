@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md",
+                "file": "src/blog/posts/2024/vitepress_obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md",
+                "file": "src/blog/posts/2024/vitepress_obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md",
+                "file": "src/blog/posts/2024/vitepress_obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md"
+                "file": "src/blog/posts/2024/vitepress_obsidian.md"
               }
             }
           }
@@ -148,17 +148,22 @@
   },
   "active": "96cbfc122c34877a",
   "lastOpenFiles": [
+    "dist/blog/posts/2024/dl_model_deploy.html",
+    "dist/blog/index.html",
+    "dist/blog/archives.html",
     "dist/404.html",
-    "dist/assets/style.cbe7ef7c.css",
-    "dist/assets/blog_posts_2024_vitepress_use_vue_animation.md.9fd4bf40.lean.js",
-    "dist/assets/blog_index.md.972f620f.lean.js",
+    "dist/blog/posts/2024/Isaac_image_recognition.html",
+    "dist/blog/authors/yi-ming.html",
+    "dist/blog/authors",
+    "dist/assets/blog_posts_2024_vitepress_obsidian.md.b7e2110e.lean.js",
+    "dist/assets/blog_posts_2024_dl_model_deploy.md.8b6fa92c.lean.js",
     "dist/assets/blog_archives.md.623bcfb1.lean.js",
-    "dist/assets/blog_authors_yi-ming.md.160713cd.lean.js",
-    "dist/assets/chunks/@localSearchIndexroot.b4b4cde7.js",
-    "dist/assets/chunks/VPLocalSearchBox.ef00fc01.js",
-    "dist/assets/blog_posts_2024_vitepress_use_vue_animation.md.9fd4bf40.js",
-    "dist/assets/app.a198e6b2.js",
-    "dist/assets/blog_authors_yi-ming.md.160713cd.js",
+    "dist/assets/blog_posts_2024_Isaac_image_recognition.md.64fa59b7.lean.js",
+    "dist/assets/vitepress_obsidian-push.208f2eba.png",
+    "dist/assets/vitepress_obsidian-1save.07e264f2.png",
+    "src/blog/posts/2024/pic/vitepress_obsidian-1save.png",
+    "src/blog/posts/2024/pic/vitepress_obsidian-push.png",
+    "src/blog/posts/2024/vitepress_use_vue_animation.md",
     "dist/assets/vitepress_use_vue_animation-baby-plum.badc5c1a.png",
     "src/blog/posts/2024/pic/vitepress_use_vue_animation-baby-plum.png",
     "src/blog/posts/2024/Isaac_image_recognition.md",
@@ -166,11 +171,6 @@
     "dist/assets/自定义训练数据图像识别-结果总结-2024-01-29.6146e566.png",
     "dist/assets/自定义训练数据图像识别-结果可视化-2024-01-29.4d7759a1.png",
     "dist/assets/自定义训练数据图像识别-数据合成多背景-2024-01-29.0f002570.png",
-    "dist/assets/自定义训练数据图像识别-像素风格-2024-01-29.4b132729.png",
-    "dist/assets/自定义训练数据图像识别-2024-01-29.a602417e.png",
-    "dist/assets/vitepress_obsidian_combine_struct.bdc9316e.png",
-    "dist/assets/vitepress_obsidian-plus-command.5c03c3a4.png",
-    "src/blog/posts/2024/vitepress_use_vue_animation.md",
     "src/blog/posts/2024/try_my_div2.md",
     "未发布/try_my_div.md",
     "src/blog/posts/2024/try_my_div2copy.md",

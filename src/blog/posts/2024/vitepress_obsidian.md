@@ -65,6 +65,13 @@ server {
 ```
 更新推送也只需要`nginx -s reload`就可以完成. 
 
+## 效果图 
+斜杠命令效果图:
+![](pic/vitepress_obsidian-1save.png)
+
+写好文章后, obsidian上快捷运行一键命令, 然后右侧提示输出, 完成build 和 push和更新文章的所有操作, 方便快捷. /1
+![](pic/vitepress_obsidian-push.png)
+
 ## 总结 
 
 obsidian 写笔记/博文 --> vitepress build --> github --> nginx.  

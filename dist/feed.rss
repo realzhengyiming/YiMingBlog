@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Fri, 02 Feb 2024 17:33:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 17:36:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -772,6 +772,11 @@ nginx配置也很简单, 安装好后, nginx 即可启动.</p>
 <span class="line"><span style="color: #A6ACCD">    }  </span></span>
 <span class="line"><span style="color: #A6ACCD">}</span></span></code></pre>
 </div><p>更新推送也只需要<code>nginx -s reload</code>就可以完成.</p>
+<h2 id="效果图" tabindex="-1">效果图 <a class="header-anchor" href="#效果图" aria-label="Permalink to &quot;效果图&quot;">&ZeroWidthSpace;</a></h2>
+<p>斜杠命令效果图:
+<img src="./pic/vitepress_obsidian-1save.png" alt=""></p>
+<p>写好文章后, obsidian上快捷运行一键命令, 然后右侧提示输出, 完成build 和 push和更新文章的所有操作, 方便快捷. /1
+<img src="./pic/vitepress_obsidian-push.png" alt=""></p>
 <h2 id="总结" tabindex="-1">总结 <a class="header-anchor" href="#总结" aria-label="Permalink to &quot;总结&quot;">&ZeroWidthSpace;</a></h2>
 <p>obsidian 写笔记/博文 --&gt; vitepress build --&gt; github --&gt; nginx.<br>
 详细请查看仓库代码. 体验非常简单和舒服! 这下没有理由不输出文章了🤡hhh...</p>

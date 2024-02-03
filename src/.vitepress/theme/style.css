@@ -7,7 +7,7 @@
  * Colors
  * -------------------------------------------------------------------------- */
 
- :root {
+:root {
   --vp-c-brand: #646cff;
   --vp-c-brand-light: #747bff;
   --vp-c-brand-lighter: #9499ff;
@@ -39,17 +39,13 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #bd34fe 30%,
+      #41d1ff);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #bd34fe 50%,
+      #47caff 50%);
   --vp-home-hero-image-filter: blur(40px);
 }
 
@@ -89,3 +85,33 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
+/* 
+此处给自己主页的头像增加轻微的浮动动画效果
+继承原来的效果, 增加额外的效果
+*/
+.VPButton {
+  display: inline-block;
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color .25s,border-color .25s,background-color .25s;
+  /* 添加一个晃动的动画，名为 sway，持续500ms，静止1s，无限次重复, 静止也在循环内 */
+  animation: sway 3.2s infinite;
+}
+
+@keyframes sway {
+  /* 在前200ms（占总时间的6.25%）进行晃动 */
+  0%, 6.25% { transform: rotate(0deg); }
+  1.56%, 4.69% { transform: rotate(-3deg); }
+  3.13%, 3.13% { transform: rotate(3deg); }
+  /* 在剩下的时间（93.75%）中保持静止 */
+  6.26%, 100% { transform: rotate(0deg); }
+}
+
+/* 当用户选择减少动态效果的时候，移除按钮的晃动动画 */
+@media (prefers-reduced-motion: reduce) {
+  .VPButton[data-v-a23e414a] {
+    animation: none;
+  }
+}

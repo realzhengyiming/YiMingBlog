@@ -8,7 +8,7 @@
   
 <script>
 // 点击后生成新的坐标位置, 随机
-
+let clickStatus = false;
 export default {
   data() {
     return {
@@ -36,22 +36,26 @@ export default {
       this.babyPlumClass = 'baby_plum_anm_HelloLoop';
     },
     mouseoutHandler() {
-      this.babyPlumClass = 'baby_plum_anm_Idle';
+      if (!clickStatus) {
+        this.babyPlumClass = 'baby_plum_anm_Idle';
+      }
     },
     changeStatus() {
       this.isIdle = false;
       this.isClick = true;
       this.babyPlumClass = 'baby_plum_anm_Attack1';
+      clickStatus = true
 
       // 1 更新目标位置，然后修改transform效果
-      this.targetPosition.x = Math.random() * window.innerWidth - 128 / 2;  // 将目标坐标设为新的位置
-      this.targetPosition.y = Math.random() * window.innerHeight - 128 / 2;  // 将目标坐标设为新的位置
+      this.targetPosition.x = Math.random() * window.innerWidth;  // 将目标坐标设为新的位置
+      this.targetPosition.y = Math.random() * window.innerHeight;  // 将目标坐标设为新的位置
       this.mainDivStyles.transform = `translate(${this.targetPosition.x}px, ${this.targetPosition.y}px)`;
 
       setTimeout(() => {
         this.babyPlumClass = 'baby_plum_anm_Idle';
         this.isIdle = true;
         this.isClick = false;
+        clickStatus = false;
       }, 1000);
     },
   },

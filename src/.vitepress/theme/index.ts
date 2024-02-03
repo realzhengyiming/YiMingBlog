@@ -19,7 +19,7 @@ export default {
     app.component('CustomBlogHeader', CustomBlogHeader)
     // app.component("MyDiv", MyDiv)
     // app.component("MyDiv2", MyDiv2)
-    app.component("BabyPulm", BabyPulm)
+    app.component("BabyPulm", BabyPulm)  // 注册自定义vue组件
   },
 }
 

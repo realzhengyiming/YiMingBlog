@@ -4,23 +4,10 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Sat, 03 Feb 2024 02:39:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Feb 2024 08:42:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[dl_model_deploy]]></title>
-            <link>localhost/blog/blog/posts/2024/dl_model_deploy.html</link>
-            <guid>localhost/blog/blog/posts/2024/dl_model_deploy.html</guid>
-            <pubDate>Tue, 30 Jan 2024 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>此处直接写前言, 所谓的前言就是写这篇文章的目的?
-什么情况想到了做这件事情, 然后才开始标题和引言. 也可以作为一个小分段了</p>
-<h1 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h1>
-<p><img src="./pic/iShot_2024-01-26_13.41.29.png" alt="">
-这就是我想要的效果, 图片可以自动的上传到对应的位置, 并且不会受影响, 很方便的进行更新内容.
-模型部署的情况</p>
-]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[以撒目标检测]]></title>
             <link>localhost/blog/blog/posts/2024/isaac_object_detection.html</link>

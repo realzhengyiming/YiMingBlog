@@ -36,7 +36,7 @@ export default {
       this.babyPlumClass = 'baby_plum_anm_HelloLoop';
     },
     mouseoutHandler() {
-      if (!clickStatus) {
+      if (clickStatus) {
         this.babyPlumClass = 'baby_plum_anm_Idle';
       }
     },
@@ -47,8 +47,8 @@ export default {
       clickStatus = true
 
       // 1 更新目标位置，然后修改transform效果
-      this.targetPosition.x = Math.random() * window.innerWidth;  // 将目标坐标设为新的位置
-      this.targetPosition.y = Math.random() * window.innerHeight;  // 将目标坐标设为新的位置
+      this.targetPosition.x = Math.random() * window.innerWidth - 128 / 2;  // 将目标坐标设为新的位置
+      this.targetPosition.y = Math.random() * window.innerHeight - 128 / 2;  // 将目标坐标设为新的位置
       this.mainDivStyles.transform = `translate(${this.targetPosition.x}px, ${this.targetPosition.y}px)`;
 
       setTimeout(() => {

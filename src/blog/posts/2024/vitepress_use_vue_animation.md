@@ -134,7 +134,7 @@ css3animation主要是围绕 `steps(number_of_steps, direction)`带有了逐帧�
 </html>
 ```
 此处我简单的抽取了雪碧图, 抽取了`idle`, `attack`, `hello` css3 className对应的代码, 并且编写监听器, 配置好了3个不同的动作交互. 然后直接浏览器中打开.   
-对应的配置css动画以及关键帧的对应代码:
+对应的配置css动画以及关键帧的对应代码: 
 ```css
 
 <!-- 通过css类配置动画的播放特性 -->

@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Mon, 12 Feb 2024 04:45:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Feb 2024 16:11:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -543,10 +543,23 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
 优点:兼容性好, 交互行灵活<br>
 缺点:编写不那么方便</p>
 <h3 id="css3动画" tabindex="-1">CSS3动画 <a class="header-anchor" href="#css3动画" aria-label="Permalink to &quot;CSS3动画&quot;">&ZeroWidthSpace;</a></h3>
-<p>css3animation主要是围绕 <code>steps(number_of_steps, direction)</code>带有了逐帧动画连续播放的功能来实现自动的播放动画. 通过读取雪碧图, 配置好每秒播放哪些关键帧, 修改 <code>background-position</code> 的值来实现帧动画的切换.<br>
-优点: 使用广泛, 兼容性好, 相比纯js, 写起来简单很多<br>
+<p>css3animation主要是围绕 <code>steps(number_of_steps, direction)</code>带有了逐帧动画连续播放的功能来实现自动的播放动画. 通过读取雪碧图, 配置好每秒播放哪些关键帧, 修改 <code>background-position</code> 的值来实现帧动画的切换.  比如:</p>
+<div class="language-css"><button title="Copy Code" class="copy"></button><span class="lang">css</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"><span style="color: #A6ACCD">&lt;!-- 通过css类配置动画的播放特性 --</span><span style="color: #89DDFF">&gt;</span></span>
+<span class="line"><span style="color: #89DDFF">.</span><span style="color: #FFCB6B">baby_plum_anm_Idle</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">{</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">    </span><span style="color: #B2CCD6">animation</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> baby_plum_anm_Idle </span><span style="color: #F78C6C">533.333333ms</span><span style="color: #A6ACCD"> step-end infinite both  </span></span>
+<span class="line"><span style="color: #89DDFF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #A6ACCD">&lt;!-- 关键帧动画配置 --</span><span style="color: #89DDFF">&gt;</span></span>
+<span class="line"><span style="color: #89DDFF; font-style: italic">@keyframes</span><span style="color: #A6ACCD; font-style: italic"> baby_plum_anm_Idle</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">{</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">    </span><span style="color: #FFCB6B">0.000%</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">{</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">        </span><span style="color: #B2CCD6">transform</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">translate</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">-32px</span><span style="color: #89DDFF">,</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">-32px</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">scale</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">2</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">translateY</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">-48.0px</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">scale</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">1.0</span><span style="color: #89DDFF">,</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">1.0</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">translateY</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">20.0px</span><span style="color: #89DDFF">);</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">        </span><span style="color: #B2CCD6">background-position</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">0px</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">-128px</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">    </span><span style="color: #89DDFF">}</span></span>
+<span class="line"><span style="color: #A6ACCD">...</span></span>
+<span class="line"><span style="color: #A6ACCD">...</span></span></code></pre>
+</div><p>优点: 使用广泛, 兼容性好, 相比纯js, 写起来简单很多<br>
 缺点: css是固定, 只能固定播放</p>
-<h3 id="css3动画-js" tabindex="-1">CSS3动画+js <a class="header-anchor" href="#css3动画-js" aria-label="Permalink to &quot;CSS3动画+js&quot;">&ZeroWidthSpace;</a></h3>
+<h3 id="css3动画-js" tabindex="-1">CSS3动画 + js <a class="header-anchor" href="#css3动画-js" aria-label="Permalink to &quot;CSS3动画 + js&quot;">&ZeroWidthSpace;</a></h3>
 <p>这两种组合起来就几乎能灵活的满足复杂的动作变化的需求了. 比如<code>idle</code>, <code>move</code>, <code>attack</code>三种动作, 只需要先通过CSS3配置好不同逐帧动画的<code>className</code>. 然后再通过js编写不同的触发器, 通过触发器改变动画标签的<code>className</code>的值, 就可以实现流畅方便的复杂动画的组合和变化. 此次wiki上看到那种就是使用这种方法.</p>
 <h2 id="vue组件" tabindex="-1">vue组件 <a class="header-anchor" href="#vue组件" aria-label="Permalink to &quot;vue组件&quot;">&ZeroWidthSpace;</a></h2>
 <blockquote>
@@ -607,9 +620,25 @@ LLM可以理解并生成特定格式的JSON是因为其在训练过程中接收�
 <span class="line"></span>
 <span class="line"><span style="color: #A6ACCD">  </span></span>
 <span class="line"><span style="color: #89DDFF">&lt;/</span><span style="color: #F07178">html</span><span style="color: #89DDFF">&gt;</span></span></code></pre>
-</div><p>此处我简单的抽取了雪碧图, 抽取了<code>idle</code>, <code>attack</code>, <code>hello</code> css3 className对应的代码, 并且编写监听器, 配置好了3个不同的动作交互. 然后直接浏览器中打开.</p>
-<p><img src="./pic/vitepress_use_vue_animation-baby-plum.png" alt=""></p>
-<p>😆正常工作, 获得一只会动的梅糖宝宝. 然后再把它改写成vue组件的形式.</p>
+</div><p>此处我简单的抽取了雪碧图, 抽取了<code>idle</code>, <code>attack</code>, <code>hello</code> css3 className对应的代码, 并且编写监听器, 配置好了3个不同的动作交互. 然后直接浏览器中打开.<br>
+对应的配置css动画以及关键帧的对应代码:</p>
+<div class="language-css"><button title="Copy Code" class="copy"></button><span class="lang">css</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"><span style="color: #A6ACCD">&lt;!-- 通过css类配置动画的播放特性 --</span><span style="color: #89DDFF">&gt;</span></span>
+<span class="line"><span style="color: #89DDFF">.</span><span style="color: #FFCB6B">baby_plum_anm_Idle</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">{</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">    </span><span style="color: #B2CCD6">animation</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> baby_plum_anm_Idle </span><span style="color: #F78C6C">533.333333ms</span><span style="color: #A6ACCD"> step-end infinite both  </span></span>
+<span class="line"><span style="color: #89DDFF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color: #A6ACCD">&lt;!-- 关键帧动画配置 --</span><span style="color: #89DDFF">&gt;</span></span>
+<span class="line"><span style="color: #89DDFF; font-style: italic">@keyframes</span><span style="color: #A6ACCD; font-style: italic"> baby_plum_anm_Idle</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">{</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">    </span><span style="color: #FFCB6B">0.000%</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">{</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">        </span><span style="color: #B2CCD6">transform</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">translate</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">-32px</span><span style="color: #89DDFF">,</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">-32px</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">scale</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">2</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">translateY</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">-48.0px</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">scale</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">1.0</span><span style="color: #89DDFF">,</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">1.0</span><span style="color: #89DDFF">)</span><span style="color: #A6ACCD"> </span><span style="color: #82AAFF">translateY</span><span style="color: #89DDFF">(</span><span style="color: #F78C6C">20.0px</span><span style="color: #89DDFF">);</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">        </span><span style="color: #B2CCD6">background-position</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">0px</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">-128px</span><span style="color: #A6ACCD">  </span></span>
+<span class="line"><span style="color: #A6ACCD">    </span><span style="color: #89DDFF">}</span></span>
+<span class="line"><span style="color: #A6ACCD">...</span></span>
+<span class="line"><span style="color: #A6ACCD">...</span></span></code></pre>
+</div><p><img src="./pic/vitepress_use_vue_animation-baby-plum.png" alt=""></p>
+<p>😆正常工作, 获得一只会动的梅糖宝宝.<br>
+然后我这边是希望Idle, walk, attack 三个动作以一定的情况进行不同的切换, 比如未点击的时候就默认是idle状态, 然后轮循环hello和idle; 如果鼠标放上去, 就固定的只播放hello, 疯狂挥手;如果鼠标点击,就切换攻击动画;并且不同的动画切换之前都会等待上一个动画播放完才进行对应的切换, 这样不会突变. 想这种稍微复杂的动画切换组合逻辑, 就可以考虑用状态机来实现了.</p>
+<p>然后再把它改写成vue组件的形式.</p>
 <div class="language-vue"><button title="Copy Code" class="copy"></button><span class="lang">vue</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"><span style="color: #89DDFF">&lt;</span><span style="color: #F07178">template</span><span style="color: #89DDFF">&gt;</span><span style="color: #A6ACCD">  </span></span>
 <span class="line"><span style="color: #A6ACCD">  </span><span style="color: #89DDFF">&lt;</span><span style="color: #F07178">div</span><span style="color: #89DDFF"> </span><span style="color: #C792EA">:style</span><span style="color: #89DDFF">=</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">mainDivStyles</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF"> </span><span style="color: #C792EA">@click</span><span style="color: #89DDFF">=</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">changeStatus</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">&gt;</span><span style="color: #A6ACCD">  </span></span>
 <span class="line"><span style="color: #A6ACCD">    </span><span style="color: #89DDFF">&lt;</span><span style="color: #F07178">div</span><span style="color: #89DDFF"> </span><span style="color: #C792EA">id</span><span style="color: #89DDFF">=</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">baby_plum</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF"> </span><span style="color: #C792EA">:class</span><span style="color: #89DDFF">=</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">[&#39;baby_plum_anim&#39;, babyPlumClass]</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF"> </span><span style="color: #C792EA">:style</span><span style="color: #89DDFF">=</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">babyPlumStyles</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF"> </span><span style="color: #C792EA">@mouseover</span><span style="color: #89DDFF">=</span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">mouseoverHandler</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">  </span></span>

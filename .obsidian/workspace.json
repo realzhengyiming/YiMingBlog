@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未发布/dl_model_deploy 1.md",
+                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未发布/dl_model_deploy 1.md",
+                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未发布/dl_model_deploy 1.md",
+                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未发布/dl_model_deploy 1.md"
+                "file": "src/blog/posts/2024/vitepress_use_vue_animation.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "96cbfc122c34877a",
   "lastOpenFiles": [
+    "未发布/dl_model_deploy 1.md",
+    "dist/feed.rss",
     "dist/404.html",
     "dist/assets/blog_index.md.972f620f.lean.js",
     "dist/assets/blog_posts_2024_isaac_object_detection.md.ce4ef2e2.lean.js",
@@ -157,8 +159,6 @@
     "dist/assets/blog_posts_2024_vitepress_obsidian.md.b7e2110e.lean.js",
     "dist/assets/blog_archives.md.623bcfb1.lean.js",
     "dist/assets/blog_authors_yi-ming.md.72970469.lean.js",
-    "dist/assets/chunks/VPLocalSearchBox.67a79365.js",
-    "dist/assets/chunks/theme.b7138cb1.js",
     "src/blog/authors/yi-ming.md",
     "src/blog/posts/2024/vitepress_use_vue_animation.md",
     "dist/assets/iShot_2024-01-26_13.41.29.edc146fc.png",
@@ -179,7 +179,6 @@
     "未发布/try_my_div.md",
     "src/blog/posts/2024/try_my_div2copy.md",
     "src/blog/posts/2024/try_my_div2 copy.md",
-    "未发布/dl_model_deploy 1.md",
     "未发布/dl_model_deploy.md",
     "src/blog/posts/2024/try_my_div copy.md",
     "src/blog/posts/2024/try_my_div.md",

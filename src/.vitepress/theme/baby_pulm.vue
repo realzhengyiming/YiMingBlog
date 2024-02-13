@@ -38,6 +38,14 @@ export default {
     mouseoutHandler() {
       if (clickStatus) {
         this.babyPlumClass = 'baby_plum_anm_Idle';
+      }else{
+        // 定时一定时间, 才
+        setTimeout(() => {
+        this.babyPlumClass = 'baby_plum_anm_Idle';
+        this.isIdle = true;
+        this.isClick = false;
+        clickStatus = false;
+      }, 500);
       }
     },
     changeStatus() {

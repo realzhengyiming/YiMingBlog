@@ -47,11 +47,27 @@ tags:
 缺点:编写不那么方便  
 
 ### CSS3动画
-css3animation主要是围绕 `steps(number_of_steps, direction)`带有了逐帧动画连续播放的功能来实现自动的播放动画. 通过读取雪碧图, 配置好每秒播放哪些关键帧, 修改 `background-position` 的值来实现帧动画的切换.  
+css3animation主要是围绕 `steps(number_of_steps, direction)`带有了逐帧动画连续播放的功能来实现自动的播放动画. 通过读取雪碧图, 配置好每秒播放哪些关键帧, 修改 `background-position` 的值来实现帧动画的切换.  比如:
+```css
+<!-- 通过css类配置动画的播放特性 -->
+.baby_plum_anm_Idle {  
+    animation: baby_plum_anm_Idle 533.333333ms step-end infinite both  
+}
+
+<!-- 关键帧动画配置 -->
+@keyframes baby_plum_anm_Idle {  
+    0.000% {  
+        transform: translate(-32px, -32px) scale(2) translateY(-48.0px) scale(1.0, 1.0) translateY(20.0px);  
+        background-position: 0px -128px  
+    }
+...
+...
+```
+
 优点: 使用广泛, 兼容性好, 相比纯js, 写起来简单很多  
 缺点: css是固定, 只能固定播放   
 
-### CSS3动画+js  
+### CSS3动画 + js  
 这两种组合起来就几乎能灵活的满足复杂的动作变化的需求了. 比如`idle`, `move`, `attack`三种动作, 只需要先通过CSS3配置好不同逐帧动画的`className`. 然后再通过js编写不同的触发器, 通过触发器改变动画标签的`className`的值, 就可以实现流畅方便的复杂动画的组合和变化. 此次wiki上看到那种就是使用这种方法.  
 
 ## vue组件 
@@ -118,10 +134,32 @@ css3animation主要是围绕 `steps(number_of_steps, direction)`带有了逐帧�
 </html>
 ```
 此处我简单的抽取了雪碧图, 抽取了`idle`, `attack`, `hello` css3 className对应的代码, 并且编写监听器, 配置好了3个不同的动作交互. 然后直接浏览器中打开.   
+对应的配置css动画以及关键帧的对应代码:
+```css
+
+<!-- 通过css类配置动画的播放特性 -->
+.baby_plum_anm_Idle {  
+    animation: baby_plum_anm_Idle 533.333333ms step-end infinite both  
+}
+
+<!-- 关键帧动画配置 -->
+@keyframes baby_plum_anm_Idle {  
+    0.000% {  
+        transform: translate(-32px, -32px) scale(2) translateY(-48.0px) scale(1.0, 1.0) translateY(20.0px);  
+        background-position: 0px -128px  
+    }
+...
+...
+
+```
 
 ![](pic/vitepress_use_vue_animation-baby-plum.png)
 
-😆正常工作, 获得一只会动的梅糖宝宝. 然后再把它改写成vue组件的形式.  
+😆正常工作, 获得一只会动的梅糖宝宝.   
+然后我这边是希望Idle, walk, attack 三个动作以一定的情况进行不同的切换, 比如未点击的时候就默认是idle状态, 然后轮循环hello和idle; 如果鼠标放上去, 就固定的只播放hello, 疯狂挥手;如果鼠标点击,就切换攻击动画;并且不同的动画切换之前都会等待上一个动画播放完才进行对应的切换, 这样不会突变. 想这种稍微复杂的动画切换组合逻辑, 就可以考虑用状态机来实现了.
+
+
+然后再把它改写成vue组件的形式.  
 ```vue
 <template>  
   <div :style="mainDivStyles" @click="changeStatus">  

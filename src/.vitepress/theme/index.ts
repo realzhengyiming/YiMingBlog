@@ -6,6 +6,7 @@ import CustomBlogHeader from './CustomBlogHeader.vue'
 // import MyDiv from './my_div.vue'
 // import MyDiv2 from './change_face.vue'
 import BabyPulm from './baby_pulm.vue'
+import BabyPulm2 from './baby_animation.vue'
 
 export default {
   ...VPBTheme,
@@ -18,7 +19,7 @@ export default {
     VPBTheme.enhanceApp({ app, router, siteData })
     app.component('CustomBlogHeader', CustomBlogHeader)
     // app.component("MyDiv", MyDiv)
-    // app.component("MyDiv2", MyDiv2)
+    app.component("BabyPulm2", BabyPulm2)
     app.component("BabyPulm", BabyPulm)  // 注册自定义vue组件
   },
 }

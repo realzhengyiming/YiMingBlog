@@ -19,7 +19,7 @@ export default {
     VPBTheme.enhanceApp({ app, router, siteData })
     app.component('CustomBlogHeader', CustomBlogHeader)
     // app.component("MyDiv", MyDiv)
-    app.component("BabyPulm2", BabyPulm2)
+    // app.component("BabyPulm2", BabyPulm2)
     app.component("BabyPulm", BabyPulm)  // 注册自定义vue组件
   },
 }

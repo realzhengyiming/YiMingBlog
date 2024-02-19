@@ -90,21 +90,78 @@ prompt = """
 
 obsidian安装`shell commands`插件, 然后配置好python轮训脚本即可.
 auto_generate_title.py 
-
 ```python
+import os
+import requests
+from tqdm import tqdm
+import json
+
+url = "http://localhost:11434/api/generate"
+
+def combine_prompt(prompt):
+    prompt = prompt.replace(" ", "").replace("\n", "")
+    output_prompt = f"""     
+    ```
+    {prompt}
+    ```
+
+    概括上文, 直接生成标题给我：
+    """
+    return output_prompt
+
+def make_title(prompt, data=None):
+    if data is None:
+        data = {
+        "model": "qwen:7b",
+        "prompt": prompt,
+        "stream": False
+    }
+    response = requests.post(url, data=json.dumps(data), stream=True, headers={'Content-type': 'application/json'})
+    return json.loads(response.text)
+
+def clean_content(content):
+    return content.strip("\n").strip('"').replace(" ", "").replace("/", "")
+
+import time
+# 便利轮训新文件
+while True:
+    dir_path = "./00灵感"
+    need_rename = [i for i in os.listdir(dir_path) if i.find(".md") != -1 and len(i.split(" ")) == 2]
+    print(f"需要处理: {len(need_rename)}")
+
+    for i in tqdm(need_rename):
+        ori_filename = i
+        ori_path = os.path.join(dir_path, i)
+        with open(ori_path) as file:
+            content = file.read()
+        
+        clean_prompt = clean_content(content)
+        temp = combine_prompt(clean_prompt)
+    
+        json_content = make_title(temp)
+        clean_text = clean_content(json_content.get("response"))
+
+        new_filename = clean_text + " " + ori_filename
+        new_path = os.path.join(dir_path, new_filename)
+        os.rename(ori_path, new_path)
+    print("休眠中")
+    time.sleep(60)  # 1 min scan
 
 ```
 
 ## 效果展示 
 下图为生成后的灵感文本的效果展示:  
-
+时间戳形式的灵感文件有了标题, 这样管理起来和后期回看就很方便了.
 ![](pic/灵感标题生成效果.png)
 
 ## 总结思考
 
-如果是业务上类似的需求是要对模型做微调为好, 并且应该进行模型的量化和部署操作, 这样可以尽可能的优化速度和减少资源的占用.ollama作为客户端的, 本身也是用的量化后或者gguf格式的模型, 有一定的加速, 但是目前推理速度还是太慢了, 期待以后小模型或者硬件成本能够进一步降低, 这样大家都可以很方便的把ai整合入自己生活习惯中去. 
+如果是业务上类似的需求是要对模型做微调为好, 并且应该进行模型的量化和部署操作, 这样可以尽可能的优化速度和减少资源的占用.  
+
+ollama作为客户端的, 本身也是用的量化后或者gguf格式的模型, 有一定的加速, 但是目前推理速度还是太慢了, 期待以后小模型或者硬件成本能够进一步降低, 这样大家都可以很方便的把ai整合入自己生活习惯中去. 
 
 后期的笔记文档管理的想法:
-结合nlp的话, 后期还希望能够自动的对我的文档进行分析, 并且创建好他们之间的关系, 自动帮我把他们之间的逻辑关系创建好. 这样记录后,电脑整理, 我回看就可以了, 头脑风暴继续产生新的联系就很好了. 可能需要生成主题词(三元组), 然后方便进行自动归档和建立联系. 建立图结构的联系. 
+结合nlp的话, 后期还希望能够自动的对我的文档进行分析, 并且创建好他们之间的关系, 自动帮我把他们之间的逻辑关系创建好. 这样记录后,电脑整理, 我回看就可以了, 头脑风暴或者是后续的笔记记录自动产生新的联系就很好了. 可能需要生成主题词(三元组), 然后方便进行自动归档和建立联系. 建立图结构的联系. 
+
 
 

@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Sat, 17 Feb 2024 16:06:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Feb 2024 09:45:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -14,17 +14,67 @@
             <guid>localhost/blog/blog/posts/2024/Ollama_Local_Inference&amp;Summary_Generation_Capability.html</guid>
             <pubDate>Sat, 17 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h2>
-<p>前段时间编写了“闪念胶囊”的ios快捷指令脚本,功能是方便我随时通过敲击手机快速记录自己的灵感, 然后写入到icloud的obsidian灵感笔记区中.这样灵感就可以手机和电脑都同步了. 但是当时记录的灵感为了快速为主, 所以markdown文件的标题都是时间戳, 这样会带来一个问题, 那就是哪怕同步到了电脑上, 用电脑浏览的时候,未点开前也是一连串的时间序列, 不能方便的进行灵感的整理和归档, 那和遗忘了是完全一样的.<br>
+<p>前段时间编写了“闪念胶囊”的ios快捷指令脚本,功能是方便我随时通过敲击手机快速记录自己的灵感, 然后写入到icloud的obsidian灵感笔记区中.这样灵感就可以手机和电脑都同步了. 但是当时记录的灵感为了快速为主, 所以markdown文件的标题都是时间戳, 这样会带来一个问题, 那就是哪怕同步到了电脑上, 用电脑浏览的时候,未点开前也是一连串的时间序列, 不能方便的进行灵感的整理和归档, 不利于整理, 那和没记录下来就没差别了,这不是我想要的效果.<br>
 所以我需要一个<strong>本地自动生成标题</strong>的功能.</p>
 ]]></description>
             <content:encoded><![CDATA[<h2 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h2>
-<p>前段时间编写了“闪念胶囊”的ios快捷指令脚本,功能是方便我随时通过敲击手机快速记录自己的灵感, 然后写入到icloud的obsidian灵感笔记区中.这样灵感就可以手机和电脑都同步了. 但是当时记录的灵感为了快速为主, 所以markdown文件的标题都是时间戳, 这样会带来一个问题, 那就是哪怕同步到了电脑上, 用电脑浏览的时候,未点开前也是一连串的时间序列, 不能方便的进行灵感的整理和归档, 那和遗忘了是完全一样的.<br>
+<p>前段时间编写了“闪念胶囊”的ios快捷指令脚本,功能是方便我随时通过敲击手机快速记录自己的灵感, 然后写入到icloud的obsidian灵感笔记区中.这样灵感就可以手机和电脑都同步了. 但是当时记录的灵感为了快速为主, 所以markdown文件的标题都是时间戳, 这样会带来一个问题, 那就是哪怕同步到了电脑上, 用电脑浏览的时候,未点开前也是一连串的时间序列, 不能方便的进行灵感的整理和归档, 不利于整理, 那和没记录下来就没差别了,这不是我想要的效果.<br>
 所以我需要一个<strong>本地自动生成标题</strong>的功能.</p>
 <hr>
 <h2 id="需求分析" tabindex="-1">需求分析 <a class="header-anchor" href="#需求分析" aria-label="Permalink to &quot;需求分析&quot;">&ZeroWidthSpace;</a></h2>
-<p>需要给闪念胶囊记录的灵感, 自动生成对应的概括含义的标题.
-智能生成灵感的内容标题, 方便以后进行归档, 能不能直接让llm帮我归档和联系呢.</p>
-<p>我还有一个灵感, 就是, 让 ai来帮我们整理好我们不同文档之间的关系, 只要提到了对应的词, 就自动互相建立起他们之间的联系,而不需要手动, 那是不是首先需要 生成不同的三元组.</p>
+<h3 id="直接闪念的时候就输入标题" tabindex="-1"><s>直接闪念的时候就输入标题</s> <a class="header-anchor" href="#直接闪念的时候就输入标题" aria-label="Permalink to &quot;~~直接闪念的时候就输入标题~~&quot;">&ZeroWidthSpace;</a></h3>
+<p>闪念的时候, 还要费脑子总结概括, 这样容易让灵感飘走, 虽然也算能消灭掉这个需求, 但是场景上给“用户“增加了使用成本, 让记录灵感变得更难受, 不自然, 不舒服, 那久而久之就不想用这种途径记录灵感了.  这样的产品自己都不会想用😟</p>
+<h3 id="后期生成标题" tabindex="-1">后期生成标题 <a class="header-anchor" href="#后期生成标题" aria-label="Permalink to &quot;后期生成标题&quot;">&ZeroWidthSpace;</a></h3>
+<p>所以“闪念胶囊”记录的灵感, 最终还是决定采用后期再生成的方案, 毕竟自己突然冒出来的灵感, 确实自己也不一定能总结好.类似数仓的分层,  ods层输入的时候,就不应该有太多的主题的约束和限制. 所以后期再生成是比较适合这个场景的</p>
+<h2 id="方案调研" tabindex="-1">方案调研 <a class="header-anchor" href="#方案调研" aria-label="Permalink to &quot;方案调研&quot;">&ZeroWidthSpace;</a></h2>
+<p>文章摘要/标题生成nlp中有好几种方案, 有需要自己微调的方案, 有不需要微调的方案.</p>
+<p><strong>微调方案</strong>:<br>
+简单的如微调bert-base-chinese模型, 以用来微调成解决一些具体的文本任务如, 分类, 概括摘要,<br>
+文章摘,命名实体识别, 关系抽取等.<br>
+对bert微调的好处就是, bert相较于现在的大模型, 运行资源小一些. 但是微调的成本依然不低. 还需要准备足够的数据进行训练.</p>
+<p><strong>不用微调的方案</strong>:<br>
+目前的开源llm大模型大多已经对这些常用的自然语言任务做了指令的微调. 所以, 已经可以直接拿来用了. 对于做文本摘要生成/标题生成, 这个任务. 所需要的参数量不用太大就可以完成. 并且出于个人隐私的考虑(灵感很隐私的), 并且一般灵感的文本长度不会太长(杀鸡焉用牛刀),所以最终我是采用了本地运行开源llm大模型的来实现这个功能.</p>
+<p>此处最终采用了本地部署运行大模型的方法, 由于是mac系统, 所以我使用<a href="https://github.com/ollama/ollama" target="_blank" rel="noreferrer">ollama</a> 来本地运行模型, 确实很方便够用.</p>
+<h2 id="模型选择" tabindex="-1">模型选择 <a class="header-anchor" href="#模型选择" aria-label="Permalink to &quot;模型选择&quot;">&ZeroWidthSpace;</a></h2>
+<p>ollama主流的效果比较好的开源llm模型基本都有, 默认是llama2. 本地主要是中文, 所以我对比了qwen(阿里千问), llama2-chinses, mistral 等7b参数量以内的中文模型, ollama也支持运行自定义模型, 我这边经过测试, 发现qwen 4b / 7b就很够用.</p>
+<div class="language-shell"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"><span style="color: #FFCB6B">ollama</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">pull</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">qwen:4b</span><span style="color: #A6ACCD">  </span><span style="color: #676E95; font-style: italic"># 拉取所需要的模型</span></span>
+<span class="line"><span style="color: #FFCB6B">ollama</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">pull</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">qwen:7b</span></span></code></pre>
+</div><p>ollama是以服务的形式运行, 所以调用起来也很灵活, 也支持流式调用.</p>
+<div class="language-python"><button title="Copy Code" class="copy"></button><span class="lang">python</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"><span style="color: #A6ACCD">data </span><span style="color: #89DDFF">=</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">{</span></span>
+<span class="line"><span style="color: #A6ACCD">        </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">model</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">qwen:7b</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">,</span></span>
+<span class="line"><span style="color: #A6ACCD">        </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">prompt</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> prompt</span><span style="color: #89DDFF">,</span></span>
+<span class="line"><span style="color: #A6ACCD">        </span><span style="color: #89DDFF">&quot;</span><span style="color: #C3E88D">stream</span><span style="color: #89DDFF">&quot;</span><span style="color: #89DDFF">:</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">False</span></span>
+<span class="line"><span style="color: #A6ACCD">    </span><span style="color: #89DDFF">}</span></span>
+<span class="line"><span style="color: #A6ACCD">    response </span><span style="color: #89DDFF">=</span><span style="color: #A6ACCD"> requests</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">post</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">url</span><span style="color: #89DDFF">,</span><span style="color: #82AAFF"> </span><span style="color: #A6ACCD; font-style: italic">data</span><span style="color: #89DDFF">=</span><span style="color: #82AAFF">json</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">dumps</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">data</span><span style="color: #89DDFF">),</span><span style="color: #82AAFF"> </span><span style="color: #A6ACCD; font-style: italic">stream</span><span style="color: #89DDFF">=True,</span><span style="color: #82AAFF"> </span><span style="color: #A6ACCD; font-style: italic">headers</span><span style="color: #89DDFF">={</span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">Content-type</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">:</span><span style="color: #82AAFF"> </span><span style="color: #89DDFF">&#39;</span><span style="color: #C3E88D">application/json</span><span style="color: #89DDFF">&#39;</span><span style="color: #89DDFF">})</span></span>
+<span class="line"><span style="color: #A6ACCD">json</span><span style="color: #89DDFF">.</span><span style="color: #82AAFF">loads</span><span style="color: #89DDFF">(</span><span style="color: #82AAFF">response</span><span style="color: #89DDFF">.</span><span style="color: #F07178">text</span><span style="color: #89DDFF">)</span></span></code></pre>
+</div><p>我这儿经过了对比7b的效果略好于4b, 但是速度上参数量小的推理会快一些.  测试过程中也遇到了大语言模型问答时会出现的一个很有意思的问题,  就是大语言模型在完成指定任务的时候, 很容易受到下文文中<code>指令</code>的干扰.
+比如:</p>
+<div class="language-python"><button title="Copy Code" class="copy"></button><span class="lang">python</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"><span style="color: #A6ACCD">prompt </span><span style="color: #89DDFF">=</span><span style="color: #A6ACCD"> </span><span style="color: #89DDFF">&quot;&quot;&quot;</span></span>
+<span class="line"><span style="color: #C3E88D">请帮我把下文概括成标题:</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color: #C3E88D">我的需求是这样的, 比如一个文件夹下有很多的文章, A文标题叫做“10大科技公司”, 然后A文章正文 提到了“小米公司”, 然后B文章标题是“小米公司简介”, 然后我希望能够自动识别并且产生B文章应该 属于A文章的关系. 类似这种关系解析, ,产生关系图的需求, 我应该怎么做</span></span>
+<span class="line"><span style="color: #89DDFF">&quot;&quot;&quot;</span></span></code></pre>
+</div><p>类似这种任务, 有点像是sql注入. 很容易会让大语言模型开始对<code>我该怎么做</code> 做回答,忘记了前文的让他生成标题的任务. 这个promp我试了很多个模型, 包括gpt4也会有<strong>命令混淆</strong>或<strong>指令覆盖</strong>这样的情况.</p>
+<p><strong>命令混淆</strong>或<strong>指令覆盖</strong>解决方案:</p>
+<ul>
+<li>用特定的结构/格式包裹 <code>待处理文本</code> (参数量大一些的语言模型, 基本加上这一步就没问题了)</li>
+<li>以特定的语言格式对模型进行微调(如固定以###system,   ###user 某种格式进行微调)</li>
+<li>结尾再次强调任务(参数量小的模型, 加上这个就还可以, 解决了qwen4b没法处理的情况)</li>
+</ul>
+<p>经过测试, 发现用特定格式和结尾强调的prompt的形式, 一个qwen 4b 7b就可以正常的使用了. 而qwen小于4b的模型测试后, 效果也不太行,  这种情况就是模型能力的问题. 最终采用了qwen4b的方案来做这个功能.</p>
+<h2 id="组合进obsidian" tabindex="-1">组合进obsidian <a class="header-anchor" href="#组合进obsidian" aria-label="Permalink to &quot;组合进obsidian&quot;">&ZeroWidthSpace;</a></h2>
+<p>之前我写的快捷指令就是通过把文本写入到icloud的obsidian特定文件夹, 起到同步的作用. 所以我只需要再电脑上写一个脚本定期扫描我存放灵感的文件夹, 遇到就生成新的标题就可以完成这个任务.</p>
+<p>obsidian安装<code>shell commands</code>插件, 然后配置好python轮训脚本即可.
+auto_generate_title.py</p>
+<div class="language-python"><button title="Copy Code" class="copy"></button><span class="lang">python</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"></span></code></pre>
+</div><h2 id="效果展示" tabindex="-1">效果展示 <a class="header-anchor" href="#效果展示" aria-label="Permalink to &quot;效果展示&quot;">&ZeroWidthSpace;</a></h2>
+<p>下图为生成后的灵感文本的效果展示:</p>
+<p><img src="./pic/灵感标题生成效果.png" alt=""></p>
+<h2 id="总结思考" tabindex="-1">总结思考 <a class="header-anchor" href="#总结思考" aria-label="Permalink to &quot;总结思考&quot;">&ZeroWidthSpace;</a></h2>
+<p>如果是业务上类似的需求是要对模型做微调为好, 并且应该进行模型的量化和部署操作, 这样可以尽可能的优化速度和减少资源的占用.ollama作为客户端的, 本身也是用的量化后或者gguf格式的模型, 有一定的加速, 但是目前推理速度还是太慢了, 期待以后小模型或者硬件成本能够进一步降低, 这样大家都可以很方便的把ai整合入自己生活习惯中去.</p>
+<p>后期的笔记文档管理的想法:
+结合nlp的话, 后期还希望能够自动的对我的文档进行分析, 并且创建好他们之间的关系, 自动帮我把他们之间的逻辑关系创建好. 这样记录后,电脑整理, 我回看就可以了, 头脑风暴继续产生新的联系就很好了. 可能需要生成主题词(三元组), 然后方便进行自动归档和建立联系. 建立图结构的联系.</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -35,12 +85,12 @@
             <description><![CDATA[<h1 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h1>
 <p><img src="./pic/自定义训练数据图像识别-2024-01-29.png" alt="">
 最近在玩《以撒的结合:忏悔》, ns版本. 游戏确实上头好玩, 内容很多. 但是游玩下来遇到一个纠结头疼的问题就是, 道具/ 装备 有时候捡起来后的效果, 还不如不捡. 装备/道具只会在捡起来的时候才能看到道具和状态是什么, 甚至, 有时候捡起来后描述也看不出这个道具到底能用来干嘛,  魂系叙事那一套......虽然也找到不错的<a href="https://isaac.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5" target="_blank" rel="noreferrer">以撒的结合中文维基</a>, 但是, 站点只能文字搜索, 再加上其道具和饰品加起来总数量有900多个, 相当于ImageNet的种类了.
-于是就想到, 干脆做一个“以撒道具图像识别功能” 好了, 优化体验: ) .</p>
+于是就想到, 干脆做一个<strong>以撒道具图像识别功能</strong> 好了, 优化体验: ) .</p>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="引言" tabindex="-1">引言 <a class="header-anchor" href="#引言" aria-label="Permalink to &quot;引言&quot;">&ZeroWidthSpace;</a></h1>
 <p><img src="./pic/自定义训练数据图像识别-2024-01-29.png" alt="">
 最近在玩《以撒的结合:忏悔》, ns版本. 游戏确实上头好玩, 内容很多. 但是游玩下来遇到一个纠结头疼的问题就是, 道具/ 装备 有时候捡起来后的效果, 还不如不捡. 装备/道具只会在捡起来的时候才能看到道具和状态是什么, 甚至, 有时候捡起来后描述也看不出这个道具到底能用来干嘛,  魂系叙事那一套......虽然也找到不错的<a href="https://isaac.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5" target="_blank" rel="noreferrer">以撒的结合中文维基</a>, 但是, 站点只能文字搜索, 再加上其道具和饰品加起来总数量有900多个, 相当于ImageNet的种类了.
-于是就想到, 干脆做一个“以撒道具图像识别功能” 好了, 优化体验: ) .</p>
+于是就想到, 干脆做一个<strong>以撒道具图像识别功能</strong> 好了, 优化体验: ) .</p>
 <hr>
 <BabyPulm /><h1 id="自定义训练数据图像识别" tabindex="-1">自定义训练数据图像识别 <a class="header-anchor" href="#自定义训练数据图像识别" aria-label="Permalink to &quot;自定义训练数据图像识别&quot;">&ZeroWidthSpace;</a></h1>
 <p>得益于各种深度学习框架的发展, 现在训练一个模型变得非常简单, 于是我就决定直接用<code>pytorch</code>来完成这个图片识别的任务了.  考虑到以撒的道具装备这类东西图像数据是非常<strong>垂直领域</strong>了, 所以我需要准备对应的训练数据进行模型的训练.</p>

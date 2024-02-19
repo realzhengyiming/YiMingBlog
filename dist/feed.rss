@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Mon, 19 Feb 2024 10:03:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Feb 2024 13:37:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -125,7 +125,7 @@ auto_generate_title.py</p>
 </div><h2 id="效果展示" tabindex="-1">效果展示 <a class="header-anchor" href="#效果展示" aria-label="Permalink to &quot;效果展示&quot;">&ZeroWidthSpace;</a></h2>
 <p>下图为生成后的灵感文本的效果展示:<br>
 时间戳形式的灵感文件有了标题, 这样管理起来和后期回看就很方便了.
-<img src="./pic/灵感标题生成效果.png" alt=""></p>
+<img src="./pic/本地部署&amp;生成标题.png" alt=""></p>
 <h2 id="总结思考" tabindex="-1">总结思考 <a class="header-anchor" href="#总结思考" aria-label="Permalink to &quot;总结思考&quot;">&ZeroWidthSpace;</a></h2>
 <p>如果是业务上类似的需求是要对模型做微调为好, 并且应该进行模型的量化和部署操作, 这样可以尽可能的优化速度和减少资源的占用.</p>
 <p>ollama作为客户端的, 本身也是用的量化后或者gguf格式的模型, 有一定的加速, 但是目前推理速度还是太慢了, 期待以后小模型或者硬件成本能够进一步降低, 这样大家都可以很方便的把ai整合入自己生活习惯中去.</p>

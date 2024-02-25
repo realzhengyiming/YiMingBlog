@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Sun, 25 Feb 2024 16:13:35 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Feb 2024 16:24:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -87,8 +87,11 @@ QLoRA缺点:</li>
 <li>etc...</li>
 </ul>
 <h2 id="模型微调的问题" tabindex="-1">模型微调的问题 <a class="header-anchor" href="#模型微调的问题" aria-label="Permalink to &quot;模型微调的问题&quot;">&ZeroWidthSpace;</a></h2>
-<p>最大的问题, 硬件资源不足, 硬件的显存依赖, 一直是运行/训练大模型的切实痛点. 一般fp16纯推理, 24G显存最大也就运行7B参数量的模型。而7B原生的性能就没法和更大参数量的模型对比. 而全参微调7B也需要至少3x24G.  而消费级显卡, 大多12 -16 -24G, 价格也已经超级高了. 增加了现阶段实验大模型微调的成本.</p>
-<p>所以目前微调技术会从SFT--&gt; PEFT发展. 往着降低成本, 减少微调时间, 加速实验,加速产出的方向走. 这也是为什么现阶段RAG路线也是个不错的选择. 不过, 相信不远的将来, 模型微调的技术一定也会进一步降低微调的成本, 这样人人可以方便简单的在普通设备上进行微调和推理, 这样可就太好了,哈哈哈.</p>
+<p>硬件资源不足: 最大的问题,  大模型的显存依赖, 一直是运行/训练大模型的切实痛点. 一般fp16纯推理, 24G显存最大也就运行7B参数量的模型。而7B原生的性能就没法和更大参数量的模型对比. 而全参微调7B也需要至少3x24G.  而消费级显卡, 大多12 -16 -24G, 价格也已经超级高了. 增加了现阶段实验大模型微调的成本.</p>
+<p>微调的数据量不足: 虽然可以使用过chatgpt进行问答的生成, 但是如果是<strong>垂直领域</strong>, 那回答也依然需要人工精确的去核对. 而垂直领域恰恰是希望能够非常准确, 才能突出此<strong>模型应用</strong>有别于其他的价值.
+这部分也需要大量的人力物力, 才能处理出足够的高质量数据.</p>
+<p>所以目前微调技术会从SFT--&gt; PEFT发展. 往着降低成本, 减少微调时间, 加速实验,加速产出的方向走.</p>
+<p>这也是为什么现阶段RAG路线也是个不错的选择, RAG路线更新知识和验证知识的流程相对简单和高效. 不过, 相信不远的将来, 模型微调的技术一定也会进一步降低微调的成本, 这样人人可以方便简单的在普通设备上进行微调和推理, 这样应用模型到其他任务上就变得更简单了.</p>
 <blockquote>
 <p><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjG6PXh4MaEAxUhlK8BHSTHDkUQFnoECAYQAQ&amp;url=https%3A%2F%2Farxiv.org%2Fabs%2F2305.14314&amp;usg=AOvVaw0DPZGS_zRJAyr-clb7RXRc&amp;opi=89978449" target="_blank" rel="noreferrer">QLoRA: Efficient Finetuning of Quantized LLMs</a></p>
 </blockquote>

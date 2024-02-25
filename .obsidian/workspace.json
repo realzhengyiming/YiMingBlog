@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/unpost_blog/llm类大模型微调总结.md",
+                "file": "src/unpost_blog/llm-.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/unpost_blog/llm类大模型微调总结.md",
+                "file": "src/unpost_blog/llm-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/unpost_blog/llm类大模型微调总结.md",
+                "file": "src/unpost_blog/llm-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/unpost_blog/llm类大模型微调总结.md"
+                "file": "src/unpost_blog/llm-.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "96cbfc122c34877a",
   "lastOpenFiles": [
+    "src/unpost_blog/pic/对比lora-qlora.png",
+    "src/unpost_blog/pic/lora微调注入结构.png",
+    "src/unpost_blog/pic",
+    "00template/博文文章模板.md",
+    "src/blog/posts/2024/Isaac_image_recognition.md",
+    "src/unpost_blog/llm-.md",
     "dist/feed.rss",
     "dist/blog/index.html",
     "dist/404.html",
@@ -157,10 +163,7 @@
     "dist/blog/archives.html",
     "dist/blog/authors/yi-ming.html",
     "dist/blog/authors",
-    "dist/assets/blog_posts_2024_vitepress_use_vue_animation.md.b70daf99.lean.js",
-    "dist/assets/blog_posts_2024_Isaac_image_recognition.md.9fd3c83f.lean.js",
     "src/unpost_blog/GPT-SOVITS.md",
-    "src/unpost_blog/llm类大模型微调总结.md",
     "未发布/sora_research(未完成).md",
     "src/未命名.md",
     "未发布/isaac_object_detection(未完成).md",
@@ -170,9 +173,7 @@
     "src/blog/posts/2024/pic/本地部署&生成标题.png",
     "src/blog/posts/2024/pic/灵感标题生成效果.png",
     "dist/assets/灵感标题生成效果.cdee50e6.png",
-    "src/blog/posts/2024/Isaac_image_recognition.md",
     "00template/博文教程模板.md",
-    "00template/博文文章模板.md",
     "00template/博文文档模板.md",
     "未发布/baby_pulm 1.png",
     "未发布/try_my_div.md",
@@ -185,7 +186,6 @@
     "dist/128x128_laughface.png",
     "dist/128x128_indexhead.png",
     "dist/assets/自定义训练数据图像识别-验证真实结果-2024-01-29.6019a0bc.png",
-    "dist/assets/自定义训练数据图像识别-结果总结-2024-01-29.6146e566.png",
     "src/blog/authors/yi-ming.md",
     "src/blog/posts/2024/vitepress_obsidian.md",
     "src/blog/posts/2024/llm_agent.md",

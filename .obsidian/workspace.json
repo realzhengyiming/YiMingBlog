@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/blog/posts/2024/Ollama_Local_Inference&Summary_Generation_Capability.md",
+                "file": "src/unpost_blog/llm类大模型微调总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/blog/posts/2024/Ollama_Local_Inference&Summary_Generation_Capability.md",
+                "file": "src/unpost_blog/llm类大模型微调总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/blog/posts/2024/Ollama_Local_Inference&Summary_Generation_Capability.md",
+                "file": "src/unpost_blog/llm类大模型微调总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/blog/posts/2024/Ollama_Local_Inference&Summary_Generation_Capability.md"
+                "file": "src/unpost_blog/llm类大模型微调总结.md"
               }
             }
           }
@@ -148,28 +148,32 @@
   },
   "active": "96cbfc122c34877a",
   "lastOpenFiles": [
-    "dist/blog/authors/yi-ming.html",
-    "dist/blog/archives.html",
+    "dist/blog/index.html",
     "dist/404.html",
+    "dist/unpost_blog/GPT-SOVITS.html",
+    "dist/unpost_blog/未命名.html",
+    "dist/unpost_blog",
+    "dist/blog/archives.html",
+    "dist/blog/authors/yi-ming.html",
+    "dist/blog/authors",
     "dist/assets/blog_posts_2024_vitepress_use_vue_animation.md.b70daf99.lean.js",
-    "dist/assets/blog_posts_2024_Ollama_Local_Inference_Summary_Generation_Capability.md.6daecc3d.lean.js",
-    "dist/assets/blog_posts_2024_llm_agent.md.c277315c.lean.js",
-    "dist/assets/blog_authors_yi-ming.md.72970469.lean.js",
-    "dist/assets/blog_tags.md.62e1cd9b.lean.js",
-    "dist/assets/blog_posts_2024_vitepress_obsidian.md.b7e2110e.lean.js",
     "dist/assets/blog_posts_2024_Isaac_image_recognition.md.9fd3c83f.lean.js",
-    "dist/assets/blog_index.md.6f622db4.lean.js",
+    "dist/assets/unpost_blog_未命名.md.0de3a3dc.lean.js",
+    "src/unpost_blog/GPT-SOVITS.md",
+    "src/unpost_blog/llm类大模型微调总结.md",
+    "未发布/sora_research(未完成).md",
+    "src/未命名.md",
+    "未发布/isaac_object_detection(未完成).md",
+    "未发布/blog_header_generate(已完成).md",
+    "src/blog/posts/2024/Ollama_Local_Inference&Summary_Generation_Capability.md",
     "dist/assets/本地部署_生成标题.95bc7417.png",
     "src/blog/posts/2024/pic/本地部署&生成标题.png",
     "src/blog/posts/2024/pic/灵感标题生成效果.png",
-    "src/blog/posts/2024/Ollama_Local_Inference&Summary_Generation_Capability.md",
     "dist/assets/灵感标题生成效果.cdee50e6.png",
     "src/blog/posts/2024/Isaac_image_recognition.md",
     "00template/博文教程模板.md",
     "00template/博文文章模板.md",
     "00template/博文文档模板.md",
-    "未发布/isaac_object_detection.md",
-    "未发布/blog_header_generate.md",
     "未发布/baby_pulm 1.png",
     "未发布/try_my_div.md",
     "未发布/dl_model_deploy 1.md",
@@ -189,10 +193,6 @@
     "src/blog/posts/2024/try_my_div2copy.md",
     "src/blog/posts/2024/try_my_div2 copy.md",
     "src/blog/posts/2024/try_my_div copy.md",
-    "src/blog/posts/2024/try_my_div.md",
-    "node_modules/@rollup/rollup-darwin-x64/README.md",
-    "node_modules/@types/estree/README.md",
-    "node_modules/shikiji/README.md",
-    "node_modules/shikiji-core/README.md"
+    "src/blog/posts/2024/try_my_div.md"
   ]
 }

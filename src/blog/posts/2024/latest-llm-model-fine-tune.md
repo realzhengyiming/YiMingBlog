@@ -127,6 +127,9 @@ CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
     --plot_loss True
 ```
 
+### webui 界面
+![](pic/latest-llm-model-fine-tune-webui.png)
+
 ### 3epoch训练身份矫正
 训练完后加载lora进行检查:
 ![3epoch](pic/3epoch.png)

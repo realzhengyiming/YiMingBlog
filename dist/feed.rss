@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Mon, 26 Feb 2024 13:46:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Feb 2024 13:52:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -124,7 +124,9 @@ QLoRA缺点:</li>
 <span class="line"><span style="color: #A6ACCD">    </span><span style="color: #C3E88D">--lora_dropout</span><span style="color: #A6ACCD"> </span><span style="color: #F78C6C">0.1</span><span style="color: #A6ACCD"> \</span></span>
 <span class="line"><span style="color: #A6ACCD">    </span><span style="color: #C3E88D">--lora_target</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">q_proj,v_proj</span><span style="color: #A6ACCD"> \</span></span>
 <span class="line"><span style="color: #A6ACCD">    </span><span style="color: #C3E88D">--plot_loss</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">True</span></span></code></pre>
-</div><h3 id="_3epoch训练身份矫正" tabindex="-1">3epoch训练身份矫正 <a class="header-anchor" href="#_3epoch训练身份矫正" aria-label="Permalink to &quot;3epoch训练身份矫正&quot;">&ZeroWidthSpace;</a></h3>
+</div><h3 id="webui-界面" tabindex="-1">webui 界面 <a class="header-anchor" href="#webui-界面" aria-label="Permalink to &quot;webui 界面&quot;">&ZeroWidthSpace;</a></h3>
+<p><img src="./pic/latest-llm-model-fine-tune-webui.png" alt=""></p>
+<h3 id="_3epoch训练身份矫正" tabindex="-1">3epoch训练身份矫正 <a class="header-anchor" href="#_3epoch训练身份矫正" aria-label="Permalink to &quot;3epoch训练身份矫正&quot;">&ZeroWidthSpace;</a></h3>
 <p>训练完后加载lora进行检查:
 <img src="./pic/3epoch.png" alt="3epoch"></p>
 <p><img src="./pic/latest-llm-model-fine-tune-3epoch.png" alt=""></p>

@@ -156,6 +156,7 @@
   },
   "active": "96cbfc122c34877a",
   "lastOpenFiles": [
+    "dist/feed.rss",
     "dist/blog/authors/yi-ming.html",
     "dist/blog/archives.html",
     "dist/404.html",
@@ -166,7 +167,6 @@
     "dist/assets/blog_posts_2024_vitepress_obsidian.md.b7e2110e.lean.js",
     "dist/assets/blog_posts_2024_Ollama_Local_Inference_Summary_Generation_Capability.md.5e3bf348.lean.js",
     "dist/assets/blog_archives.md.623bcfb1.lean.js",
-    "dist/assets/blog_authors_yi-ming.md.72970469.lean.js",
     "dist/assets/3epoch.e5285bc7.png",
     "dist/assets/本地部署_生成标题.95bc7417.png",
     "dist/assets/vitepress_use_vue_animation-baby-plum.badc5c1a.png",

@@ -15,13 +15,13 @@ tags:
 ---
 
 ## 引言
-llm大模型目前比较火的两个垂直领域应用的技术路线: PEFT(参数有效微调)和RAG(检索增强生成). 目前这两个方向按实用性来说,确实RAG能以更低的成本和更快的速度应用起来.   
-但是**微调训练**依然是垂直领域运用的很重要的一个方向, 并且他的增强和RAG还可以互相促进.
+llm大模型目前比较火的两个垂直领域应用的技术路线: PEFT(参数有效微调)和RAG(检索增强生成). 目前这两个方向按实用性来说, 如果单看垂直领域知识库, 那确实RAG能以更低的成本和更快的速度应用起来.   
+但是**微调训练**能为大语言模型增加新的功能, 比如翻译, 使用agent(agent工具调用微调), 所以它依然非常重要, 并且微调技术的增强和RAG是可以共同促进的.
 下文就以简单的身份微调作为例子, 简单实践下llm微调.
 
 ---
 
-## 大微调技术路线
+## 大模型微调技术路线
 
 ### SFT (有监督微调)  
 简单的说就是**传统全参数微调**, 特点就是, 标记数据中将输入数据映射到期望的输出去. 
@@ -77,26 +77,82 @@ QLoRA缺点:
 
 
 ### ptuning v2 
-国外目前好像用得比较少,  主流还是LoRA系列的. 相比于ptuning 增加了注入的层数, 让ptuning在参数量10b一下的模型也能达到还不错的效果.
+主流还是LoRA系列的. ptunning 目前好像主要chatglm在用. ptunning v2 相比于ptuning v1增加了注入的层数, 让ptuning在参数量10b以下的模型也能达到还不错的效果.
 
 ## llm LoRA 训练
 + 可以参考不同的模型的各自训练微调的说明
 + huggingface PEFT库
-+ 带Webui的 llama-factory 体验还可以 [hiyouga/LLaMA-Factory: Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) (github.com)](https://github.com/hiyouga/LLaMA-Factory)
++ 带Webui的 [llama-factory](https://github.com/hiyouga/LLaMA-Factory) 体验也还可以
 + etc...
+
+## 使用llama-factory(llama-board) 微调模型
+
+配置环境安装:
+下面以qwen:7b-chat模型为例子, 用24G运存的GPU进行微调.
+```shell
+git clone https://github.com/hiyouga/LLaMA-Factory.git
+conda create -n llama_factory python=3.10
+conda activate llama_factory
+cd LLaMA-Factory
+pip install -r requirements.txt
+
+CUDA_VISIBLE_DEVICES=0 python src/train_web.py
+
+
+CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
+    --stage sft \
+    --do_train True \
+    --model_name_or_path qwen/Qwen1.5-7B-Chat \
+    --adapter_name_or_path saves/Qwen1.5-7B-Chat/lora/train_2024-02-26-20-08-03 \
+    --finetuning_type lora \
+    --template qwen \
+    --dataset_dir data \
+    --dataset self_cognition \
+    --cutoff_len 1024 \
+    --learning_rate 0.0001 \
+    --num_train_epochs 10.0 \
+    --max_samples 100000 \
+    --per_device_train_batch_size 4 \
+    --gradient_accumulation_steps 4 \
+    --lr_scheduler_type cosine \
+    --max_grad_norm 1.0 \
+    --logging_steps 5 \
+    --save_steps 100 \
+    --warmup_steps 0 \
+    --output_dir saves/Qwen1.5-7B-Chat/lora/train_2024-02-26-20-08-03 \
+    --fp16 True \
+    --lora_rank 8 \
+    --lora_dropout 0.1 \
+    --lora_target q_proj,v_proj \
+    --plot_loss True
+```
+
+### 3epoch训练身份矫正
+训练完后加载lora进行检查:
+![3epoch](pic/3epoch.png)
+
+![](pic/latest-llm-model-fine-tune-3epoch.png)
+
+### 6epoch训练后效果
+![](pic/latest-llm-model-fine-tune-6epoch.png)
+
+![](pic/latest-llm-model-fine-tune-6epoch-chat.png)
+可见, 在80条身份数据的情况下6个epoch, 学习率1e-4 , lora rank为4的情况下,  其余默认, 已经让模型能够重新定义模型的“自我身份”. 说明微调起作用了. 之后也简单问了一下常规的问题, 以检查是否造成了灾难性遗忘:
+![](pic/latest-llm-model-fine-tune-6epoch-try.png)
+发现还可以, 之前用ptuning 对chatglm进行微调的时候 ,就出现了很明显的灾难性遗忘, 原来的功能都丧失了. 虽然ptuninig v2 也只对prefix encoder做微调.(也可能还是因为数据量不够, epoch过多)
+
+### 10epoch 
+10个epoch后, 就开始工作不正常了, 出现了. 数据量不够, 轮数太多, 过拟合了.
+![](pic/latest-llm-model-fine-tune-10epoch.png)
+
+![](pic/iShot_2024-02-26_20.17.33.png)
 
 ## 模型微调的问题
 
-硬件资源不足: 最大的问题,  大模型的显存依赖, 一直是运行/训练大模型的切实痛点. 一般fp16纯推理, 24G显存最大也就运行7B参数量的模型。而7B原生的性能就没法和更大参数量的模型对比. 而全参微调7B也需要至少3x24G.  而消费级显卡, 大多12 -16 -24G, 价格也已经超级高了. 增加了现阶段实验大模型微调的成本.
++ 硬件要求高: 全参微调7b大概需要2个V100; lora训练7b,需要至少22G显存; qlora训练至少需要16G; 
++ 数据量要求高: 虽然可以使用过chatgpt进行问答的生成, 但是如果是**垂直领域**, 那回答也依然需要人工精确的去核对. 而垂直领域恰恰是希望能够非常准确, 才能突出此**模型应用**有别于其他的价值.
 
-微调的数据量不足: 虽然可以使用过chatgpt进行问答的生成, 但是如果是**垂直领域**, 那回答也依然需要人工精确的去核对. 而垂直领域恰恰是希望能够非常准确, 才能突出此**模型应用**有别于其他的价值.
-这部分也需要大量的人力物力, 才能处理出足够的高质量数据.
-
-所以目前微调技术会从SFT--> PEFT发展. 往着降低成本, 减少微调时间, 加速实验,加速产出的方向走. 
-
-这也是为什么现阶段RAG路线也是个不错的选择, RAG路线更新知识和验证知识的流程相对简单和高效. 不过, 相信不远的将来, 模型微调的技术一定也会进一步降低微调的成本, 这样人人可以方便简单的在普通设备上进行微调和推理, 这样应用模型到其他任务上就变得更简单了.
-
+所以目前微调技术会从SFT--> PEFT发展(lora -> qlora). 往着降低成本, 减少微调时间, 加速实验,加速产出的方向走. 期待低成本微调有更大的技术突破, 或者显卡硬件价格下降. :) 
 
 >[QLoRA: Efficient Finetuning of Quantized LLMs](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjG6PXh4MaEAxUhlK8BHSTHDkUQFnoECAYQAQ&url=https%3A%2F%2Farxiv.org%2Fabs%2F2305.14314&usg=AOvVaw0DPZGS_zRJAyr-clb7RXRc&opi=89978449)
-
 

@@ -108,8 +108,8 @@
   cursor: pointer; /* 鼠标悬停时的光标样式 */
   outline: none; /* 点击时去除焦点边框 */
   position: fixed; /* 固定定位 */
-  bottom: 50px; /* 离底部的位置 */
-  right: 20px; /* 离右边的位置 */
+  bottom: 30px; /* 离底部的位置 */
+  right: 10px; /* 离右边的位置 */
   z-index: 999;
 }
 

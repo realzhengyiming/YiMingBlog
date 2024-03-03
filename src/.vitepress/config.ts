@@ -14,7 +14,7 @@ export default defineConfig({
     siteTitle: "YiMing's Blog",
     footer: {
       message: '2024 - future',
-      copyright: 'say my name!',
+      copyright: '我在练习一个人~',
     },
     blog: {
       title: '博文',

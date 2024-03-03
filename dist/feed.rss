@@ -4,7 +4,7 @@
         <title>博文</title>
         <link>localhost/blog</link>
         <description>✍️</description>
-        <lastBuildDate>Wed, 28 Feb 2024 04:11:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 Mar 2024 07:45:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -86,7 +86,7 @@ QLoRA缺点:</li>
 <li>带Webui的 <a href="https://github.com/hiyouga/LLaMA-Factory" target="_blank" rel="noreferrer">llama-factory</a> 体验也还可以</li>
 <li>etc...</li>
 </ul>
-<h2 id="使用llama-factory-llama-board-微调模型" tabindex="-1">使用llama-factory(llama-board) 微调模型 <a class="header-anchor" href="#使用llama-factory-llama-board-微调模型" aria-label="Permalink to &quot;使用llama-factory(llama-board) 微调模型&quot;">&ZeroWidthSpace;</a></h2>
+<h3 id="llama-factory-llama-board-微调模型" tabindex="-1">llama-factory(llama-board) 微调模型 <a class="header-anchor" href="#llama-factory-llama-board-微调模型" aria-label="Permalink to &quot;llama-factory(llama-board) 微调模型&quot;">&ZeroWidthSpace;</a></h3>
 <p>配置环境安装:
 下面以qwen:7b-chat模型为例子, 用24G运存的GPU进行微调.</p>
 <div class="language-shell"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre v-pre class="shiki material-theme-palenight" ><code><span class="line"><span style="color: #FFCB6B">git</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">clone</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">https://github.com/hiyouga/LLaMA-Factory.git</span></span>
@@ -95,9 +95,10 @@ QLoRA缺点:</li>
 <span class="line"><span style="color: #82AAFF">cd</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">LLaMA-Factory</span></span>
 <span class="line"><span style="color: #FFCB6B">pip</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">install</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">-r</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">requirements.txt</span></span>
 <span class="line"></span>
+<span class="line"><span style="color: #676E95; font-style: italic"># 直接启动一个webui界面, 从0开始训练</span></span>
 <span class="line"><span style="color: #A6ACCD">CUDA_VISIBLE_DEVICES</span><span style="color: #89DDFF">=</span><span style="color: #F78C6C">0</span><span style="color: #A6ACCD"> python src/train_web.py</span></span>
 <span class="line"></span>
-<span class="line"></span>
+<span class="line"><span style="color: #676E95; font-style: italic"># webui界面可以把训练的命令参数保留下来, 用于下次的复现, 如下</span></span>
 <span class="line"><span style="color: #A6ACCD">CUDA_VISIBLE_DEVICES</span><span style="color: #89DDFF">=</span><span style="color: #F78C6C">0</span><span style="color: #A6ACCD"> python src/train_bash.py \</span></span>
 <span class="line"><span style="color: #A6ACCD">    </span><span style="color: #FFCB6B">--stage</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">sft</span><span style="color: #A6ACCD"> \</span></span>
 <span class="line"><span style="color: #A6ACCD">    </span><span style="color: #C3E88D">--do_train</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">True</span><span style="color: #A6ACCD"> \</span></span>
@@ -126,7 +127,7 @@ QLoRA缺点:</li>
 <span class="line"><span style="color: #A6ACCD">    </span><span style="color: #C3E88D">--plot_loss</span><span style="color: #A6ACCD"> </span><span style="color: #C3E88D">True</span></span></code></pre>
 </div><h3 id="webui-界面" tabindex="-1">webui 界面 <a class="header-anchor" href="#webui-界面" aria-label="Permalink to &quot;webui 界面&quot;">&ZeroWidthSpace;</a></h3>
 <p><img src="./pic/latest-llm-model-fine-tune-webui.png" alt=""></p>
-<h3 id="_3epoch训练身份矫正" tabindex="-1">3epoch训练身份矫正 <a class="header-anchor" href="#_3epoch训练身份矫正" aria-label="Permalink to &quot;3epoch训练身份矫正&quot;">&ZeroWidthSpace;</a></h3>
+<h3 id="_3epoch训练身份效果" tabindex="-1">3epoch训练身份效果 <a class="header-anchor" href="#_3epoch训练身份效果" aria-label="Permalink to &quot;3epoch训练身份效果&quot;">&ZeroWidthSpace;</a></h3>
 <p>训练完后加载lora进行检查:
 <img src="./pic/3epoch.png" alt="3epoch"></p>
 <p><img src="./pic/latest-llm-model-fine-tune-3epoch.png" alt=""></p>
@@ -136,18 +137,20 @@ QLoRA缺点:</li>
 可见, 在80条身份数据的情况下6个epoch, 学习率1e-4 , lora rank为4的情况下,  其余默认, 已经让模型能够重新定义模型的“自我身份”. 说明微调起作用了. 之后也简单问了一下常规的问题, 以检查是否造成了灾难性遗忘:
 <img src="./pic/latest-llm-model-fine-tune-6epoch-try.png" alt="">
 发现还可以, 之前用ptuning 对chatglm进行微调的时候 ,就出现了很明显的灾难性遗忘, 原来的功能都丧失了. 虽然ptuninig v2 也只对prefix encoder做微调.(也可能还是因为数据量不够, epoch过多)</p>
-<h3 id="_10epoch" tabindex="-1">10epoch <a class="header-anchor" href="#_10epoch" aria-label="Permalink to &quot;10epoch&quot;">&ZeroWidthSpace;</a></h3>
+<h3 id="_10epoch训练效果" tabindex="-1">10epoch训练效果 <a class="header-anchor" href="#_10epoch训练效果" aria-label="Permalink to &quot;10epoch训练效果&quot;">&ZeroWidthSpace;</a></h3>
 <p>10个epoch后, 就开始工作不正常了, 出现了. 数据量不够, 轮数太多, 过拟合了.
 <img src="./pic/latest-llm-model-fine-tune-10epoch.png" alt=""></p>
 <p><img src="./pic/iShot_2024-02-26_20.17.33.png" alt=""></p>
-<h2 id="模型微调的问题" tabindex="-1">模型微调的问题 <a class="header-anchor" href="#模型微调的问题" aria-label="Permalink to &quot;模型微调的问题&quot;">&ZeroWidthSpace;</a></h2>
+<h2 id="模型微调总结" tabindex="-1">模型微调总结 <a class="header-anchor" href="#模型微调总结" aria-label="Permalink to &quot;模型微调总结&quot;">&ZeroWidthSpace;</a></h2>
 <ul>
 <li>硬件要求高: 全参微调7b大概需要2个V100; lora训练7b,需要至少22G显存; qlora训练至少需要16G;</li>
 <li>数据量要求高: 虽然可以使用过chatgpt进行问答的生成, 但是如果是<strong>垂直领域</strong>, 那回答也依然需要人工精确的去核对. 而垂直领域恰恰是希望能够非常准确, 才能突出此<strong>模型应用</strong>有别于其他的价值.</li>
 </ul>
 <p>所以目前微调技术会从SFT--&gt; PEFT发展(lora -&gt; qlora). 往着降低成本, 减少微调时间, 加速实验,加速产出的方向走. 期待低成本微调有更大的技术突破, 或者显卡硬件价格下降. 😃</p>
+<p>最后, 虽然但是, 无论是SFT还是PEFT, 模型微调依然是给模型赋予新功能绕不开的问题. 比如为6b版本的模型也赋予工具调用能力.下面的 llama factory的agent微调例子就很实用.</p>
 <blockquote>
-<p><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjG6PXh4MaEAxUhlK8BHSTHDkUQFnoECAYQAQ&amp;url=https%3A%2F%2Farxiv.org%2Fabs%2F2305.14314&amp;usg=AOvVaw0DPZGS_zRJAyr-clb7RXRc&amp;opi=89978449" target="_blank" rel="noreferrer">QLoRA: Efficient Finetuning of Quantized LLMs</a></p>
+<p><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjG6PXh4MaEAxUhlK8BHSTHDkUQFnoECAYQAQ&amp;url=https%3A%2F%2Farxiv.org%2Fabs%2F2305.14314&amp;usg=AOvVaw0DPZGS_zRJAyr-clb7RXRc&amp;opi=89978449" target="_blank" rel="noreferrer">QLoRA: Efficient Finetuning of Quantized LLMs</a>
+<a href="https://zhuanlan.zhihu.com/p/678989191?utm_medium=social&amp;utm_oi=63143405420544&amp;utm_psn=1735115630280503296&amp;utm_source=ZHShareTargetIDMore" target="_blank" rel="noreferrer">单卡 3 小时训练专属大模型 Agent：基于 LLaMA Factory 实战 - 知乎 (zhihu.com)</a></p>
 </blockquote>
 ]]></content:encoded>
         </item>

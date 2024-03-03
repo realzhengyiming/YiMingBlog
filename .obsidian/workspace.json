@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/unpost_blog/RAG_enhance.md",
+                "file": "src/blog/special/a_lettter.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0b05fa80d341e13d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
               }
             }
           },
@@ -93,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/unpost_blog/RAG_enhance.md",
+                "file": "src/blog/special/a_lettter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/unpost_blog/RAG_enhance.md",
+                "file": "src/blog/special/a_lettter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/unpost_blog/RAG_enhance.md"
+                "file": "src/blog/special/a_lettter.md"
               }
             }
           }
@@ -156,32 +166,33 @@
   },
   "active": "96cbfc122c34877a",
   "lastOpenFiles": [
-    "dist/feed.rss",
-    "dist/blog/posts/2024/Isaac_image_recognition.html",
-    "dist/blog/posts/2024/Ollama_Local_Inference&Summary_Generation_Capability.html",
-    "dist/unpost_blog/RAG_enhance.html",
-    "dist/blog/index.html",
-    "dist/404.html",
-    "dist/blog/archives.html",
-    "dist/blog/authors/yi-ming.html",
-    "dist/blog/authors",
-    "dist/assets/blog_posts_2024_Ollama_Local_Inference_Summary_Generation_Capability.md.5e3bf348.lean.js",
     "dist/assets/blog_posts_2024_Isaac_image_recognition.md.9fd3c83f.lean.js",
-    "dist/assets/3epoch.e5285bc7.png",
-    "src/blog/test_dir/testmd.md",
-    "dist/assets/vitepress_use_vue_animation-baby-plum.badc5c1a.png",
+    "dist/assets/blog_posts_2024_vitepress_use_vue_animation.md.b70daf99.lean.js",
+    "dist/assets/blog_posts_2024_vitepress_obsidian.md.b7e2110e.lean.js",
+    "dist/assets/unpost_blog_GPT-SOVITS.md.603b8d35.lean.js",
+    "dist/assets/blog_tags.md.62e1cd9b.lean.js",
+    "dist/assets/index.md.3cf96156.lean.js",
+    "dist/assets/blog_posts_2024_Ollama_Local_Inference_Summary_Generation_Capability.md.5e3bf348.lean.js",
+    "dist/assets/blog_posts_2024_llm_agent.md.c277315c.lean.js",
+    "dist/assets/blog_posts_2024_Isaac_image_recognition.md.9fd3c83f.js",
+    "dist/assets/blog_authors_yi-ming.md.72970469.lean.js",
+    "dist/assets/blog_archives.md.623bcfb1.lean.js",
     "dist/assets/rag和agent的关系.excalidraw.172970c8.png",
+    "dist/assets/vitepress_obsidian-1save.07e264f2.png",
+    "dist/assets/vitepress_obsidian-push.208f2eba.png",
+    "dist/assets/lora微调注入结构.8a777aea.png",
+    "dist/assets/latest-llm-model-fine-tune-10epoch.104e551b.png",
+    "dist/assets/hug-warm-hug.6db1fd54.gif",
+    "dist/assets/vitepress_obsidian-plus-command.5c03c3a4.png",
+    "dist/assets/latest-llm-model-fine-tune-6epoch-try.8ca58604.png",
+    "dist/assets/latest-llm-model-fine-tune-webui.df62f953.png",
     "dist/assets/iShot_2024-02-26_20.17.33.e0b8bc45.png",
-    "dist/assets/自定义训练数据图像识别-验证真实结果-2024-01-29.6019a0bc.png",
-    "dist/assets/自定义训练数据图像识别-结果总结-2024-01-29.6146e566.png",
-    "dist/assets/自定义训练数据图像识别-数据合成多背景-2024-01-29.0f002570.png",
-    "dist/assets/自定义训练数据图像识别-结果可视化-2024-01-29.4d7759a1.png",
-    "dist/assets/自定义训练数据图像识别-像素风格-2024-01-29.4b132729.png",
-    "dist/assets/自定义训练数据图像识别-2024-01-29.a602417e.png",
-    "src/unpost_blog/RAG_enhance.md",
+    "src/blog/special/a_lettter.md",
+    "src/blog/special/a_letter.md",
     "src/blog/posts/2024/latest-llm-model-fine-tune.md",
-    "00template/博文文章模板.md",
     "src/blog/posts/2024/Isaac_image_recognition.md",
+    "src/unpost_blog/RAG_enhance.md",
+    "00template/博文文章模板.md",
     "src/unpost_blog/GPT-SOVITS.md",
     "未发布/sora_research(未完成).md",
     "src/未命名.md",
@@ -200,7 +211,6 @@
     "src/blog/posts/2024/vitepress_obsidian.md",
     "src/blog/posts/2024/llm_agent.md",
     "src/blog/posts/2024/try_my_div2.md",
-    "src/blog/posts/2024/try_my_div2copy.md",
-    "src/blog/posts/2024/try_my_div2 copy.md"
+    "src/blog/posts/2024/try_my_div2copy.md"
   ]
 }

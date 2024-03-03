@@ -85,10 +85,10 @@ QLoRA缺点:
 + 带Webui的 [llama-factory](https://github.com/hiyouga/LLaMA-Factory) 体验也还可以
 + etc...
 
-## 使用llama-factory(llama-board) 微调模型
-
+### llama-factory(llama-board) 微调模型
 配置环境安装:
 下面以qwen:7b-chat模型为例子, 用24G运存的GPU进行微调.
+
 ```shell
 git clone https://github.com/hiyouga/LLaMA-Factory.git
 conda create -n llama_factory python=3.10
@@ -96,9 +96,10 @@ conda activate llama_factory
 cd LLaMA-Factory
 pip install -r requirements.txt
 
+# 直接启动一个webui界面, 从0开始训练
 CUDA_VISIBLE_DEVICES=0 python src/train_web.py
 
-
+# webui界面可以把训练的命令参数保留下来, 用于下次的复现, 如下
 CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
     --stage sft \
     --do_train True \
@@ -130,7 +131,7 @@ CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
 ### webui 界面
 ![](pic/latest-llm-model-fine-tune-webui.png)
 
-### 3epoch训练身份矫正
+### 3epoch训练身份效果
 训练完后加载lora进行检查:
 ![3epoch](pic/3epoch.png)
 
@@ -144,17 +145,21 @@ CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
 ![](pic/latest-llm-model-fine-tune-6epoch-try.png)
 发现还可以, 之前用ptuning 对chatglm进行微调的时候 ,就出现了很明显的灾难性遗忘, 原来的功能都丧失了. 虽然ptuninig v2 也只对prefix encoder做微调.(也可能还是因为数据量不够, epoch过多)
 
-### 10epoch 
+### 10epoch训练效果
 10个epoch后, 就开始工作不正常了, 出现了. 数据量不够, 轮数太多, 过拟合了.
 ![](pic/latest-llm-model-fine-tune-10epoch.png)
 
 ![](pic/iShot_2024-02-26_20.17.33.png)
 
-## 模型微调的问题
+## 模型微调总结
 
 + 硬件要求高: 全参微调7b大概需要2个V100; lora训练7b,需要至少22G显存; qlora训练至少需要16G; 
 + 数据量要求高: 虽然可以使用过chatgpt进行问答的生成, 但是如果是**垂直领域**, 那回答也依然需要人工精确的去核对. 而垂直领域恰恰是希望能够非常准确, 才能突出此**模型应用**有别于其他的价值.
 
 所以目前微调技术会从SFT--> PEFT发展(lora -> qlora). 往着降低成本, 减少微调时间, 加速实验,加速产出的方向走. 期待低成本微调有更大的技术突破, 或者显卡硬件价格下降. :) 
 
+最后, 虽然但是, 无论是SFT还是PEFT, 模型微调依然是给模型赋予新功能绕不开的问题. 比如为6b版本的模型也赋予工具调用能力.下面的 llama factory的agent微调例子就很实用.
+
+
 >[QLoRA: Efficient Finetuning of Quantized LLMs](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjG6PXh4MaEAxUhlK8BHSTHDkUQFnoECAYQAQ&url=https%3A%2F%2Farxiv.org%2Fabs%2F2305.14314&usg=AOvVaw0DPZGS_zRJAyr-clb7RXRc&opi=89978449)
+>[单卡 3 小时训练专属大模型 Agent：基于 LLaMA Factory 实战 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/678989191?utm_medium=social&utm_oi=63143405420544&utm_psn=1735115630280503296&utm_source=ZHShareTargetIDMore)

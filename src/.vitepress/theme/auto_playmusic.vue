@@ -1,6 +1,6 @@
 <template>
     <div>
-      <audio ref="musicPlayer" loop>
+      <audio ref="musicPlayer" loop autoplay>
         <source :src="audioSource" type="audio/mp3">
         Your browser does not support the audio element.
       </audio>
@@ -16,7 +16,7 @@
     name: 'MusicPlayer',
     data() {
       return {
-        audioSource: '/black.mp3', // 这里放你的音频文件路径
+        audioSource: '/kanong2.mp3', // 这里放你的音频文件路径
         isPlaying: false,
         lyrics: [],
         currentLyricIndex: 0,
@@ -27,6 +27,8 @@
     mounted() {
       this.loadLyrics('/black.lrc'); // 这里放你的LRC歌词文件路径
       // 注: 自动播放的部分已经移动到按钮的点击事件中
+      this.togglePlayback();
+
     },
   
     methods: {
@@ -102,7 +104,7 @@
 .playback-button {
   border: none;
   border-radius: 30px; /* 圆角 */
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #4CAF50; /* 按钮背景色 */
   color: white; /* 按钮文字颜色 */
   cursor: pointer; /* 鼠标悬停时的光标样式 */

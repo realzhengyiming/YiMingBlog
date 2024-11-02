@@ -1,5 +1,5 @@
 ---
-title: 以撒道具/饰品图像识别
+title: 蝴蝶标本练手(2)
 time: 00:00
 description: 测试我的蝴蝶标本
 navbar: true
